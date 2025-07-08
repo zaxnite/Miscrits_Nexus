@@ -1,0 +1,112 @@
+miscrit = {
+    'Index': 543,
+    'Name': 'Light Weevern',
+    'Rarity': 'Epic',
+    'Location': 'Miscrit Shop',
+    'Type': 'Nature / Earth',
+    'Evolutions': 'Light Weevern, Light Beeblebud, Light Balaurise, Light Serpasoar',
+    'Health': 2,
+    'Speed': 5,
+    'Elemental Attack': 4,
+    'Elemental Defense': 2,
+    'Physical Attack': 2,
+    'Physical Defense': 2,
+    'Abilities': [
+        {
+            'Name': 'Crumble',
+            'Element': 'Earth',
+            'AP': '7',
+            'Accuracy': '100%',
+            'Description': 'A simple Earth attack',
+            'Enchant': '+1 Attack Power'
+        },
+        {
+            'Name': 'Wisp',
+            'Element': 'Nature',
+            'AP': '7',
+            'Accuracy': '100%',
+            'Description': 'A simple Nature attack',
+            'Enchant': '+1 Attack Power'
+        },
+        {
+            'Name': 'Shove',
+            'Element': 'Physical',
+            'AP': '7',
+            'Accuracy': '100%',
+            'Description': 'A simple Physical attack',
+            'Enchant': '+1 Attack Power'
+        },
+        {
+            'Name': 'Body Armor',
+            'Element': 'Utility',
+            'AP': '--',
+            'Accuracy': '100%',
+            'Description': 'Raises your Physical Defense by 7',
+            'Enchant': '+1 to Buff'
+        },
+        {
+            'Name': 'Light Leaf Blade',
+            'Element': 'Nature',
+            'AP': '12',
+            'Accuracy': '100%',
+            'Description': 'An average Nature attack',
+            'Enchant': '+2 Attack Power'
+        },
+        {
+            'Name': 'Toxic',
+            'Element': 'Utility',
+            'AP': '10',
+            'Accuracy': '90%',
+            'Description': 'Poisons your foe, causing 10 damage for 3 turns',
+            'Enchant': '+5% Accuracy'
+        },
+        {
+            'Name': 'Rejuvenate',
+            'Element': 'Utility',
+            'AP': '20',
+            'Accuracy': '90%',
+            'Description': 'Regains a significant amount of your health',
+            'Enchant': '+10% Accuracy'
+        },
+        {
+            'Name': 'Stalactite',
+            'Element': 'Earth',
+            'AP': '15',
+            'Accuracy': '100%',
+            'Description': 'A powerful Earth attack',
+            'Enchant': '+3 Attack Power'
+        },
+        {
+            'Name': 'Landslide',
+            'Element': 'Earth',
+            'AP': '20',
+            'Accuracy': '95%',
+            'Description': 'A very powerful Earth attack',
+            'Enchant': '+4 Attack Power'
+        },
+        {
+            'Name': 'Hard Jab',
+            'Element': 'Physical',
+            'AP': '20',
+            'Accuracy': '95%',
+            'Description': 'A very powerful Physical attack',
+            'Enchant': '+4 Attack Power'
+        },
+        {
+            'Name': "Merlin's Thorns",
+            'Element': 'Utility',
+            'AP': '12',
+            'Accuracy': '95%',
+            'Description': 'Poisons your foe, causing 12 damage for 3 turns and raises your Elemental Attack by 14',
+            'Enchant': '+1 Attack Power'
+        },
+        {
+            'Name': 'Sealing Bane',
+            'Element': 'Nature',
+            'AP': '30',
+            'Accuracy': '95%',
+            'Description': 'A more than massively powerful Nature attack that inflicts Bleed for 4 turns',
+            'Enchant': '+5% Accuracy'
+        }
+    ]
+}

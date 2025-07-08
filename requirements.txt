@@ -1,0 +1,17 @@
+# Core Libraries for Web Scraping and Data Processing
+requests==2.32.3           # For making HTTP requests to fetch web page content (still useful for other tasks)
+beautifulsoup4==4.12.3     # For parsing HTML and XML documents
+lxml==5.2.2                # BeautifulSoup's recommended fast parser for efficiency
+pandas==2.2.2              # For data manipulation and analysis after scraping
+
+# Selenium for Dynamic Content Scraping
+selenium==4.22.0           # Automates web browsers for dynamic content
+webdriver-manager==4.0.1   # Automatically manages browser drivers (e.g., ChromeDriver) for Selenium
+
+# Database ORM (Object Relational Mapper)
+SQLAlchemy==2.0.30         # Powerful ORM to interact with your SQL database
+
+# FastAPI Ecosystem (Chosen Backend Framework)
+fastapi==0.111.0           # Modern, fast (high-performance) web framework for building APIs
+uvicorn[standard]==0.29.0  # An ASGI server implementation, required to run FastAPI applications
+python-multipart==0.0.9    # Required for handling form data in FastAPI applications (e.g., if you have file uploads)

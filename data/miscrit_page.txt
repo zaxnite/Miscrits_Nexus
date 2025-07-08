@@ -1,0 +1,281 @@
+<div class="absolute inset-0 flex flex-col md:flex-row px-3 md:px-16 lg:px-24 pt-20">
+ <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+  <div class="flex flex-col items-start">
+   <div class="flex items-center mb-4">
+    <img alt="Wind element" class="w-8 md:w-10 h-8 md:h-10 mr-2" src="/wind.png"/>
+    <h2 class="text-2xl md:text-3xl lg:text-4xl font-boris text-miscrits-brown">
+     Mun Kee
+    </h2>
+   </div>
+   <div class="flex flex-col mb-2">
+    <p class="text-lg font-bold" style="color: rgb(51, 102, 255);">
+     Rare
+    </p>
+   </div>
+  </div>
+  <div class="w-full flex justify-center items-center mb-6">
+   <div class="bg-black/30 rounded-lg p-4 flex justify-center items-center w-full max-w-[250px] aspect-square">
+    <img alt="Mun Kee sprite" class="max-w-full max-h-[180px] h-auto w-auto object-contain pixelated" src="https://cdn.worldofmiscrits.com/miscrits/mun_kee_back.png"/>
+   </div>
+  </div>
+  <div class="w-full">
+   <h3 class="text-xl md:text-2xl font-boris text-miscrits-yellow mb-2">
+    Stats
+   </h3>
+   <div class="space-y-2">
+    <div class="grid grid-cols-2 gap-x-4">
+     <div class="text-right font-medium text-miscrits-brown">
+      Health
+     </div>
+     <div class="flex justify-start">
+      <div class="w-6 h-4 border border-white bg-green-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-green-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-green-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-x-4">
+     <div class="text-right font-medium text-miscrits-brown">
+      Speed
+     </div>
+     <div class="flex justify-start">
+      <div class="w-6 h-4 border border-white bg-yellow-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-x-4">
+     <div class="text-right font-medium text-miscrits-brown">
+      Elemental Attack
+     </div>
+     <div class="flex justify-start">
+      <div class="w-6 h-4 border border-white bg-blue-400">
+      </div>
+      <div class="w-6 h-4 border border-white bg-blue-400">
+      </div>
+      <div class="w-6 h-4 border border-white bg-blue-400">
+      </div>
+      <div class="w-6 h-4 border border-white bg-blue-400">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-x-4">
+     <div class="text-right font-medium text-miscrits-brown">
+      Elemental Defense
+     </div>
+     <div class="flex justify-start">
+      <div class="w-6 h-4 border border-white bg-purple-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-purple-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-purple-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-purple-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-x-4">
+     <div class="text-right font-medium text-miscrits-brown">
+      Physical Attack
+     </div>
+     <div class="flex justify-start">
+      <div class="w-6 h-4 border border-white bg-red-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-x-4">
+     <div class="text-right font-medium text-miscrits-brown">
+      Physical Defense
+     </div>
+     <div class="flex justify-start">
+      <div class="w-6 h-4 border border-white bg-indigo-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-indigo-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-indigo-500">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+      <div class="w-6 h-4 border border-white bg-amber-50/50">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="w-full md:w-1/2 mt-4 md:mt-0 md:pl-8">
+  <h2 class="text-2xl md:text-3xl lg:text-4xl font-boris text-miscrits-yellow mb-4">
+   Miscrit Lore
+  </h2>
+  <div class="prose prose-amber">
+   <p class="text-sm md:text-base text-miscrits-brown mb-4">
+    Mun Kee's wings are just barely powerful enough to lift its body off the ground. It usually just flutters in the air for a moment before landing again
+   </p>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="flex flex-col">
+     <span class="text-sm font-semibold text-miscrits-yellow mb-1">
+      Type
+     </span>
+     <span class="text-sm text-miscrits-brown">
+      Wind
+     </span>
+    </div>
+    <div class="flex flex-col">
+     <span class="text-sm font-semibold text-miscrits-yellow mb-1">
+      Location
+     </span>
+     <span class="text-sm text-miscrits-brown">
+      Mount Gemma
+     </span>
+    </div>
+   </div>
+  </div>
+  <h3 class="text-xl md:text-2xl font-boris text-miscrits-yellow mt-6 mb-4">
+   Evolutions
+  </h3>
+  <div class="grid grid-cols-4 gap-2">
+   <div class="flex flex-col items-center opacity-100">
+    <a class="block p-1 border-2 rounded-md border-amber-500" href="/miscripedia/46?evo=0" style="outline: none;">
+     <div class="flex justify-center items-center bg-black/30 rounded p-1 w-[50px] h-[50px]">
+      <img alt="Mun Kee" class="max-w-[40px] max-h-[40px] w-auto h-auto pixelated object-contain" src="https://cdn.worldofmiscrits.com/avatars/mun_kee_avatar.png"/>
+     </div>
+    </a>
+    <span class="text-xs text-center text-miscrits-yellow mt-1 w-full truncate">
+     Mun Kee
+    </span>
+   </div>
+   <div class="flex flex-col items-center opacity-60 hover:opacity-80">
+    <a class="block p-1 border-2 rounded-md border-transparent" href="/miscripedia/46?evo=1" style="outline: none;">
+     <div class="flex justify-center items-center bg-black/30 rounded p-1 w-[50px] h-[50px]">
+      <img alt="Munk Lee" class="max-w-[40px] max-h-[40px] w-auto h-auto pixelated object-contain" src="https://cdn.worldofmiscrits.com/avatars/munk_lee_avatar.png"/>
+     </div>
+    </a>
+    <span class="text-xs text-center text-miscrits-yellow mt-1 w-full truncate">
+     Munk Lee
+    </span>
+   </div>
+   <div class="flex flex-col items-center opacity-60 hover:opacity-80">
+    <a class="block p-1 border-2 rounded-md border-transparent" href="/miscripedia/46?evo=2" style="outline: none;">
+     <div class="flex justify-center items-center bg-black/30 rounded p-1 w-[50px] h-[50px]">
+      <img alt="Chimpanbreeze" class="max-w-[40px] max-h-[40px] w-auto h-auto pixelated object-contain" src="https://cdn.worldofmiscrits.com/avatars/chimpanbreeze_avatar.png"/>
+     </div>
+    </a>
+    <span class="text-xs text-center text-miscrits-yellow mt-1 w-full truncate">
+     Chimpanbreeze
+    </span>
+   </div>
+   <div class="flex flex-col items-center opacity-60 hover:opacity-80">
+    <a class="block p-1 border-2 rounded-md border-transparent" href="/miscripedia/46?evo=3" style="outline: none;">
+     <div class="flex justify-center items-center bg-black/30 rounded p-1 w-[50px] h-[50px]">
+      <img alt="Hanuphoon" class="max-w-[40px] max-h-[40px] w-auto h-auto pixelated object-contain" src="https://cdn.worldofmiscrits.com/avatars/hanuphoon_avatar.png"/>
+     </div>
+    </a>
+    <span class="text-xs text-center text-miscrits-yellow mt-1 w-full truncate">
+     Hanuphoon
+    </span>
+   </div>
+  </div>
+  <h3 class="text-xl md:text-2xl font-boris text-miscrits-yellow mt-6 mb-4">
+   Abilities
+  </h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Blow" class="w-6 h-6 mr-2 flex-shrink-0" src="/wind.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Blow
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Spirit Shield" class="w-6 h-6 mr-2 flex-shrink-0" src="/buff.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Spirit Shield
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Bite" class="w-6 h-6 mr-2 flex-shrink-0" src="/physical.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Bite
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Debaser" class="w-6 h-6 mr-2 flex-shrink-0" src="/debuff.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Debaser
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Placid Puff" class="w-6 h-6 mr-2 flex-shrink-0" src="/wind.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Placid Puff
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Whammy" class="w-6 h-6 mr-2 flex-shrink-0" src="/physical.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Whammy
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Cool Breeze" class="w-6 h-6 mr-2 flex-shrink-0" src="/wind.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Cool Breeze
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Claw" class="w-6 h-6 mr-2 flex-shrink-0" src="/physical.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Claw
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Cyclone" class="w-6 h-6 mr-2 flex-shrink-0" src="/wind.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Cyclone
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Merlin's Beard" class="w-6 h-6 mr-2 flex-shrink-0" src="/buff.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Merlin's Beard
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Deep Sleep" class="w-6 h-6 mr-2 flex-shrink-0" src="/sleep.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Deep Sleep
+    </span>
+   </a>
+   <a class="flex items-center group h-10 hover:bg-amber-800/10 rounded px-2 transition-colors cursor-pointer" data-state="closed">
+    <img alt="Zen Zephyr" class="w-6 h-6 mr-2 flex-shrink-0" src="/wind.png"/>
+    <span class="text-sm text-miscrits-brown overflow-wrap-anywhere">
+     Zen Zephyr
+    </span>
+   </a>
+  </div>
+ </div>
+</div>

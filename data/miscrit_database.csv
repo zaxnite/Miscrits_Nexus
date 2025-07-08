@@ -1,0 +1,241 @@
+Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,Elemental Defense,Physical Attack,Physical Defense
+1,Flue,Common,Forest,Fire,Flue/Chimnay/Firebrawl/Afterburn,3,1,1,3,4,3
+2,Flowerpiller,Common,Forest,Nature,Flowerpiller/Chrysaleaf/Bloombug/Fairyblossom,3,4,4,2,1,1
+3,Prawnja,Common,Forest,Water,Prawnja/Hermetalcrab/Shellgun/Clawmurai,3,1,1,3,4,3
+4,Weevern,Common,Mansion,Nature,Weevern/Beeblebud/Balaurise/Serpasoar,2,5,4,2,1,1
+5,Cubsprout,Common,Forest,Nature,Cubsprout/Dandylion/Pawthorne/Bloomane,2,2,3,2,4,2
+6,Sparkupine,Common,Forest,Fire,Sparkupine/Flintback/Fireprick/Wiquill,3,1,2,3,3,3
+7,Hydroseal,Common,"Forest, Mansion",Water,Hydroseal/Streamlion/Eleflood/Squalrus,3,2,5,1,3,1
+8,Snortus,Common,Forest,Water,Snortus/Boartle/Terrapig/Coraswine,4,1,2,2,4,2
+9,Quirk,Common,"Forest, Mansion",Nature,Quirk/Kinkoon/Centaurpede/Subterhuge,2,2,1,3,4,3
+10,Flameling,Common,"Forest, Mansion",Fire,Flameling/Scorcharos/Fyrin/Infernus,2,5,4,2,1,1
+11,Lumera,Common,Forest,Fire,Lumera/Torchorus/Pyrotep/Anublaze,1,4,4,3,1,2
+12,Snatcher,Common,Forest,Nature,Snatcher/Hedgebagger/Barbwiler/Snapdragon,2,2,4,3,2,2
+13,Elefauna,Common,"Forest, Mansion",Nature,Elefauna/Floraphaunt/Stammoth/Grastodon,4,1,3,3,1,3
+14,Nessy,Common,"Forest, Hidden Forest",Water,Nessy/Lockeel/Cryptile/Aquine,3,1,4,3,1,3
+15,Hotfoot,Common,"Forest, Mansion",Fire,Hotfoot/Flamaroo/Kang/Kang Fu,2,2,4,2,4,2
+16,Twiggum,Common,"Forest, Mansion",Nature,Twiggum/Rootle/Stumpede/Willoak,2,1,4,3,2,3
+17,Shellbee,Common,"Forest, Mansion",Water,Shellbee/Enopen/Amari/Kalamos,2,4,5,2,1,1
+18,Squibee,Common,Forest,Water,Squibee/Bilgebrat/Pirapus/Krakenhook,1,5,4,2,1,2
+19,Steamguin,Common,Forest,Fire,Steamguin/Huffenpuff/Macarovon/Aukamotive,2,2,4,3,2,2
+20,Waddles,Rare,Forest,Water,Waddles/Shucky/Fintaur/Mallardon,3,2,4,4,1,2
+21,Treemur,Rare,Forest,Nature,Treemur/Marmoseed/Trimate/Monfiki,4,2,4,3,1,2
+22,Tulipinny,Rare,Forest,Nature,Tulipinny/Leavius/Rubarb/Ongabonga,3,1,4,2,2,4
+23,Dark Flue,Rare,Forest,Fire,Dark Flue/Dark Chimnay/Dark Firebrawl/Dark Afterburn,4,1,1,2,4,4
+24,Dark Flowerpiller,Rare,Forest,Nature,Dark Flowerpiller/Dark Chrysaleaf/Dark Bloombug/Dark Fairyblossom,3,1,4,3,2,3
+25,Dark Prawnja,Rare,Forest,Water,Dark Prawnja/Dark Hermetalcrab/Dark Shellgun/Dark Clawmurai,4,1,1,3,4,3
+26,Blazebit,Rare,Forest,Fire,Blazebit/Smolderon/Grimstone/Eruptacus,2,3,5,3,1,2
+27,Frostmite,Common,Cave,Water,Frostmite/Windigroo/Snowsquatch/Abomino,2,3,4,2,1,3
+28,Blazertooth,Epic,Hidden Forest,Fire,Blazertooth/Pyrubi/Firenze/Minotorch,3,1,5,3,2,3
+29,Statikat,Common,Mount Gemma,Lightning,Statikat/Zapeera/Tigristrike/Panthundra,3,3,4,2,1,2
+30,Equestrion,Common,Mount Gemma,Wind,Equestrion/Equestrius/Duocornious/Sagittarion,3,2,4,3,1,2
+31,Drilldent,Common,Mount Gemma,Earth,Drilldent/Gropher/Moledozer/Demolasher,3,1,1,3,4,3
+32,Kiloray,Common,Mount Gemma,Lightning,Kiloray/Electroflyte/Luminaire/Edison Ray,2,2,4,2,2,3
+33,Breezycheeks,Common,Mount Gemma,Wind,Breezycheeks/Flufferpuff/Winstral/Glidengale,3,3,3,4,1,1
+34,Mumbah,Common,Mount Gemma,Earth,Mumbah/Simbel/Pharaohette/Sphynxus,2,4,3,1,2,3
+35,Aria,Common,Mount Gemma,Wind,Aria/Gustelle/Zephelope/Wyndasia,2,4,4,2,1,2
+36,Jellyshock,Common,Mount Gemma,Lightning,Jellyshock/Jellybolt/Tesla Fish/Medustung,3,4,2,1,3,2
+37,Croaky,Common,Mount Gemma,Earth,Croaky/Emeribbitt/Gemphibian/Geotoad,1,3,5,3,1,2
+38,Sparkslug,Common,Mount Gemma,Lightning,Sparkslug/Electroslide/Shellshock/Buzzcargo,3,1,4,3,1,3
+39,Craggy,Common,Mount Gemma,Earth,Craggy/Billyboulder/Bezoar/Mineram,3,2,1,2,4,3
+40,Owlie,Common,Mount Gemma,Wind,Owlie/Regowl/Generowl/Hootray,3,1,3,4,1,3
+41,Luna,Rare,Mount Gemma,Lightning,Luna/Lestrike/Sparkula/Antennious,3,3,3,2,2,3
+42,Poltergust,Rare,Mount Gemma,Wind,Poltergust/Spectreus/Aethero/Zephyrgeist,3,2,4,3,2,2
+43,Fossillia,Rare,Mount Gemma,Earth,Fossillia/Craterra/Troglobrute/Primordius,3,2,1,3,4,3
+44,Eggy,Rare,Mount Gemma,Earth,Eggy/Pebblesaur/Terraptor/Rocklodon,4,2,1,2,4,3
+45,Thundercracker,Rare,Mount Gemma,Lightning,Thundercracker/Rumblerunt/Badaboon/Clobberilla,2,3,3,2,4,2
+46,Mun Kee,Rare,Mount Gemma,Wind,Mun Kee/Munk Lee/Chimpanbreeze/Hanuphoon,3,1,4,4,1,3
+47,Microblast,Epic,Cave,Lightning,Microblast/Echomeleon/Electrozard/Zapire,3,3,4,4,1,2
+48,Sledgehog,Epic,Cave,Earth,Sledgehog/Erinaquil/Cavernus/Stalagfright,3,1,2,3,5,3
+49,Sapphron,Epic,Cave,Earth,Sapphron/Arachnothyst/Rubion/Scorpionyx,3,3,5,3,1,2
+50,Sparkspeck,Common,"Mansion, Sunfall Shores",Lightning,Sparkspeck/Faebolt/Pixiepulse/Glitterglint,2,3,3,4,2,1
+51,Grubbean,Common,Sunfall Shores,Nature,Grubbean/Coleaf/Crickaroot/Thornaxis,1,2,4,2,2,4
+52,Echino,Common,Sunfall Shores,Nature,Echino/Prickles/Choy Choy/Warro,3,2,4,2,1,3
+53,Wavesling,Common,Sunfall Shores,Water,Wavesling/Hankoi/Hydravern/Nessilisk,3,2,4,3,2,1
+54,Sparkitten,Common,Sunfall Shores,Fire,Sparkitten/Glowhisk/Flameow/Cheetorch,3,3,4,2,1,2
+55,Arigato,Common,Sunfall Shores,Lightning,Arigato/Cuddlebolt/Astranap/Dynamellow,2,4,4,2,1,2
+56,Jack,Common,Sunfall Shores,Wind,Jack/Cottontail/Hop-Chi/Tuzee,2,3,3,2,3,2
+57,Quebble,Common,Sunfall Shores,Earth,Quebble/Quakey/Quither/Quarriock,3,2,4,2,1,3
+58,Digsy,Common,Sunfall Shores,Earth,Digsy/Mirekin/Duskot/Excavior,2,1,2,3,4,3
+59,Hippoke,Common,Sunfall Shores,Earth,Hippoke/Rhinestar/Rybble/Triceratron,2,3,4,2,1,3
+60,Leggy,Common,Sunfall Shores,Wind,Leggy/Beaker/Kiwhirl/Ostral,2,4,1,2,4,2
+61,Orcatide,Common,Sunfall Shores,Water,Orcatide/Mobius/Streamsmash/Hydroslam,3,2,1,2,5,2
+62,Flutterpat,Rare,Mansion,Wind,Flutterpat/Avior/Pegasoar/Gazaereal,3,1,4,2,2,4
+63,Snorkels,Rare,Sunfall Shores,Water,Snorkels/Aqualash/Waterwip/Leviafin,2,5,4,2,1,2
+64,Kelpa,Rare,Sunfall Shores,Nature,Kelpa/Flotsamo/Jetsama/Derelicro,5,1,4,3,1,2
+65,Ignios,Rare,Sunfall Shores,Fire,Ignios/Calamitas/Praesul/Preliator,3,2,5,3,1,2
+67,Beelzebug,Epic,Miscrit Shop,Lightning,Beelzebug/Bumblebolt/Thundrone/Zzzap,3,5,4,2,1,2
+68,Winnebeargo,Epic,Sunfall Shores,Wind,Winnebeargo/Nodin/Kuruk/Minninnewah,4,2,3,3,2,3
+69,Fennie,Epic,Sunfall Shores,Earth,Fennie/Mirthfox/Tumblewhip/Dustelle,3,2,5,3,1,3
+70,Patchkin,Exotic,Miscrit Shop,Nature,Patchkin/Hallowar/Jacksquatch/Reaping Gourd,4,1,4,4,3,2
+72,Flurrious,Exotic,Miscrit Shop,Water,Flurrious/Snowdaze/Rudolffe/Clawsickle,4,2,2,3,4,3
+73,Fangly,Epic,Mount Gemma,Wind,Fangly/Incisoar/Chopper/Tuskalate,4,2,4,2,3,2
+74,Dark Kiloray,Rare,Cave,Lightning,Dark Kiloray/Dark Electroflyte/Dark Luminaire/Dark Edison Ray,3,2,4,3,1,3
+75,Dark Croaky,Rare,Cave,Earth,Dark Croaky/Dark Emeribbitt/Dark Gemphibian/Dark Geotoad,4,1,3,4,2,2
+76,Valentino,Exotic,Miscrit Shop,Lightning,Valentino/Romantius/Blackheart/Rebound,3,4,5,3,1,2
+77,Dark Cubsprout,Rare,Forest,Nature,Dark Cubsprout/Dark Dandylion/Dark Pawthorne/Dark Bloomane,2,2,2,2,5,3
+78,Dark Sparkitten,Rare,Sunfall Shores,Fire,Dark Sparkitten/Dark Glowhisk/Dark Flameow/Dark Cheetorch,3,4,4,2,1,2
+79,Dark Snortus,Epic,Cave,Water,Dark Snortus/Dark Boartle/Dark Terrapig/Dark Coraswine,4,1,3,3,4,2
+80,Boltzee,Epic,Mount Gemma,Lightning,Boltzee/Shoxier/Acrozap/Violimp,2,5,5,2,1,2
+82,Dark Owlie,Rare,Cave,Wind,Dark Owlie/Dark Regowl/Dark Generowl/Dark Hootray,3,3,4,2,1,3
+83,Dark Echino,Rare,Cave,Nature,Dark Echino/Dark Prickles/Dark Choy Choy/Dark Warro,2,2,2,5,1,4
+85,Dark Arigato,Rare,Cave,Lightning,Dark Arigato/Dark Cuddlebolt/Dark Astranap/Dark Dynamellow,4,1,3,3,2,3
+86,Dark Hydroseal,Rare,Mansion,Water,Dark Hydroseal/Dark Streamlion/Dark Eleflood/Dark Squalrus,2,2,4,3,2,3
+87,Peepsie,Exotic,Sunfall Shores,Wind,Peepsie/Chickadee/Mallowfinch/Cheepers,4,1,4,3,2,4
+88,Dark Eggy,Epic,Cave,Earth,Dark Eggy/Dark Pebblesaur/Dark Terraptor/Dark Rocklodon,4,2,1,3,4,3
+90,Dark Flameling,Rare,Mansion,Fire,Dark Flameling/Dark Scorcharos/Dark Fyrin/Dark Infernus,3,2,4,3,2,2
+91,Dark Elefauna,Epic,Cave,Nature,Dark Elefauna/Dark Floraphaunt/Dark Stammoth/Dark Grastodon,3,1,4,3,2,4
+93,Mama,Exotic,Forest,Nature,Mama/Inceptus/Queenie/Genesis,2,1,5,3,4,3
+94,Dark Nessy,Exotic,Forest,Water,Dark Nessy/Dark Lockeel/Dark Cryptile/Dark Aquine,4,4,4,3,1,2
+95,Dark Hotfoot,Rare,Forest,Fire,Dark Hotfoot/Dark Flamaroo/Dark Kang/Dark Kang Fu,3,2,2,2,5,2
+97,Dark Breezycheeks,Rare,Cave,Wind,Dark Breezycheeks/Dark Flufferpuff/Dark Winstral/Dark Glidengale,3,5,4,2,1,1
+98,Papa,Exotic,Mansion,Lightning,Papa/Ancestrike/Kingly/Zeusicus,2,1,4,3,5,3
+101,Whik,Common,Forest,Fire,Whik/Talown/Terrorcotta/Vesuvion,2,3,4,3,1,2
+102,Slithero,Common,Mansion,Fire,Slithero/Sizzlelash/Serpenox/Incineron,2,1,3,3,2,4
+104,Spinnerette,Common,Mansion,Water,Spinnerette/Aracneon/Attacnid/Gigantula,3,5,3,2,1,1
+108,Crickin,Common,Forest,Fire,Crickin/Mantiscorch/Flametenna/Praze,2,2,3,3,3,2
+111,Bubbles,Common,Mansion,Water,Bubbles/Otterpop/Caterpuff/Popiller,3,1,5,4,1,1
+112,Humbug,Common,Mansion,Nature,Humbug/Flittero/Buzzaillia/Aviona,2,3,4,2,2,2
+115,Lavarilla,Common,Mansion,Fire,Lavarilla/Sulfuro/Scorias/Obsidiape,3,1,1,2,5,3
+121,Bloomple,Epic,Hidden Forest,Nature,Bloomple/Featherose/Berravia/Miraca,3,3,4,2,2,3
+124,Pamboo,Rare,Sunfall Shores,Nature,Pamboo/Ponya/Pan-Damme/Pixiuma,3,1,4,4,1,3
+125,Rockodile,Rare,Sunfall Shores,Water,Rockodile/Barbarious/Crocorawr/Growliath,4,1,4,2,1,4
+133,Boneshee,Epic,Sunfall Shores,Wind,Boneshee/Carcassoar/Eidolon/Osteowraith,4,1,4,4,2,2
+134,Ursiwave,Epic,Sunfall Shores,Water,Ursiwave/Bearshful/Bjorash/Ripcurlio,3,3,4,4,1,2
+135,Bludger,Common,Mansion,Earth,Bludger/Thorasher/Truncherous/Convincer,5,2,1,3,3,1
+138,Zaptor,Common,Sunfall Shores,Lightning,Zaptor/Pterashock/Electryl/Tesladon,3,3,4,1,2,2
+139,Narlope,Common,Mansion,Lightning,Narlope/Specklite/Thundray/Majestrike,3,1,5,2,1,3
+142,Vexie,Common,Mount Gemma,Earth,Vexie/Quartzle/Tendrex/Alionyx,2,2,3,2,2,4
+144,Tongutail,Common,Mansion,Earth,Tongutail/Centrifoot/Abomineral/Bifurcrystal,2,1,1,2,5,4
+151,Hawkai,Common,Sunfall Shores,Wind,Hawkai/Falcry/Rawkcha/Hawkogan,2,5,4,2,1,1
+152,Nero,Common,Mansion,Lightning,Nero/Alexander/Caesar/Napoleon,3,2,1,2,4,3
+155,Pollifog,Rare,Mount Gemma,Wind,Pollifog/Koighust/Loch/Kinginrin,2,5,4,3,1,1
+156,Felis,Common,Mount Gemma,Lightning,Felis/Chiro/Myotis/Chiroptera,2,2,2,2,4,3
+158,Tectonyx,Common,Sunfall Shores,Earth,Tectonyx/Volcanus/Basaltrio/Valrog,2,3,2,2,4,2
+168,Nibbles,Common,Sunfall Shores,Water,Nibbles/Gnawly/Chaurum/Coyver,3,3,2,1,3,3
+171,Skustunk,Rare,Sunfall Shores,Wind,Skustunk/Foetorous/Odion/Sulfurious,2,2,5,2,1,4
+176,Flintly,Rare,Cave,Fire,Flintly/Bastion/Charcle/Napalm,3,2,4,3,1,3
+180,Gog,Epic,Mount Gemma,Earth,Gog/Gizmodius/Titanex/Primordion,2,1,2,3,5,4
+184,Octavio,Epic,Mount Gemma,Wind,Octavio/Quarto/Pentatonix/Dischord,3,1,5,3,2,3
+192,Crabbles,Rare,Sunfall Shores,Fire,Crabbles/Wabbles/Pabbles/Stabbles,3,3,1,2,5,2
+196,Inferno,Epic,Mansion,Fire,Inferno/Spectre 7/Blue Justice/Dozer,4,1,1,3,5,3
+197,Hotdog,Epic,Mansion,Fire,Hotdog/Toof Toof/Spike/Magmutt,3,2,1,3,5,3
+200,Rafiery,Rare,Mansion,Fire,Rafiery/Marchix/Leero/Stomprage,1,4,1,3,5,2
+201,Nanaslug,Epic,Mansion,Water/Wind,Nanaslug/Spikroo/Slimist/Tornadouse,4,2,5,3,2,1
+202,Vhisp,Common,Mansion,Wind,Vhisp/Transilvus/Cyclix/Fangale,3,5,3,1,1,2
+203,Raldio,Rare,Mansion,Earth,Raldio/Greenious/Srage/Verdauntless,2,5,4,2,1,2
+205,Freedom,Exotic,Hidden Forest,Fire/Wind,Freedom/Prez/Liberty/Patriot,3,1,4,5,3,2
+206,Gemix,Epic,Mount Gemma,Earth,Gemix/Jewelax/Fonyx/Ferocilux,2,5,4,3,1,2
+210,Podo,Epic,Cave,Lightning,Podo/Codo/Rikki/Tikki,4,1,4,2,2,4
+212,Lavazard,Epic,Sunfall Shores,Fire,Lavazard/Cindercollar/Kingii/Flamydosaurus,3,1,2,4,4,3
+214,Shurikoon,Epic,Mansion,Fire/Wind,Shurikoon/Saibat/Batcoon/Ninjat,2,5,5,2,1,2
+223,Skelepup,Exotic,Miscrit Shop,Lightning,Skelepup/Dogbie/Muttation/Frankensnarl,5,1,4,3,3,2
+226,Foil Waddles,Exotic,Cave,Water,Foil Waddles/Foil Shucky/Foil Fintaur/Foil Mallardon,4,1,5,2,2,4
+227,Foil Fossillia,Exotic,Mount Gemma,Earth,Foil Fossillia/Foil Craterra/Foil Troglobrute/Foil Primordius,3,1,4,2,4,4
+230,Foil Thundercracker,Exotic,Mount Gemma,Lightning,Foil Thundercracker/Foil Rumblerunt/Foil Badaboon/Foil Clobberilla,2,1,5,3,5,2
+242,Hoopty,Epic,Mansion,Earth,Hoopty/Halo/Lynk/Shackle,3,3,3,3,4,1
+247,Foil Kiloray,Exotic,Mount Gemma,Lightning,Foil Kiloray/Foil Electroflyte/Foil Luminaire/Foil Edison Ray,3,1,5,3,3,3
+248,Spangles,Exotic,Miscrit Shop,Lightning,Spangles/Twinkles/Strongbow/Nova,2,3,4,4,3,2
+312,Opigum,Rare,Mount Gemma,Earth,Opigum/Carrion/Hoggus/Poggle,3,2,1,4,2,4
+322,Foil Flintly,Exotic,Cave,Fire,Foil Flintly/Foil Bastion/Foil Charcle/Foil Napalm,4,3,5,3,1,2
+326,Light Tectonyx,Exotic,Sunfall Shores,Earth,Light Tectonyx/Light Volcanus/Light Basaltrio/Light Valrog,3,3,1,3,5,3
+338,Flaring,Epic,Forest,Fire,Flaring/Pyrconey/Caponburn/Lapinfire,3,5,4,2,1,2
+341,Cadbunny,Exotic,Cave,Water/Earth,Cadbunny/Truffles/Lindtly/Rolox,3,4,4,4,1,2
+352,Fiender,Rare,Mount Gemma,Wind,Fiender/Pinyon/Aileron/Airyn,2,4,4,3,1,2
+356,Pillblaze,Rare,Mansion,Fire,Pillblaze/Roly Glowy/Pyrus/Charrill,3,1,4,3,3,2
+367,Blub,Common,Sunfall Shores,Lightning,Blub/Crinky/Aloticus/Gargantubolt,4,1,2,2,4,2
+376,Cerberuff,Common,Mansion,Earth,Cerberuff/Fluffles/Pittie/Mongrian,2,5,1,2,4,1
+378,Auger,Common,Mount Gemma,Earth,Auger/Wimble/Borawl/Rivett,4,4,1,1,4,1
+380,Flurfy,Common,Forest,Nature,Flurfy/Grumbles/Snivels/Kvetch,3,2,4,2,2,2
+382,Squirmle,Common,Forest,Water,Squirmle/Tentonix/Wriggledon/Weylani,3,3,4,2,1,2
+388,Lil Bubs,Rare,Mansion,Water,Lil Bubs/Dropples/Jawsy/Chubbles,4,2,5,2,1,2
+390,Peekly,Common,Mount Gemma,Wind,Peekly/Beastle/Huntrix/Shamar,2,3,1,2,4,3
+404,Splender,Exotic,Miscrit Shop,Nature/Earth,Splender/Spryte/Loya/Bolderon,4,5,4,2,1,2
+405,Dorux,Epic,Mansion,Fire/Lightning,Dorux/Stromax/Sparkdle/Doruden,3,1,4,2,2,5
+417,Fubby,Exotic,Mansion,Earth,Fubby/Kop/Spiker/Wachter,3,4,1,2,5,3
+419,Pennon,Epic,Sunfall Shores,Wind,Pennon/Panoply/Breezefang/Blowhemoth,3,3,1,3,4,3
+420,Ekkult,Exotic,Mansion,Water,Ekkult/Seekree/Acroamate/Arcanaclaw,3,1,4,3,3,4
+425,Defilio,Exotic,Forest,Nature/Earth,Defilio/Vit/Corrasaur/Spoiler,3,2,4,4,3,2
+430,Blighted Cubsprout,Exotic,Forest,Nature,Blighted Cubsprout/Blighted Dandylion/Blighted Pawthorne/Blighted Bloomane,4,2,3,2,4,3
+433,Blighted Flue,Legendary,Forest,Fire,Blighted Flue/Blighted Chimnay/Blighted Firebrawl/Blighted Afterburn,3,2,3,4,5,3
+438,Blobroller,Exotic,Miscrit Shop,Nature/Lightning,Blobroller/Swyne/Prux/Vampsower,4,1,4,3,3,3
+451,Light Nibbles,Epic,Sunfall Shores,Water/Lightning,Light Nibbles/Light Gnawly/Light Chaurum/Light Coyver,3,4,4,2,2,2
+456,Light Frostmite,Exotic,Sunfall Shores,Water,Light Frostmite/Light Windigroo/Light Snowsquatch/Light Abomino,3,4,4,3,1,3
+457,Light Bludger,Exotic,Sunfall Shores,Earth,Light Bludger/Light Thorasher/Light Truncherous/Light Convincer,5,2,1,4,4,2
+458,Light Zaptor,Exotic,Miscrit Shop,Nature/Lightning,Light Zaptor/Light Pterashock/Light Electryl/Light Tesladon,3,5,5,2,1,2
+459,Light Quirk,Epic,Sunfall Shores,Nature,Light Quirk/Light Kinkoon/Light Centaurpede/Light Subterhuge,3,2,2,3,4,3
+476,Light Statikat,Exotic,Sunfall Shores,Fire/Lightning,Light Statikat/Light Zapeera/Light Tigristrike/Light Panthundra,5,2,4,3,1,3
+480,Dark Spinnerette,Exotic,Mansion,Water,Dark Spinnerette/Dark Aracneon/Dark Attacnid/Dark Gigantula,4,5,4,2,1,2
+488,Light Twiggum,Exotic,Sunfall Shores,Nature,Light Twiggum/Light Rootle/Light Stumpede/Light Willoak,4,1,5,3,2,3
+493,Aquarion,Legendary,Sunfall Shores,Water,Aquarion/Hydronex/Lochternal/Krakyn,3,3,4,3,4,3
+500,Blighted Fiender,Exotic,Miscrit Shop,Wind,Blighted Fiender/Blighted Pinyon/Blighted Aileron/Blighted Airyn,4,4,5,2,1,2
+501,Blighted Kiloray,Exotic,Miscrit Shop,Lightning,Blighted Kiloray/Blighted Electroflyte/Blighted Luminaire/Blighted Edison Ray,3,4,2,2,5,3
+502,Dark Shellbee,Rare,Forest,Water,Dark Shellbee/Dark Enopen/Dark Amari/Dark Kalamos,2,4,5,3,1,1
+503,Liothning,Epic,Miscrit Shop,Lightning,Liothning/Loevanna/Meduzap/Gorgonthunder,3,2,1,3,4,4
+504,Dark Lumera,Rare,Mansion,Fire,Dark Lumera/Dark Torchorus/Dark Pyrotep/Dark Anublaze,2,5,4,2,1,2
+505,Dark Steamguin,Rare,Hidden Forest,Fire,Dark Steamguin/Dark Huffenpuff/Dark Macarovon/Dark Aukamotive,3,1,4,4,3,1
+506,Dark Poltergust,Legendary,Mount Gemma,Wind,Dark Poltergust/Dark Spectreus/Dark Aethero/Dark Zephyrgeist,4,5,5,2,2,2
+507,Dark Treemur,Epic,Forest,Nature,Dark Treemur/Dark Marmoseed/Dark Trimate/Dark Monfiki,3,3,4,3,2,2
+508,Foil Vexie,Exotic,Mount Gemma,Earth,Foil Vexie/Foil Quartzle/Foil Tendrex/Foil Alionyx,3,1,5,3,2,4
+509,Foil Vhisp,Exotic,Mount Gemma,Wind,Foil Vhisp/Foil Transilvus/Foil Cyclix/Foil Fangale,2,5,5,2,1,3
+510,Dark Sparkupine,Rare,Forest,Fire,Dark Sparkupine/Dark Flintback/Dark Fireprick/Dark Wiquill,2,1,2,4,4,3
+511,Dark Squibee,Rare,Hidden Forest,Water,Dark Squibee/Dark Bilgebrat/Dark Pirapus/Dark Krakenhook,3,1,4,3,2,3
+512,Dark Waddles,Epic,Forest,Water,Dark Waddles/Dark Shucky/Dark Fintaur/Dark Mallardon,4,1,5,3,2,2
+513,Dark Twiggum,Epic,Forest,Nature,Dark Twiggum/Dark Rootle/Dark Stumpede/Dark Willoak,4,2,4,3,2,2
+514,Dark Auger,Epic,Mount Gemma,Earth,Dark Auger/Dark Wimble/Dark Borawl/Dark Rivett,4,5,1,1,5,1
+515,Dark Aria,Rare,Mount Gemma,Wind,Dark Aria/Dark Gustelle/Dark Zephelope/Dark Wyndasia,2,4,4,3,1,2
+516,Light Rafiery,Epic,Miscrit Shop,Fire/Lightning,Light Rafiery/Light Marchix/Light Leero/Light Stomprage,2,4,5,3,1,2
+517,Light Fossillia,Epic,Miscrit Shop,Water/Earth,Light Fossillia/Light Craterra/Light Troglobrute/Light Primordius,3,2,5,2,2,3
+518,Light Nanaslug,Exotic,Sunfall Shores,Wind,Light Nanaslug/Light Spikroo/Light Slimist/Light Tornadouse,4,3,5,2,1,3
+519,Light Crickin,Exotic,Sunfall Shores,Fire,Light Crickin/Light Mantiscorch/Light Flametenna/Light Praze,3,3,3,3,3,3
+520,Light Flue,Epic,Miscrit Shop,Fire/Wind,Light Flue/Light Chimnay/Light Firebrawl/Light Afterburn,4,1,4,3,2,3
+521,Light Grubbean,Epic,Miscrit Shop,Nature/Wind,Light Grubbean/Light Coleaf/Light Crickaroot/Light Thornaxis,2,5,5,2,1,2
+522,Ribos,Rare,Miscrit Shop,Water,Ribos/Chondri/Reedleroot/Plasmaree,2,2,2,5,1,4
+523,Light Sparkspeck,Rare,Sunfall Shores,Lightning,Light Sparkspeck/Light Faebolt/Light Pixiepulse/Light Glitterglint,3,5,4,2,1,1
+524,Light Wavesling,Rare,Miscrit Shop,Water/Wind,Light Wavesling/Light Hankoi/Light Hydravern/Light Nessilisk,3,2,5,3,2,1
+525,Light Jack,Rare,Miscrit Shop,Wind,Light Jack/Light Cottontail/Light Hop-Chi/Light Tuzee,3,1,2,4,2,4
+526,Light Flurfy,Rare,Miscrit Shop,Nature,Light Flurfy/Light Grumbles/Light Snivels/Light Kvetch,4,2,4,3,1,2
+527,Light Slithero,Rare,Miscrit Shop,Fire,Light Slithero/Light Sizzlelash/Light Serpenox/Light Incineron,2,1,3,3,4,3
+528,Light Squibee,Rare,Miscrit Shop,Water,Light Squibee/Light Bilgebrat/Light Pirapus/Light Krakenhook,3,1,3,2,4,3
+529,Light Digsy,Epic,Miscrit Shop,Fire/Earth,Light Digsy/Light Mirekin/Light Duskot/Light Excavior,4,1,3,3,3,3
+530,Light Ignios,Legendary,Sunfall Shores,Fire/Lightning,Light Ignios/Light Calamitas/Light Praesul/Light Preliator,3,5,5,3,2,2
+531,Light Mumbah,Rare,Sunfall Shores,Earth,Light Mumbah/Light Simbel/Light Pharaohette/Light Sphynxus,2,4,3,3,2,2
+532,Dark Tongutail,Rare,Mansion,Earth,Dark Tongutail/Dark Centrifoot/Dark Abomineral/Dark Bifurcrystal,2,1,2,3,5,3
+533,Dark Lavarilla,Rare,Mansion,Fire,Dark Lavarilla/Dark Sulfuro/Dark Scorias/Dark Obsidiape,3,1,1,3,5,3
+534,Dark Frostmite,Rare,Cave,Water,Dark Frostmite/Dark Windigroo/Dark Snowsquatch/Dark Abomino,3,3,4,2,1,3
+535,Dark Tulipinny,Epic,Mansion,Nature,Dark Tulipinny/Dark Leavius/Dark Rubarb/Dark Ongabonga,4,1,4,2,2,4
+536,Dark Flutterpat,Epic,Mansion,Wind,Dark Flutterpat/Dark Avior/Dark Pegasoar/Dark Gazaereal,4,1,4,2,2,4
+537,Dark Slithero,Exotic,Mansion,Fire,Dark Slithero/Dark Sizzlelash/Dark Serpenox/Dark Incineron,3,1,4,4,2,4
+538,Keeper,Legendary,Mansion,Nature/Earth,Keeper/Dribble/Defender/Fortifield,4,5,2,4,1,4
+539,Dark Luna,Epic,Mount Gemma,Lightning,Dark Luna/Dark Lestrike/Dark Sparkula/Dark Antennious,4,2,4,2,2,3
+540,Foil Luna,Exotic,Mount Gemma,Lightning,Foil Luna/Foil Lestrike/Foil Sparkula/Foil Antennious,3,3,3,4,2,3
+541,Sol,Rare,Sunfall Shores,Fire,Sol/Leflamme/Cindergelo/Cithreus,3,3,3,3,1,3
+542,Dreamger,Rare,Sunfall Shores,Wind,Dreamger/Noctigre/Byakkoma/Traumauler,2,3,1,3,5,2
+543,Light Weevern,Epic,Miscrit Shop,Nature/Earth,Light Weevern/Light Beeblebud/Light Balaurise/Light Serpasoar,2,5,4,2,2,2
+544,Dark Quirk,Rare,Forest,Nature,Dark Quirk/Dark Kinkoon/Dark Centaurpede/Dark Subterhuge,2,1,3,3,4,3
+545,Dark Squirmle,Rare,Forest,Water,Dark Squirmle/Dark Tentonix/Dark Wriggledon/Dark Weylani,4,3,4,2,1,2
+546,Blighted Flowerpiller,Legendary,Forest,Nature,Blighted Flowerpiller/Blighted Chrysaleaf/Blighted Bloombug/Blighted Fairyblossom,3,5,5,2,3,2
+547,Dark Jellyshock,Epic,Mount Gemma,Lightning,Dark Jellyshock/Dark Jellybolt/Dark Tesla Fish/Dark Medustung,1,4,3,2,4,3
+548,Light Hawkai,Rare,Miscrit Shop,Wind,Light Hawkai/Light Falcry/Light Rawkcha/Light Hawkogan,2,3,4,2,3,2
+549,Dark Vexie,Rare,Mount Gemma,Earth,Dark Vexie/Dark Quartzle/Dark Tendrex/Dark Alionyx,2,5,4,2,1,2
+550,Da Windy,Legendary,Mansion,Wind,Da Windy/Van Gust/Picassoar/Michelangelus,3,2,4,3,4,4
+551,Light Snorkels,Exotic,Miscrit Shop,Water/Wind,Light Snorkels/Light Aqualash/Light Waterwip/Light Leviafin,2,5,3,3,1,4
+552,Foil Croaky,Legendary,Mount Gemma,Earth,Foil Croaky/Foil Emeribbitt/Foil Gemphibian/Foil Geotoad,3,1,3,5,3,5
+553,Freezet,Common,Cave,Water,Freezet/Glacipard/Sabearer/Blizzword,3,2,1,3,4,2
+554,Dark Pillblaze,Epic,Cave,Fire,Dark Pillblaze/Dark Roly Glowy/Dark Pyrus/Dark Charrill,3,1,4,3,3,3
+555,Rudy,Exotic,Miscrit Shop,Earth,Rudy/Rantlers/Reign/Coalrus,3,2,2,3,4,4
+556,Manio,Legendary,Cave,Lightning,Manio/Minursa/Majursa/Starshow,4,2,4,3,4,3
+557,Mistraxol,Common,Cave,Wind,Mistraxol/Fogamfi/Stomahaze/Olmisteus,2,3,5,2,1,2
+558,Orbling,Common,Cave,Earth,Orbling/Tunnelback/Stalachnid/Caverachna,3,1,2,3,3,3
+559,Zappup,Common,Cave,Lightning,Zappup/Lycanic/Electheryon/Thunderuff,2,5,4,2,1,1
+560,Pestling,Common,Mansion,Nature,Pestling/Bannerat/Vermince/Wicking,3,1,4,2,2,3
+561,Woolly,Legendary,Cave,Water,Woolly/Mammosaur/Tuskcicle/Styrammuth,5,1,2,3,5,4
+562,Frozy,Common,Cave,Water,Frozy/Snorog/Turtower/Citashell,2,2,4,3,1,3
+563,Stalkra,Common,Hidden Forest,Nature,Stalkra/Vineja/Palmda/Leffa,2,2,1,2,5,3
+564,Mech,Common,Hidden Forest,Water,Mech/Shellzor/Smashins/Destructo,2,2,1,4,4,2
+565,Rexie,Common,Hidden Forest,Fire,Rexie/Snarlins/Rannos/Tyrant,2,3,1,2,5,2
+566,Warrian,Common,Hidden Forest,Fire,Warrian/Derp/Incubor/Moltrusian,2,2,4,4,1,2
+567,Aebex,Common,Hidden Forest,Nature/Wind,Aebex/Capreeze/Sirene/Inhalate,2,4,4,2,1,2
+568,Charix,Rare,Hidden Forest,Nature,Charix/Regro/Bloomstalker/Carnagion,3,2,5,3,1,2
+569,Alpha,Exotic,Hidden Forest,Nature,Alpha/Rufficus/Direwisp/Sire,4,1,3,3,4,3
+570,Charpy,Legendary,Hidden Forest,Fire,Charpy/Skelemon/Burnboon/Chimpferno,3,3,4,3,4,3
