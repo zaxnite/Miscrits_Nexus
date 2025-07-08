@@ -98,7 +98,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 97,9,Toughen Up,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
 98,9,Wisp,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
 99,9,Swipe,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-100,9,,,,,,
+100,9,Shy Smile,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 101,9,Dirt Claw,Nature,10.0,100%,An average Nature attack,+2 Attack Power
 102,9,Sleep,Utility,0.0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 103,9,Claw,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
@@ -2241,7 +2241,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2240,517,Stalactite,Earth,15,100%,A powerful Earth attack,+3 Attack Power
 2241,517,Sandstorm,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
 2242,517,Clot,Physical,12,95%,Inflicts Physical damage over 3 turns,+2 Attack Power
-2243,517,,,,,,
+2243,517,Hydro,Water,25,95%,A massively powerful Water attack,+4 Attack Power
 2244,517,Light Tectonic Shift,Earth,30,90%,A more than massively powerful Earth attack with an additional 9 AP Water attack,+10% Accuracy
 2245,518,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
 2246,518,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
@@ -2437,7 +2437,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2436,533,Dark Overpower,Physical,27,95%,A massively powerful Physical attack that steals 9 HP from foe,+4 Attack Power
 2437,534,Spray,Water,7,100%,A simple Water attack,+1 Attack Power
 2438,534,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-2439,534,,,,,,
+2439,534,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
 2440,534,Toughen Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
 2441,534,Dark Refrigerate,Water,11,100%,An average Water attack,+3 Attack Power
 2442,534,Bewitch,Utility,0,100%,Lowers your foe's Elemental Attack by 10,+2 to Debuff

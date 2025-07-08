@@ -6,13 +6,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 
-def stat_calc (stat):
+def stat_calc (stat: int) -> int:
     stat = str(stat)
     count = 5 - stat.count("amber")
     return count
 
 
-def miscrit_info (miscrit_page: int):
+def miscrit_info (miscrit_page: int) -> dict:
 
 
     driver = None 

@@ -33,7 +33,7 @@ else:
     moves_df = pd.DataFrame(columns=columns_moves)
     next_move_id = 1
 
-def database_adder(index):
+def database_adder(index: int):
     global miscrit_df, moves_df, next_move_id, existing_miscrit_ids
 
     if index in existing_miscrit_ids:
