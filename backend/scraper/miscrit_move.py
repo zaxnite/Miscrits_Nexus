@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 def parse_moves(lines: list[str]) -> dict:
-    info = {"Name": lines[0]}
+    info = {}
     i = 1
     try:
         if lines[i] == "AP:":

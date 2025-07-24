@@ -75,7 +75,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 76,Valentino,Exotic,Miscrit Shop,Lightning,Valentino/Romantius/Blackheart/Rebound,3,4,5,3,1,2
 77,Dark Cubsprout,Rare,Forest,Nature,Dark Cubsprout/Dark Dandylion/Dark Pawthorne/Dark Bloomane,2,2,2,2,5,3
 78,Dark Sparkitten,Rare,Sunfall Shores,Fire,Dark Sparkitten/Dark Glowhisk/Dark Flameow/Dark Cheetorch,3,4,4,2,1,2
-79,Dark Snortus,Epic,Cave,Water,Dark Snortus/Dark Boartle/Dark Terrapig/Dark Coraswine,4,1,3,3,4,2
+79,Dark Snortus,Epic,Cave,Water,Dark Snortus/Dark Boartle/Dark Terrapig/Dark Coraswine,4,1,2,4,4,2
 80,Boltzee,Epic,Mount Gemma,Lightning,Boltzee/Shoxier/Acrozap/Violimp,2,5,5,2,1,2
 82,Dark Owlie,Rare,Cave,Wind,Dark Owlie/Dark Regowl/Dark Generowl/Dark Hootray,3,3,4,2,1,3
 83,Dark Echino,Rare,Cave,Nature,Dark Echino/Dark Prickles/Dark Choy Choy/Dark Warro,2,2,2,5,1,4
@@ -122,9 +122,9 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 197,Hotdog,Epic,Mansion,Fire,Hotdog/Toof Toof/Spike/Magmutt,3,2,1,3,5,3
 200,Rafiery,Rare,Mansion,Fire,Rafiery/Marchix/Leero/Stomprage,1,4,1,3,5,2
 201,Nanaslug,Epic,Mansion,Water/Wind,Nanaslug/Spikroo/Slimist/Tornadouse,4,2,5,3,2,1
-202,Vhisp,Common,Mansion,Wind,Vhisp/Transilvus/Cyclix/Fangale,3,5,3,1,1,2
+202,Vhisp,Common,Mansion,Wind,Vhisp/Transilvus/Cyclix/Fangale,2,5,3,2,1,2
 203,Raldio,Rare,Mansion,Earth,Raldio/Greenious/Srage/Verdauntless,2,5,4,2,1,2
-205,Freedom,Exotic,Hidden Forest,Fire/Wind,Freedom/Prez/Liberty/Patriot,3,1,4,5,3,2
+205,Freedom,Exotic,Hidden Forest,Fire/Wind,Freedom/Prez/Liberty/Patriot,2,1,4,5,3,3
 206,Gemix,Epic,Mount Gemma,Earth,Gemix/Jewelax/Fonyx/Ferocilux,2,5,4,3,1,2
 210,Podo,Epic,Cave,Lightning,Podo/Codo/Rikki/Tikki,4,1,4,2,2,4
 212,Lavazard,Epic,Sunfall Shores,Fire,Lavazard/Cindercollar/Kingii/Flamydosaurus,3,1,2,4,4,3
@@ -211,7 +211,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 540,Foil Luna,Exotic,Mount Gemma,Lightning,Foil Luna/Foil Lestrike/Foil Sparkula/Foil Antennious,3,3,3,4,2,3
 541,Sol,Rare,Sunfall Shores,Fire,Sol/Leflamme/Cindergelo/Cithreus,3,3,3,3,1,3
 542,Dreamger,Rare,Sunfall Shores,Wind,Dreamger/Noctigre/Byakkoma/Traumauler,2,3,1,3,5,2
-543,Light Weevern,Epic,Miscrit Shop,Nature/Earth,Light Weevern/Light Beeblebud/Light Balaurise/Light Serpasoar,2,5,4,2,2,2
+543,Light Weevern,Epic,Miscrit Shop,Nature/Earth,Light Weevern/Light Beeblebud/Light Balaurise/Light Serpasoar,2,5,5,2,1,2
 544,Dark Quirk,Rare,Forest,Nature,Dark Quirk/Dark Kinkoon/Dark Centaurpede/Dark Subterhuge,2,1,3,3,4,3
 545,Dark Squirmle,Rare,Forest,Water,Dark Squirmle/Dark Tentonix/Dark Wriggledon/Dark Weylani,4,3,4,2,1,2
 546,Blighted Flowerpiller,Legendary,Forest,Nature,Blighted Flowerpiller/Blighted Chrysaleaf/Blighted Bloombug/Blighted Fairyblossom,3,5,5,2,3,2
@@ -219,7 +219,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 548,Light Hawkai,Rare,Miscrit Shop,Wind,Light Hawkai/Light Falcry/Light Rawkcha/Light Hawkogan,2,3,4,2,3,2
 549,Dark Vexie,Rare,Mount Gemma,Earth,Dark Vexie/Dark Quartzle/Dark Tendrex/Dark Alionyx,2,5,4,2,1,2
 550,Da Windy,Legendary,Mansion,Wind,Da Windy/Van Gust/Picassoar/Michelangelus,3,2,4,3,4,4
-551,Light Snorkels,Exotic,Miscrit Shop,Water/Wind,Light Snorkels/Light Aqualash/Light Waterwip/Light Leviafin,2,5,3,3,1,4
+551,Light Snorkels,Exotic,Miscrit Shop,Water/Wind,Light Snorkels/Light Aqualash/Light Waterwip/Light Leviafin,2,5,4,3,1,3
 552,Foil Croaky,Legendary,Mount Gemma,Earth,Foil Croaky/Foil Emeribbitt/Foil Gemphibian/Foil Geotoad,3,1,3,5,3,5
 553,Freezet,Common,Cave,Water,Freezet/Glacipard/Sabearer/Blizzword,3,2,1,3,4,2
 554,Dark Pillblaze,Epic,Cave,Fire,Dark Pillblaze/Dark Roly Glowy/Dark Pyrus/Dark Charrill,3,1,4,3,3,3
