@@ -1,39 +1,17 @@
-from sqlalchemy import create_engine, Column, Integer, String
-from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy import create_engine
+import pandas as pd
 
-# --- Database Setup ---
-DATABASE_URL = "sqlite:///miscrits.db"  # creates miscrits.db in current dir
+# File paths
+miscrit_path = r'D:\miscrits_nexus\data\miscrit_database.csv'
+moves_path = r'D:\miscrits_nexus\data\moves_database.csv'
 
-engine = create_engine(DATABASE_URL, echo=True)
-SessionLocal = sessionmaker(bind=engine)
-Base = declarative_base()
+# Read CSVs
+miscrit_df = pd.read_csv(miscrit_path)
+moves_df = pd.read_csv(moves_path)
 
-# --- Model ---
-class Miscrit(Base):
-    __tablename__ = "miscrits"
+# Create SQLite engine — specify output location
+engine = create_engine(r"sqlite:///D:/miscrits_nexus/data/miscrit_data.db")
 
-    Miscrit_ID = Column(Integer, primary_key=True, index=True)
-    Name = Column(String)
-    Rarity = Column(String)
-
-# --- Create Tables ---
-Base.metadata.create_all(bind=engine)
-
-# --- Insert & Query ---
-def add_and_show():
-    session = SessionLocal()
-
-    # Add a miscrit
-    new_miscrit = Miscrit(Miscrit_ID=1, Name="Flue", Rarity="Common")
-    session.add(new_miscrit)
-    session.commit()
-
-    # Query it back
-    miscrits = session.query(Miscrit).all()
-    for m in miscrits:
-        print(f"ID: {m.Miscrit_ID}, Name: {m.Name}, Rarity: {m.Rarity}")
-
-    session.close()
-
-if __name__ == "__main__":
-    add_and_show()
+# Write to SQL without including DataFrame index
+miscrit_df.to_sql("miscrits", engine, index=False, if_exists="replace")
+moves_df.to_sql("moves", engine, index=False, if_exists="replace")
