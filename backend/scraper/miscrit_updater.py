@@ -11,7 +11,7 @@ miscrit_path = os.path.join(data_dir, "miscrit_database.csv")
 miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
-#miscrits= ['Vhisp', 'Zappup', 'Dark Breezycheeks', 'Dark Lumera', 'Light Weevern', 'Light Grubbean', 'Boltzee','Beelzebug', 'Flaring', 'Gemix', 'Shurikoon', 'Light Snorkels', 'Dark Poltergust', 'Light Ignios', 'Splender', 'Dark Snortus', 'Foil Croaky', 'Sol', 'Podo', 'Inferno', 'Freedom', 'Valentino', 'Ekkult', 'Alpha', 'Nanaslug', 'Shellbee', 'Statikat', 'Aria', 'Luna', 'Hippoke', 'Leggy', 'Whik', 'Hawkai', 'Nibbles', 'Crabbles', 'Rafiery', 'Squirmle', 'Peekly', 'Dark Shellbee', 'Dark Aria', 'Light Sparkspeck', 'Light Hawkai', 'Dark Vexie', 'Waddles']
+
 miscrits =[]
 
 

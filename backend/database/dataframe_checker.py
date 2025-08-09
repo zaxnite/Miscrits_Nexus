@@ -74,7 +74,9 @@ expected_types_miscrit = {
     "Elemental Attack": int,
     "Elemental Defense": int,
     "Physical Attack": int,
-    "Physical Defense": int
+    "Physical Defense": int,
+    "Status Effects": str,
+    "Image_Name": str
 }
 
 expected_types_moves = {

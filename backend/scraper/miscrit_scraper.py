@@ -38,6 +38,17 @@ def miscrit_info (miscrit_page: int) -> dict:
     
             miscrit_name_h2 = soup.find('h2', class_="text-2xl md:text-3xl lg:text-4xl font-boris text-miscrits-brown")
             miscrit_rarity = soup.find('p',class_ = "text-lg font-bold")
+            img_class = "max-w-full max-h-[180px] h-auto w-auto object-contain pixelated"
+            img_tag = soup.find('img', class_=img_class)
+            if img_tag and img_tag.has_attr('src'):
+                full_src = img_tag['src']
+                # Extract part after 'miscrits/' in the URL
+                miscrit_image = full_src.split("miscrits/")[-1]
+            else:
+                miscrit_image = None
+            spans = soup.find_all('span', class_="px-2 py-1 bg-miscrits-yellow/20 text-miscrits-yellow text-xs rounded-full border border-miscrits-yellow/30")
+            effects = [span.get_text(strip=True) for span in spans]
+            miscrit_effect = effects if effects else ["None"]
             miscrit_location = soup.find_all('span',class_="text-sm text-miscrits-brown")[1]
             miscrit_type_html = soup.find_all('span',class_="text-sm text-miscrits-brown")[0]
             miscrit_type = str(miscrit_type_html.get_text())
@@ -58,7 +69,7 @@ def miscrit_info (miscrit_page: int) -> dict:
                 miscrit_abilities.append(miscrit_abilities_unformated[i].get_text())
 
             miscrit_data = {"Miscrit_ID":miscrit_page,"Name": miscrit_name_h2.get_text(), "Rarity":miscrit_rarity.get_text(),"Location":miscrit_location.get_text(),"Type":miscrit_type.replace(' / ', '/'),"Evolutions":miscrit_evolutions,
-                            "Health":miscrit_health,"Speed":miscrit_speed,"Elemental Attack":miscrit_ea,"Elemental Defense":miscrit_ed,"Physical Attack":miscrit_pa,"Physical Defense":miscrit_pd,"Abilities":miscrit_abilities}
+                            "Health":miscrit_health,"Speed":miscrit_speed,"Elemental Attack":miscrit_ea,"Elemental Defense":miscrit_ed,"Physical Attack":miscrit_pa,"Physical Defense":miscrit_pd,"Abilities":miscrit_abilities, "Image": miscrit_image,'Status Effect': miscrit_effect}
             return(miscrit_data)
         except Exception as inner_e:
             print(f"    Error processing {target_url}: {inner_e}")

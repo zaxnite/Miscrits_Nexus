@@ -74,9 +74,6 @@ def miscrit_patch_scraper():
 
                 patch_notes = [li.text for li in li_elements]
 
-                # print(f"Patch notes for '{patch_name}':") #Debugging
-                # for note in patch_notes:
-                #     print(" -", note)
 
                 results.append({"Miscrit": patch_name, "Patch_Notes": patch_notes})
 

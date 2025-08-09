@@ -1,6 +1,6 @@
-miscrits= [ 
-'Podo', 'Inferno', 'Freedom', 'Valentino', 'Ekkult', 'Alpha', 'Nanaslug', 'Shellbee', 'Statikat', 'Aria', 'Luna', 
-'Hippoke', 'Leggy', 'Whik', 'Hawkai', 'Nibbles', 'Crabbles', 'Rafiery', 'Squirmle', 'Peekly', 'Dark Shellbee', 'Dark Aria', 
-'Light Sparkspeck', 'Light Hawkai', 'Dark Vexie', 'Waddles']
+import pandas as pd
 
-print(len(miscrits))
+df = pd.read_csv('D:/miscrits_nexus/data/miscrit_database.csv')
+
+print(df[df['Miscrit_ID'] == 98].index
+)
