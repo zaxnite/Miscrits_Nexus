@@ -84,4 +84,4 @@ def miscrit_info (miscrit_page: int) -> dict:
             print("\nBrowser closed after scan.")
 
 if __name__ == "__main__":
-    print(miscrit_info(201))
+    print(miscrit_info(577))

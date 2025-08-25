@@ -48,5 +48,68 @@ def find_best_miscrits(df: pd.DataFrame, speed_preference: str = "any", top_n: i
         "Elemental Attack", "Physical Attack", "Speed", "score"
     ]]
 
-top_miscrits = find_best_miscrits(miscrit_df, speed_preference="high", top_n=5)
-print(tabulate(top_miscrits, headers='keys', tablefmt='fancy_grid'))
+#top_miscrits = find_best_miscrits(miscrit_df, speed_preference="high", top_n=5)
+#print(tabulate(top_miscrits, headers='keys', tablefmt='fancy_grid'))
+
+
+
+def speed_ratio(df: pd.DataFrame):
+    """
+    Counts Miscrits by speed groups and calculates the ratio.
+
+    Args:
+        df (pd.DataFrame): The Miscrit database.
+
+    Returns:
+        dict: Dictionary with counts and ratio
+    """
+
+    # rs = number of Miscrits with Speed 3, 4, 5
+    red_s = df[df["Speed"].isin([4, 5])].shape[0]
+    gray_s = df[df["Speed"].isin([3])].shape[0]
+    # gs = number of Miscrits with Speed 1, 2
+    green_s = df[df["Speed"].isin([1, 2])].shape[0]
+
+    
+
+    return {
+        "red": red_s,
+        "gray": gray_s,
+        "green": green_s
+    }
+
+
+
+def filter_miscrits(df, miscrit_type=None, status_effects=None):
+    """
+    Filter miscrits by type and/or one or more status effects.
+
+    Parameters:
+        df (pd.DataFrame): Miscrit database DataFrame
+        miscrit_type (str, optional): Element type (e.g. "Fire", "Water")
+        status_effects (list[str], optional): List of status effects (e.g. ["Poison", "Sleep"])
+
+    Returns:
+        pd.DataFrame: Filtered miscrits
+    """
+    filtered_df = df.copy()
+
+    if miscrit_type:
+        filtered_df = filtered_df[filtered_df['Type'].str.contains(miscrit_type, case=False, na=False)]
+
+    if status_effects:
+        # Check if any of the status effects appear in 'Status Effects'
+        mask = filtered_df['Status Effects'].apply(
+            lambda x: any(effect.lower() in str(x).lower() for effect in status_effects)
+        )
+        filtered_df = filtered_df[mask]
+
+    return filtered_df[['Miscrit_ID', 'Name', 'Type', 'Status Effects', 'Health', 'Speed']]
+
+
+
+crits = filter_miscrits(miscrit_df, miscrit_type="Water", status_effects=["Heal over Time", "Heal","Life Steal"])
+
+
+print(tabulate(crits, headers='keys', tablefmt='fancy_grid'))
+

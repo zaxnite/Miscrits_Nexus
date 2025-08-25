@@ -1,0 +1,60 @@
+ID,Level,Name,HP,SP,EA,PA,ED,PD,Price,Currency
+1,10,Blessed Pollen,0,0,0,0,2,2,12,Plat
+2,10,Boss Venom,5,-1,0,0,0,0,50,Frag
+3,10,Cloud Cake,0,1,3,0,0,0,12,Plat
+4,10,Dark Owlie Feather,0,3,0,1,0,0,12,Plat
+5,10,Elefauna Flower,1,0,3,0,0,0,12,Plat
+6,10,Lake Azore Pearl,2,0,0,0,1,1,12,Plat
+7,10,Frost Root,-15,0,0,0,0,0,30,Plat
+8,10,Eternal Falls Mushroom,3,0,0,0,1,0,12,Plat
+9,10,GK Slippers,0,4,0,0,0,0,12,Plat
+10,10,Woodman Axe Head,1,0,0,3,0,0,12,Plat
+11,10,Pamboo Cane,4,0,0,0,0,0,12,Plat
+12,10,Quartex Crystal,-15,0,0,0,0,0,30,Plat
+13,10,Skelepup Spark,0,3,1,0,0,0,12,Plat
+14,20,Emerald Scales,0,0,0,9,0,3,36,Plat
+15,20,Forging Hammer,8,0,5,5,-1,-1,36,Plat
+16,20,Flower of Despair,6,0,0,6,0,0,36,Plat
+17,20,Frozen Claws,4,0,0,0,4,4,36,Plat
+18,20,Monks Robe,2,0,0,0,0,10,36,Plat
+19,20,Skyline Peak Gem,10,2,0,0,0,0,36,Plat
+20,20,Ship Captain Logs,4,6,2,0,0,0,36,Plat
+21,20,Elemental Explosion,6,0,6,0,0,0,36,Plat
+22,20,Boss Diamond,0,-2,0,0,7,7,120,Frag
+23,20,Bean Stalk,2,0,0,0,10,0,36,Plat
+24,20,Stony Shield,0,0,4,0,8,0,36,Plat
+25,20,Nero Orbs,0,2,5,0,0,5,36,Plat
+26,20,Helzbelz Bells,2,10,0,0,0,0,36,Plat
+27,30,Gravitron Pebble,0,12,0,0,20,0,108,Plat
+28,30,Arrow of Love,0,12,20,0,0,0,108,Plat
+29,30,Dark Warro Thorn,0,3,0,17,7,7,108,Plat
+30,30,Bauble of the Dawn,20,0,7,7,0,0,108,Plat
+31,30,Boss Relic,25,-4,0,0,5,5,210,Frag
+32,30,Echino Shell,18,0,0,0,0,18,108,Plat
+33,30,White Gem,6,0,0,0,12,12,108,Plat
+34,30,Tiki Idol,0,12,0,0,0,20,108,Plat
+35,30,Vanquished Soul,16,0,0,16,0,0,108,Plat
+36,30,Shard of Dawn Landing,0,6,12,12,0,0,108,Plat
+37,30,Mushles,10,10,0,0,0,14,108,Plat
+38,30,Lost Swords,0,12,0,20,0,0,108,Plat
+39,30,Fractured Shell,18,0,0,0,18,0,108,Plat
+40,30,Gold Piece Die,0,0,12,12,5,5,108,Plat
+41,30,Cactolin Thorns,16,-10,10,10,-5,-5,108,Plat
+42,30,Shattered Gatestone,10,10,0,0,14,0,108,Plat
+43,30,Temple Stone,16,0,16,0,0,0,108,Plat
+44,30,Magicite Staff,0,3,17,0,7,7,108,Plat
+45,30,Monastery Idol,16,0,0,0,9,9,108,Plat
+46,35,Charcoal Idol,26,16,0,0,0,0,120,Plat
+47,35,Cage of Despair,16,-10,0,0,12,12,120,Plat
+48,35,Dark Wind Venom,20,0,0,0,25,0,120,Plat
+49,35,Frozen Coin,0,0,14,14,7,7,120,Plat
+50,35,Gogs Cog,15,-10,-10,20,0,0,120,Plat
+51,35,Flying Carpeta Fragment,15,-10,20,-10,0,0,120,Plat
+52,35,Salyam Trident,10,10,0,20,0,0,120,Plat
+53,35,Molten Coin,0,0,7,7,14,14,120,Plat
+54,35,Leggy Eggs,20,0,0,0,0,25,120,Plat
+55,35,Petrified Dragon Egg,15,-10,0,0,0,20,120,Plat
+56,35,Moon Rock,10,0,0,0,17,17,120,Plat
+57,35,Shard of Rudolffe,10,10,20,0,0,0,120,Plat
+58,35,Petrified Mama Baby,15,-10,0,0,20,0,120,Plat
+59,35,Scent of Skustunk,10,-10,15,15,0,0,120,Plat

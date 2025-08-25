@@ -1,6 +1,8 @@
-import pandas as pd
+a=[]
 
-df = pd.read_csv('D:/miscrits_nexus/data/miscrit_database.csv')
+for i in range (571,603):
+    a.append(i)
 
-print(df[df['Miscrit_ID'] == 98].index
-)
+
+print(a)
+print(len(a))
