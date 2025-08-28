@@ -239,3 +239,35 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 568,Charix,Rare,Hidden Forest,Nature,Charix/Regro/Bloomstalker/Carnagion,3,2,5,3,1,2,"Sleep, Life Steal, Poison, Confuse",charix_back.png
 569,Alpha,Exotic,Hidden Forest,Nature,Alpha/Rufficus/Direwisp/Sire,4,1,3,3,4,3,"Sleep Immunity, Damage over Time, Negate",alpha_back.png
 570,Charpy,Legendary,Hidden Forest,Fire,Charpy/Skelemon/Burnboon/Chimpferno,3,3,4,3,4,3,"Paralyze, Stat Steal, Negate, Confuse, Heal, Sleep Immunity, Confuse Immunity",charpy_back.png
+571,Lambolt,Rare,Moon,Lightning,Lambolt/Thundram/Werevolta/Lycanimbus,3,1,2,3,4,3,Negate,lambolt_back.png
+572,Gravitron,Exotic,Moon,Earth,Gravitron/Portus/Impasse/Gate Keeper,3,4,1,3,5,2,"SI,CI,Sleep,Negate",gravitron_back.png
+573,Babakku,Epic,Moon,Earth,Babakku/Bakounaga/Selechomp/Lundevour,3,1,4,3,2,4,"Hot,Sleep,Antiheal",babakku_back.png
+574,Smolderfry,Exotic,Moon,Fire,Smolderfry/Blasterbuzz/Pyroclash/Clawsteroid,4,2,2,3,4,3,"Bleed,Paralyze,Negate",smolderfry_back.png
+575,Moondrip,Common,Moon,Water,Moondrip/Viralune/Gloomare/Noxilunar,3,2,1,3,5,1,"Sleep,Poison,Hot,Stat Steal",moondrip_back.png
+576,Shroolet,Rare,Moon,Water,Shroolet/Myble/Fuslash/Funglor,5,1,4,3,1,2,"Hot,Purge,Poison",shroolet_back.png
+577,Lumite,Common,Moon,Earth,Lumite/Gemant/Crysect/Gemarax,3,1,4,3,1,3,Poison,lumite_back.png
+578,Voidotron,Legendary,Moon,Fire/Wind,Voidotron/Abyssus/Deadlokk/Void Warden,4,5,4,3,1,3,"Force Switch,Hot,Negate,Sleep,Heal,SI,CI",voidotron_back.png
+579,Niboro,Epic,Moon,Wind,Niboro/Luravine/Gelex/Monodra,2,4,4,3,1,3,"Block,Confuse,Negate",niboro_back.png
+580,Pinplar,Exotic,Moon,Water,Pinplar/Grossil/Lobsterro/Bonefish,4,2,2,3,5,2,"Stat Steal,Negate",pinplar_back.png
+581,Lithos,Exotic,Moon,Lightning,Lithos/Aphelos/Nebulus/Progenitus,3,5,5,2,1,2,"Stat Steal,Block,Heal,Negate",lithos_back.png
+582,Brainzer,Common,Moon,Lightning,Brainzer/Woodles/Brillo/Egghead,2,1,4,3,1,4,"Dot,Force Switch",brainzer_back.png
+583,Pyrex,Exotic,Moon,Fire,Pyrex/Fyrial/Salagnite/Novasol,3,5,5,3,1,1,"Dot,Negate",pyrex_back.png
+584,Oozie,Rare,Moon,Water/Lightning,Oozie/Slagad/Moropher/Slimonda,3,1,3,4,2,3,"Heal,Dot,Hot,Poison,Negate",oozie_back.png
+585,Lunako,Rare,Moon,Fire/Earth,Lunako/Geklyte/Selvash/Mograkoon,3,2,4,3,1,3,"Block,Poison,Negate",lunako_back.png
+586,Rephily,Rare,Moon,Wind,Rephily/Stamuff/Cirrutide/Tyvalune,3,2,1,3,4,3,"Dot,Poison,Negate",rephily_back.png
+587,Eluzar,Common,Moon,Water,Eluzar/Coluna/Fledrion/Tenebu,3,1,1,2,5,3,,eluzar_back.png
+588,Furiko,Rare,Moon,Fire,Furiko/Emigno/Luflar/Vulcrysa,2,1,5,3,1,3,"Heal,Cleanser,Negate",furiko_back.png
+589,Bunplop,Epic,Moon,Water/Earth,Bunplop/Dustail/Quaklash/Vornaclast,3,5,4,2,1,2,"Dot,Negate",bunplop_back.png
+590,Drilune,Common,Moon,Nature,Drilune/Ryncor/Tydra/Acarion,2,2,4,3,1,3,Paralyze,drilune_back.png
+591,Flaclay,Common,Moon,Fire/Earth,Flaclay/Pyrune/Lavarol/Magros,2,1,4,4,1,3,"Sleep,Dot,Hot",flaclay_back.png
+592,Enex,Common,Moon,Fire,Enex/Selvyr/Drakomo/Eclipsagon,3,2,5,2,1,2,"Sleep,Life Steal",enex_back.png
+593,Voltombra,Common,Moon,Lightning,Voltombra/Umbryge/Noctazolt/Zevurnox,2,3,4,3,1,2,"Negate,Confuse",voltombra_back.png
+594,Eclipso,Exotic,Moon,Wind,Eclipso/Calig/Cimmerian/Tenebros,4,4,4,3,1,2,"Sleep,Bleed,Antiheal,Dot,Negate",eclipso_back.png
+595,Osmeron,Rare,Moon,Water,Osmeron/Entropious/Turgerus/Mystacle,3,3,4,3,1,2,"Hot,Poison,Heal,Cleanser,Confuse",osmeron_back.png
+596,Mooncrit,Rare,Moon,Water/Earth,Mooncrit/Lunaris/Orbitor/Crateron,3,1,4,4,2,2,"Sleep,Switch Curse",mooncrit_back.png
+597,Beateorite,Legendary,Moon,Earth,Beateorite/Masteroid/Cometkazi/Armageddon,3,2,4,4,4,3,"Heal,Paralyze,Force Switch,Dot,Purge,Life Steal,Confuse",beateorite_back.png
+598,Silkire,Common,Moon,Fire,Silkire/Crawler/Blazeweber/Infernofang,2,1,4,3,2,3,"Dot,Poison,Barbed",silkire_back.png
+599,Zephry,Common,Moon,Wind,Zephry/Mirotol/Aluxa/Valydorm,2,2,4,3,1,3,"Sleep,Negate",zephry_back.png
+600,Fungask,Common,Moon,Water,Fungask/Vinedra/Blitespike/Venoplazm,2,3,4,2,1,3,"Stat Steal,Negate",fungask_back.png
+601,Larbunni,Epic,Moon,Wind,Larbunni/Breezalis/Lagomoth/Yutuluna,2,3,4,4,1,3,"Sleep,Negate",larbunni_back.png
+602,Yuefira,Common,Moon,Nature,Yuefira/Tentadisk/Jellicraft/Cnidalien,3,3,5,2,1,1,"Purge,Negate",yuefira_back.png

@@ -7,7 +7,7 @@ import time
 # Column definitions
 columns_miscrits = ['Miscrit_ID', 'Name', 'Rarity', 'Location', 'Type', 'Evolutions',
                     'Health', 'Speed', 'Elemental Attack', 'Elemental Defense',
-                    'Physical Attack', 'Physical Defense']
+                    'Physical Attack', 'Physical Defense','Status Effects','Image_Name']
 columns_moves = ['Miscrit_ID', 'Move_Name', 'Element', 'AP', 'Accuracy', 'Description', 'Enchant']
 
 
@@ -58,7 +58,7 @@ def database_adder(index: int):
         print(f" Error at Miscrit ID {index}: {e}")
 
 if __name__ == "__main__":
-    working_index = [67,503,571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602]
+    working_index = [591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602]
     start = time.perf_counter()
     for i in working_index:  
         print(f" Scraping Miscrit ID: {i}")

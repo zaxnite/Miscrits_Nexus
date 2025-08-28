@@ -48,7 +48,7 @@ def miscrit_info (miscrit_page: int) -> dict:
                 miscrit_image = None
             spans = soup.find_all('span', class_="px-2 py-1 bg-miscrits-yellow/20 text-miscrits-yellow text-xs rounded-full border border-miscrits-yellow/30")
             effects = [span.get_text(strip=True) for span in spans]
-            miscrit_effect = effects if effects else ["None"]
+            miscrit_effect = ",".join(effects) if effects else "None"
             miscrit_location = soup.find_all('span',class_="text-sm text-miscrits-brown")[1]
             miscrit_type_html = soup.find_all('span',class_="text-sm text-miscrits-brown")[0]
             miscrit_type = str(miscrit_type_html.get_text())
@@ -69,7 +69,7 @@ def miscrit_info (miscrit_page: int) -> dict:
                 miscrit_abilities.append(miscrit_abilities_unformated[i].get_text())
 
             miscrit_data = {"Miscrit_ID":miscrit_page,"Name": miscrit_name_h2.get_text(), "Rarity":miscrit_rarity.get_text(),"Location":miscrit_location.get_text(),"Type":miscrit_type.replace(' / ', '/'),"Evolutions":miscrit_evolutions,
-                            "Health":miscrit_health,"Speed":miscrit_speed,"Elemental Attack":miscrit_ea,"Elemental Defense":miscrit_ed,"Physical Attack":miscrit_pa,"Physical Defense":miscrit_pd,"Abilities":miscrit_abilities, "Image": miscrit_image,'Status Effect': miscrit_effect}
+                            "Health":miscrit_health,"Speed":miscrit_speed,"Elemental Attack":miscrit_ea,"Elemental Defense":miscrit_ed,"Physical Attack":miscrit_pa,"Physical Defense":miscrit_pd,"Abilities":miscrit_abilities,'Status Effects': miscrit_effect, "Image_Name": miscrit_image}
             return(miscrit_data)
         except Exception as inner_e:
             print(f"    Error processing {target_url}: {inner_e}")
@@ -84,4 +84,4 @@ def miscrit_info (miscrit_page: int) -> dict:
             print("\nBrowser closed after scan.")
 
 if __name__ == "__main__":
-    print(miscrit_info(577))
+    print(miscrit_info(571))
