@@ -6,74 +6,129 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 
-def stat_calc (stat: int) -> int:
+def stat_calc(stat: int) -> int:
+    """Calculate stat value based on amber count"""
     stat = str(stat)
     count = 5 - stat.count("amber")
     return count
 
 
-def miscrit_info (miscrit_page: int) -> dict:
+def convert_status_effects(effect_string: str) -> str:
+    """
+    Convert abbreviated status effects to their full forms
+    Returns 'None' for empty/null values
+    """
+    if not effect_string or effect_string.strip() == "" or effect_string.lower() == "none":
+        return "None"
+        
+    replacements = {
+        "Hot": "Heal over Time",
+        "Dot": "Damage over Time", 
+        "SI": "Sleep Immunity",
+        "CI": "Confuse Immunity",
+        "PI": "Paralyze Immunity",
+        "A I": "Antiheal Immunity"
+    }
+    
+    effects = effect_string.split(",")
+    converted = []
+    
+    for effect in effects:
+        effect = effect.strip()
+        if effect in replacements:
+            converted.append(replacements[effect])
+        else:
+            converted.append(effect)
+            
+    return ", ".join(converted) if converted else "None"
 
 
+def miscrit_info(miscrit_page: int) -> dict:
+    """
+    Scrape miscrit information from the website
+    Returns a dictionary containing all miscrit data
+    """
     driver = None 
 
     try:
+        # Initialize WebDriver
         driver = webdriver.Chrome()
         print("Chrome WebDriver initialized successfully for scanning.")
 
-        # for x in (miscrit_ids): # Loop through the specified range
         target_url = f"https://www.worldofmiscrits.com/miscripedia/{miscrit_page}"
         print(f"Checking: {target_url}")
 
         try:
-            # Navigate to the URL
+            # Navigate and parse page
             driver.get(target_url)
-
+            time.sleep(0.4)  # Wait for SPA to load
             
-            time.sleep(0.4) # Increased sleep for robustness for SPAs
-
+            # Parse HTML
             full_page_html = driver.page_source
             soup_whole = BeautifulSoup(full_page_html, 'lxml')
-            soup = soup_whole.find('div',class_="absolute inset-0 flex flex-col md:flex-row px-3 md:px-16 lg:px-24 pt-20")
-    
-            miscrit_name_h2 = soup.find('h2', class_="text-2xl md:text-3xl lg:text-4xl font-boris text-miscrits-brown")
-            miscrit_rarity = soup.find('p',class_ = "text-lg font-bold")
+            soup = soup_whole.find('div', class_="absolute inset-0 flex flex-col md:flex-row px-3 md:px-16 lg:px-24 pt-20")
+            
+            # Basic Information
+            miscrit_name = soup.find('h2', class_="text-2xl md:text-3xl lg:text-4xl font-boris text-miscrits-brown").get_text()
+            miscrit_rarity = soup.find('p', class_="text-lg font-bold").get_text()
+            
+            # Image Processing
             img_class = "max-w-full max-h-[180px] h-auto w-auto object-contain pixelated"
             img_tag = soup.find('img', class_=img_class)
-            if img_tag and img_tag.has_attr('src'):
-                full_src = img_tag['src']
-                # Extract part after 'miscrits/' in the URL
-                miscrit_image = full_src.split("miscrits/")[-1]
-            else:
-                miscrit_image = None
-            spans = soup.find_all('span', class_="px-2 py-1 bg-miscrits-yellow/20 text-miscrits-yellow text-xs rounded-full border border-miscrits-yellow/30")
-            effects = [span.get_text(strip=True) for span in spans]
-            miscrit_effect = ",".join(effects) if effects else "None"
-            miscrit_location = soup.find_all('span',class_="text-sm text-miscrits-brown")[1]
-            miscrit_type_html = soup.find_all('span',class_="text-sm text-miscrits-brown")[0]
-            miscrit_type = str(miscrit_type_html.get_text())
-            miscrit_abilities_unformated = soup.find_all('span',class_="text-sm text-miscrits-brown overflow-wrap-anywhere")
-            miscrit_evos = soup.find_all('span',class_='text-xs text-center text-miscrits-yellow mt-1 w-full truncate')
-            miscrit_evo_list = []
-            for i in range(0,4):
-                miscrit_evo_list.append(miscrit_evos[i].get_text())
-            miscrit_evolutions = '/'.join(miscrit_evo_list)
-            miscrit_health = stat_calc(soup.find_all('div',class_="flex justify-start")[0])
-            miscrit_speed = stat_calc(soup.find_all('div',class_="flex justify-start")[1])
-            miscrit_ea = stat_calc(soup.find_all('div',class_="flex justify-start")[2])
-            miscrit_ed = stat_calc(soup.find_all('div',class_="flex justify-start")[3])
-            miscrit_pa = stat_calc(soup.find_all('div',class_="flex justify-start")[4])
-            miscrit_pd = stat_calc(soup.find_all('div',class_="flex justify-start")[5])
-            miscrit_abilities = []
-            for i in range (0,len(miscrit_abilities_unformated)):
-                miscrit_abilities.append(miscrit_abilities_unformated[i].get_text())
+            miscrit_image = img_tag['src'].split("miscrits/")[-1] if img_tag and img_tag.has_attr('src') else None
+            
+            # Status Effects
+            status_spans = soup.find_all('span', class_="px-2 py-1 bg-miscrits-yellow/20 text-miscrits-yellow text-xs rounded-full border border-miscrits-yellow/30")
+            effects = [span.get_text(strip=True) for span in status_spans]
+            miscrit_effect = convert_status_effects(",".join(effects) if effects else "None")
+            
+            # Type and Location
+            misc_spans = soup.find_all('span', class_="text-sm text-miscrits-brown")
+            miscrit_type = str(misc_spans[0].get_text()).replace(' / ', '/')
+            miscrit_location = misc_spans[1].get_text()
+            
+            # Evolution Information
+            evo_spans = soup.find_all('span', class_='text-xs text-center text-miscrits-yellow mt-1 w-full truncate')
+            miscrit_evolutions = '/'.join([evo_spans[i].get_text() for i in range(4)])
+            
+            # Stats Calculation
+            stat_divs = soup.find_all('div', class_="flex justify-start")
+            stats = {
+                "Health": stat_calc(stat_divs[0]),
+                "Speed": stat_calc(stat_divs[1]),
+                "Elemental Attack": stat_calc(stat_divs[2]),
+                "Elemental Defense": stat_calc(stat_divs[3]),
+                "Physical Attack": stat_calc(stat_divs[4]),
+                "Physical Defense": stat_calc(stat_divs[5])
+            }
+            
+            # Abilities
+            ability_spans = soup.find_all('span', class_="text-sm text-miscrits-brown overflow-wrap-anywhere")
+            miscrit_abilities = [span.get_text() for span in ability_spans]
 
-            miscrit_data = {"Miscrit_ID":miscrit_page,"Name": miscrit_name_h2.get_text(), "Rarity":miscrit_rarity.get_text(),"Location":miscrit_location.get_text(),"Type":miscrit_type.replace(' / ', '/'),"Evolutions":miscrit_evolutions,
-                            "Health":miscrit_health,"Speed":miscrit_speed,"Elemental Attack":miscrit_ea,"Elemental Defense":miscrit_ed,"Physical Attack":miscrit_pa,"Physical Defense":miscrit_pd,"Abilities":miscrit_abilities,'Status Effects': miscrit_effect, "Image_Name": miscrit_image}
-            return(miscrit_data)
+            # Compile all data
+            miscrit_data = {
+                "Miscrit_ID": miscrit_page,
+                "Name": miscrit_name,
+                "Rarity": miscrit_rarity,
+                "Location": miscrit_location,
+                "Type": miscrit_type,
+                "Evolutions": miscrit_evolutions,
+                "Health": stats["Health"],
+                "Speed": stats["Speed"],
+                "Elemental Attack": stats["Elemental Attack"],
+                "Elemental Defense": stats["Elemental Defense"],
+                "Physical Attack": stats["Physical Attack"],
+                "Physical Defense": stats["Physical Defense"],
+                "Abilities": miscrit_abilities,
+                "Status Effects": miscrit_effect,
+                "Image_Name": miscrit_image
+            }
+            
+            return miscrit_data
+
         except Exception as inner_e:
             print(f"    Error processing {target_url}: {inner_e}")
-            
             
     except Exception as outer_e:
         print(f"An unexpected error occurred during WebDriver initialization or loop: {outer_e}")
@@ -83,5 +138,6 @@ def miscrit_info (miscrit_page: int) -> dict:
             driver.quit()
             print("\nBrowser closed after scan.")
 
+
 if __name__ == "__main__":
-    print(miscrit_info(571))
+    print(miscrit_info(556))

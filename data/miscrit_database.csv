@@ -3,7 +3,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 2,Flowerpiller,Common,Forest,Nature,Flowerpiller/Chrysaleaf/Bloombug/Fairyblossom,3,4,4,2,1,1,"Poison, Negate, Sleep, Confuse",flowerpiller_back.png
 3,Prawnja,Common,Forest,Water,Prawnja/Hermetalcrab/Shellgun/Clawmurai,3,1,1,3,4,3,"Sleep, Poison, Negate",prawnja_back.png
 4,Weevern,Common,Mansion,Nature,Weevern/Beeblebud/Balaurise/Serpasoar,2,5,4,2,1,1,"Poison, Heal",weevern_back.png
-5,Cubsprout,Common,Forest,Nature,Cubsprout/Dandylion/Pawthorne/Bloomane,2,2,3,2,4,2,,cubsprout_back.png
+5,Cubsprout,Common,Forest,Nature,Cubsprout/Dandylion/Pawthorne/Bloomane,2,2,3,2,4,2,None,cubsprout_back.png
 6,Sparkupine,Common,Forest,Fire,Sparkupine/Flintback/Fireprick/Wiquill,3,1,2,3,3,3,"Heal over Time, Poison",sparkupine_back.png
 7,Hydroseal,Common,"Forest, Mansion",Water,Hydroseal/Streamlion/Eleflood/Squalrus,3,2,5,1,3,1,Sleep,hydroseal_back.png
 8,Snortus,Common,Forest,Water,Snortus/Boartle/Terrapig/Coraswine,4,1,2,2,4,2,"Negate, Sleep, Confuse",snortus_back.png
@@ -27,7 +27,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 26,Blazebit,Rare,Forest,Fire,Blazebit/Smolderon/Grimstone/Eruptacus,2,3,5,3,1,2,"Poison, Confuse",blazebit_back.png
 27,Frostmite,Common,Cave,Water,Frostmite/Windigroo/Snowsquatch/Abomino,2,3,4,2,1,3,"Sleep, Negate",frostmite_back.png
 28,Blazertooth,Epic,Hidden Forest,Fire,Blazertooth/Pyrubi/Firenze/Minotorch,3,1,5,3,2,3,"Sleep, Poison, Heal over Time",blazertooth_back.png
-29,Statikat,Common,Mount Gemma,Lightning,Statikat/Zapeera/Tigristrike/Panthundra,3,3,4,2,1,2,,statikat_back.png
+29,Statikat,Common,Mount Gemma,Lightning,Statikat/Zapeera/Tigristrike/Panthundra,3,3,4,2,1,2,None,statikat_back.png
 30,Equestrion,Common,Mount Gemma,Wind,Equestrion/Equestrius/Duocornious/Sagittarion,3,2,4,3,1,2,Sleep,equestrion_back.png
 31,Drilldent,Common,Mount Gemma,Earth,Drilldent/Gropher/Moledozer/Demolasher,3,1,1,3,4,3,"Sleep, Negate",drilldent_back.png
 32,Kiloray,Common,Mount Gemma,Lightning,Kiloray/Electroflyte/Luminaire/Edison Ray,2,2,4,2,2,3,"Negate, Confuse, Sleep",kiloray_back.png
@@ -35,8 +35,8 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 34,Mumbah,Common,Mount Gemma,Earth,Mumbah/Simbel/Pharaohette/Sphynxus,2,4,3,1,2,3,Heal,mumbah_back.png
 35,Aria,Common,Mount Gemma,Wind,Aria/Gustelle/Zephelope/Wyndasia,2,4,4,2,1,2,"Sleep, Confuse",aria_back.png
 36,Jellyshock,Common,Mount Gemma,Lightning,Jellyshock/Jellybolt/Tesla Fish/Medustung,3,4,2,1,3,2,Damage over Time,jellyshock_back.png
-37,Croaky,Common,Mount Gemma,Earth,Croaky/Emeribbitt/Gemphibian/Geotoad,1,3,5,3,1,2,,croaky_back.png
-38,Sparkslug,Common,Mount Gemma,Lightning,Sparkslug/Electroslide/Shellshock/Buzzcargo,3,1,4,3,1,3,Antiheal,sparkslug_back.png
+37,Croaky,Common,Mount Gemma,Earth,Croaky/Emeribbitt/Gemphibian/Geotoad,1,3,5,3,1,2,None,croaky_back.png
+38,Sparkslug,Common,Mount Gemma,Lightning,Sparkslug/Electroslide/Shellshock/Buzzcargo,3,1,4,3,1,3,"Negate, Antiheal",sparkslug_back.png
 39,Craggy,Common,Mount Gemma,Earth,Craggy/Billyboulder/Bezoar/Mineram,3,2,1,2,4,3,Sleep,craggy_back.png
 40,Owlie,Common,Mount Gemma,Wind,Owlie/Regowl/Generowl/Hootray,3,1,3,4,1,3,Bleed,owlie_back.png
 41,Luna,Rare,Mount Gemma,Lightning,Luna/Lestrike/Sparkula/Antennious,3,3,3,2,2,3,"Poison, Negate",luna_back.png
@@ -47,7 +47,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 46,Mun Kee,Rare,Mount Gemma,Wind,Mun Kee/Munk Lee/Chimpanbreeze/Hanuphoon,3,1,4,4,1,3,Sleep,mun_kee_back.png
 47,Microblast,Epic,Cave,Lightning,Microblast/Echomeleon/Electrozard/Zapire,3,3,4,4,1,2,"Negate, Life Steal",microblast_back.png
 48,Sledgehog,Epic,Cave,Earth,Sledgehog/Erinaquil/Cavernus/Stalagfright,3,1,2,3,5,3,"Sleep, Negate",sledgehog_back.png
-49,Sapphron,Epic,Cave,Earth,Sapphron/Arachnothyst/Rubion/Scorpionyx,3,3,5,3,1,2,"Sleep Immunity, Confuse Immunity, Paralyze Immune, Antiheal Immune, Confuse",sapphron_back.png
+49,Sapphron,Epic,Cave,Earth,Sapphron/Arachnothyst/Rubion/Scorpionyx,3,3,5,3,1,2,"Sleep Immunity, Confuse Immunity, Paralyze Immunity, Antiheal Immunity, Confuse",sapphron_back.png
 50,Sparkspeck,Common,"Mansion, Sunfall Shores",Lightning,Sparkspeck/Faebolt/Pixiepulse/Glitterglint,2,3,3,4,2,1,Poison,sparkspeck_back.png
 51,Grubbean,Common,Sunfall Shores,Nature,Grubbean/Coleaf/Crickaroot/Thornaxis,1,2,4,2,2,4,"Poison, Confuse, Heal over Time",grubbean_back.png
 52,Echino,Common,Sunfall Shores,Nature,Echino/Prickles/Choy Choy/Warro,3,2,4,2,1,3,"Poison, Negate",echino_back.png
@@ -86,7 +86,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 90,Dark Flameling,Rare,Mansion,Fire,Dark Flameling/Dark Scorcharos/Dark Fyrin/Dark Infernus,3,2,4,3,2,2,"Sleep, Negate, Heal over Time",dark_flameling_back.png
 91,Dark Elefauna,Epic,Cave,Nature,Dark Elefauna/Dark Floraphaunt/Dark Stammoth/Dark Grastodon,3,1,4,3,2,4,"Life Steal, Poison",dark_elefauna_back.png
 93,Mama,Exotic,Forest,Nature,Mama/Inceptus/Queenie/Genesis,2,1,5,3,4,3,"Sleep, Confuse, Negate",mama_back.png
-94,Dark Nessy,Exotic,Forest,Water,Dark Nessy/Dark Lockeel/Dark Cryptile/Dark Aquine,4,4,4,3,1,2,"Sleep, Negate, Antiheal, Heal over Time",dark_nessy_back.png
+94,Dark Nessy,Exotic,Forest,Water,Dark Nessy/Dark Lockeel/Dark Cryptile/Dark Aquine,4,3,4,3,1,3,"Sleep, Negate, Antiheal, Antiheal Immunity, Heal over Time",dark_nessy_back.png
 95,Dark Hotfoot,Rare,Forest,Fire,Dark Hotfoot/Dark Flamaroo/Dark Kang/Dark Kang Fu,3,2,2,2,5,2,Confuse,dark_hotfoot_back.png
 97,Dark Breezycheeks,Rare,Cave,Wind,Dark Breezycheeks/Dark Flufferpuff/Dark Winstral/Dark Glidengale,3,5,4,2,1,1,"Heal, Force Switch, Confuse",dark_breezycheeks_back.png
 98,Papa,Exotic,Mansion,Lightning,Papa/Ancestrike/Kingly/Zeusicus,2,1,4,3,5,3,"Sleep, Negate, Confuse",papa_back.png
@@ -96,8 +96,8 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 108,Crickin,Common,Forest,Fire,Crickin/Mantiscorch/Flametenna/Praze,2,2,3,3,3,2,"Poison, Confuse, Heal, Heal over Time",crickin_back.png
 111,Bubbles,Common,Mansion,Water,Bubbles/Otterpop/Caterpuff/Popiller,3,1,5,4,1,1,Sleep,bubbles_back.png
 112,Humbug,Common,Mansion,Nature,Humbug/Flittero/Buzzaillia/Aviona,2,3,4,2,2,2,"Bleed, Poison, Confuse, Heal",humbug_back.png
-115,Lavarilla,Common,Mansion,Fire,Lavarilla/Sulfuro/Scorias/Obsidiape,3,1,1,2,5,3,,lavarilla_back.png
-121,Bloomple,Epic,Hidden Forest,Nature,Bloomple/Featherose/Berravia/Miraca,3,3,4,2,2,3,"Switch Curse, Heal, Confuse",bloomple_back.png
+115,Lavarilla,Common,Mansion,Fire,Lavarilla/Sulfuro/Scorias/Obsidiape,3,1,1,2,5,3,None,lavarilla_back.png
+121,Bloomple,Epic,Hidden Forest,Nature,Bloomple/Featherose/Berravia/Miraca,3,3,4,3,1,3,"Switch Curse, Heal, Confuse",bloomple_back.png
 124,Pamboo,Rare,Sunfall Shores,Nature,Pamboo/Ponya/Pan-Damme/Pixiuma,3,1,4,4,1,3,"Antiheal, Negate, Confuse",pamboo_back.png
 125,Rockodile,Rare,Sunfall Shores,Water,Rockodile/Barbarious/Crocorawr/Growliath,4,1,4,2,1,4,"Sleep, Barbed, Antiheal",rockodile_back.png
 133,Boneshee,Epic,Sunfall Shores,Wind,Boneshee/Carcassoar/Eidolon/Osteowraith,4,1,4,4,2,2,"Life Steal, Negate, Confuse Immunity",boneshee_back.png
@@ -120,7 +120,7 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 192,Crabbles,Rare,Sunfall Shores,Fire,Crabbles/Wabbles/Pabbles/Stabbles,3,3,1,2,5,2,"Life Steal, Negate",crabbles_back.png
 196,Inferno,Epic,Mansion,Fire,Inferno/Spectre 7/Blue Justice/Dozer,4,1,1,3,5,3,"Heal, Confuse Immunity",inferno_back.png
 197,Hotdog,Epic,Mansion,Fire,Hotdog/Toof Toof/Spike/Magmutt,3,2,1,3,5,3,"Damage over Time, Poison, Negate",hotdog_back.png
-200,Rafiery,Rare,Mansion,Fire,Rafiery/Marchix/Leero/Stomprage,1,4,1,3,5,2,,rafiery_back.png
+200,Rafiery,Rare,Mansion,Fire,Rafiery/Marchix/Leero/Stomprage,1,4,1,3,5,2,None,rafiery_back.png
 201,Nanaslug,Epic,Mansion,Water/Wind,Nanaslug/Spikroo/Slimist/Tornadouse,4,2,5,3,2,1,"Poison, Sleep",nanaslug_back.png
 202,Vhisp,Common,Mansion,Wind,Vhisp/Transilvus/Cyclix/Fangale,2,5,3,2,1,2,"Life Steal, Negate",vhisp_back.png
 203,Raldio,Rare,Mansion,Earth,Raldio/Greenious/Srage/Verdauntless,2,5,4,2,1,2,"Sleep, Confuse",raldio_back.png
@@ -129,13 +129,13 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 210,Podo,Epic,Cave,Lightning,Podo/Codo/Rikki/Tikki,4,1,4,2,2,4,"Poison, Negate, Confuse, Life Steal",podo_back.png
 212,Lavazard,Epic,Sunfall Shores,Fire,Lavazard/Cindercollar/Kingii/Flamydosaurus,3,1,2,4,4,3,"Sleep, Antiheal, Heal over Time",lavazard_back.png
 214,Shurikoon,Epic,Mansion,Fire/Wind,Shurikoon/Saibat/Batcoon/Ninjat,2,5,5,2,1,2,"Confuse, Poison",shurikoon_back.png
-223,Skelepup,Exotic,Miscrit Shop,Lightning,Skelepup/Dogbie/Muttation/Frankensnarl,5,1,4,3,3,2,"Poison, Bleed, Life Steal",skelepup_back.png
+223,Skelepup,Exotic,Miscrit Shop,Lightning,Skelepup/Dogbie/Muttation/Frankensnarl,5,1,4,3,3,2,"Switch Curse, Bleed, Life Steal",skelepup_back.png
 226,Foil Waddles,Exotic,Cave,Water,Foil Waddles/Foil Shucky/Foil Fintaur/Foil Mallardon,4,1,5,2,2,4,"Sleep, Confuse, Damage over Time, Block",foil_waddles_back.png
-227,Foil Fossillia,Exotic,Mount Gemma,Earth,Foil Fossillia/Foil Craterra/Foil Troglobrute/Foil Primordius,3,1,4,2,4,4,"Poison, Negate, Block",foil_fossillia_back.png
+227,Foil Fossillia,Exotic,Mount Gemma,Earth,Foil Fossillia/Foil Craterra/Foil Troglobrute/Foil Primordius,3,1,3,3,4,4,"Poison, Negate, Block",foil_fossillia_back.png
 230,Foil Thundercracker,Exotic,Mount Gemma,Lightning,Foil Thundercracker/Foil Rumblerunt/Foil Badaboon/Foil Clobberilla,2,1,5,3,5,2,Paralyze,foil_thundercracker_back.png
 242,Hoopty,Epic,Mansion,Earth,Hoopty/Halo/Lynk/Shackle,3,3,3,3,4,1,"Paralyze, Poison, Negate, Damage over Time",hoopty_back.png
 247,Foil Kiloray,Exotic,Mount Gemma,Lightning,Foil Kiloray/Foil Electroflyte/Foil Luminaire/Foil Edison Ray,3,1,5,3,3,3,"Negate, Confuse, Heal over Time",foil_kiloray_back.png
-248,Spangles,Exotic,Miscrit Shop,Lightning,Spangles/Twinkles/Strongbow/Nova,2,3,4,4,3,2,"Sleep, Negate, Confuse, Damage over Time",spangles_back.png
+248,Spangles,Exotic,Miscrit Shop,Lightning,Spangles/Twinkles/Strongbow/Nova,4,3,4,4,1,2,"Sleep, Negate, Confuse, Damage over Time",spangles_back.png
 312,Opigum,Rare,Mount Gemma,Earth,Opigum/Carrion/Hoggus/Poggle,3,2,1,4,2,4,"Negate, Barbed",opigum_back.png
 322,Foil Flintly,Exotic,Cave,Fire,Foil Flintly/Foil Bastion/Foil Charcle/Foil Napalm,4,3,5,3,1,2,"Poison, Negate",foil_flintly_back.png
 326,Light Tectonyx,Exotic,Sunfall Shores,Earth,Light Tectonyx/Light Volcanus/Light Basaltrio/Light Valrog,3,3,1,3,5,3,"Block, Confuse",light_tectonyx_back.png
@@ -157,9 +157,9 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 420,Ekkult,Exotic,Mansion,Water,Ekkult/Seekree/Acroamate/Arcanaclaw,3,1,4,3,3,4,"Poison, Negate, Stat Steal, Life Steal",ekkult_back.png
 425,Defilio,Exotic,Forest,Nature/Earth,Defilio/Vit/Corrasaur/Spoiler,3,2,4,4,3,2,"Sleep, Damage over Time, Poison, Negate",defilio_back.png
 430,Blighted Cubsprout,Exotic,Forest,Nature,Blighted Cubsprout/Blighted Dandylion/Blighted Pawthorne/Blighted Bloomane,4,2,3,2,4,3,Negate,blighted_cubsprout_back.png
-433,Blighted Flue,Legendary,Forest,Fire,Blighted Flue/Blighted Chimnay/Blighted Firebrawl/Blighted Afterburn,3,2,3,4,5,3,"Confuse, Sleep Immunity",blighted_flue_back.png
+433,Blighted Flue,Legendary,Forest,Fire,Blighted Flue/Blighted Chimnay/Blighted Firebrawl/Blighted Afterburn,3,2,2,4,5,4,"Confuse, Block, Sleep Immunity",blighted_flue_back.png
 438,Blobroller,Exotic,Miscrit Shop,Nature/Lightning,Blobroller/Swyne/Prux/Vampsower,4,1,4,3,3,3,"Damage over Time, Poison, Negate, Confuse",blobroller_back.png
-451,Light Nibbles,Epic,Sunfall Shores,Water/Lightning,Light Nibbles/Light Gnawly/Light Chaurum/Light Coyver,3,4,4,2,2,2,"Confuse, Sleep Immunity, Paralyze Immune, Confuse Immunity, Barbed",light_nibbles_back.png
+451,Light Nibbles,Epic,Sunfall Shores,Water/Lightning,Light Nibbles/Light Gnawly/Light Chaurum/Light Coyver,3,4,5,2,1,2,"Sleep, Sleep Immunity, Confuse Immunity, Paralyze Immunity, Confuse",light_nibbles_back.png
 456,Light Frostmite,Exotic,Sunfall Shores,Water,Light Frostmite/Light Windigroo/Light Snowsquatch/Light Abomino,3,4,4,3,1,3,"Negate, Life Steal",light_frostmite_back.png
 457,Light Bludger,Exotic,Sunfall Shores,Earth,Light Bludger/Light Thorasher/Light Truncherous/Light Convincer,5,2,1,4,4,2,Negate,light_bludger_back.png
 458,Light Zaptor,Exotic,Miscrit Shop,Nature/Lightning,Light Zaptor/Light Pterashock/Light Electryl/Light Tesladon,3,5,5,2,1,2,Confuse,light_zaptor_back.png
@@ -187,11 +187,11 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 516,Light Rafiery,Epic,Miscrit Shop,Fire/Lightning,Light Rafiery/Light Marchix/Light Leero/Light Stomprage,2,4,5,3,1,2,Sleep Immunity,light_rafiery_back.png
 517,Light Fossillia,Epic,Miscrit Shop,Water/Earth,Light Fossillia/Light Craterra/Light Troglobrute/Light Primordius,3,2,5,2,2,3,"Poison, Negate, Damage over Time",light_fossillia_back.png
 518,Light Nanaslug,Exotic,Sunfall Shores,Wind,Light Nanaslug/Light Spikroo/Light Slimist/Light Tornadouse,4,3,5,2,1,3,"Poison, Negate",light_nanaslug_back.png
-519,Light Crickin,Exotic,Sunfall Shores,Fire,Light Crickin/Light Mantiscorch/Light Flametenna/Light Praze,3,3,3,3,3,3,"Sleep, Block, Confuse, Paralyze, Damage over Time, Heal",light_crickin_back.png
+519,Light Crickin,Exotic,Sunfall Shores,Fire,Light Crickin/Light Mantiscorch/Light Flametenna/Light Praze,4,3,4,3,1,3,"Block, Confuse, Paralyze, Antiheal, Heal",light_crickin_back.png
 520,Light Flue,Epic,Miscrit Shop,Fire/Wind,Light Flue/Light Chimnay/Light Firebrawl/Light Afterburn,4,1,4,3,2,3,"Damage over Time, Confuse, Block, Confuse Immunity",light_flue_back.png
 521,Light Grubbean,Epic,Miscrit Shop,Nature/Wind,Light Grubbean/Light Coleaf/Light Crickaroot/Light Thornaxis,2,5,5,2,1,2,"Poison, Confuse, Confuse Immunity",light_grubbean_back.png
 522,Ribos,Rare,Miscrit Shop,Water,Ribos/Chondri/Reedleroot/Plasmaree,2,2,2,5,1,4,"Poison, Confuse, Block",ribos_back.png
-523,Light Sparkspeck,Rare,Sunfall Shores,Lightning,Light Sparkspeck/Light Faebolt/Light Pixiepulse/Light Glitterglint,3,5,4,2,1,1,"Sleep Immunity, Confuse Immunity, Paralyze Immune, Antiheal Immune, Poison, Confuse",light_sparkspeck_back.png
+523,Light Sparkspeck,Rare,Sunfall Shores,Lightning,Light Sparkspeck/Light Faebolt/Light Pixiepulse/Light Glitterglint,3,5,4,2,1,1,"Sleep Immunity, Confuse Immunity, Paralyze Immunity, Antiheal Immunity, Poison, Confuse",light_sparkspeck_back.png
 524,Light Wavesling,Rare,Miscrit Shop,Water/Wind,Light Wavesling/Light Hankoi/Light Hydravern/Light Nessilisk,3,2,5,3,2,1,"Damage over Time, Paralyze, Negate",light_wavesling_back.png
 525,Light Jack,Rare,Miscrit Shop,Wind,Light Jack/Light Cottontail/Light Hop-Chi/Light Tuzee,3,1,2,4,2,4,Confuse,light_jack_back.png
 526,Light Flurfy,Rare,Miscrit Shop,Nature,Light Flurfy/Light Grumbles/Light Snivels/Light Kvetch,4,2,4,3,1,2,Negate,light_flurfy_back.png
@@ -218,13 +218,13 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 547,Dark Jellyshock,Epic,Mount Gemma,Lightning,Dark Jellyshock/Dark Jellybolt/Dark Tesla Fish/Dark Medustung,1,4,3,2,4,3,Paralyze,dark_jellyshock_back.png
 548,Light Hawkai,Rare,Miscrit Shop,Wind,Light Hawkai/Light Falcry/Light Rawkcha/Light Hawkogan,2,3,4,2,3,2,Sleep,light_hawkai_back.png
 549,Dark Vexie,Rare,Mount Gemma,Earth,Dark Vexie/Dark Quartzle/Dark Tendrex/Dark Alionyx,2,5,4,2,1,2,Poison,dark_vexie_back.png
-550,Da Windy,Legendary,Mansion,Wind,Da Windy/Van Gust/Picassoar/Michelangelus,3,2,4,3,4,4,"Sleep, Negate, Heal, Sleep Immunity, Confuse Immunity, Block, Purge, Heal over Time, Cleanser",da_windy_back.png
+550,Da Windy,Legendary,Mansion,Wind,Da Windy/Van Gust/Picassoar/Michelangelus,4,1,4,3,4,4,"Negate, Heal, Sleep Immunity, Confuse Immunity, Block, Cleanser, Purge, Heal over Time",da_windy_back.png
 551,Light Snorkels,Exotic,Miscrit Shop,Water/Wind,Light Snorkels/Light Aqualash/Light Waterwip/Light Leviafin,2,5,4,3,1,3,"Negate, Heal over Time, Sleep Immunity, Confuse Immunity, Paralyze Immune, Antiheal Immune",light_snorkels_back.png
 552,Foil Croaky,Legendary,Mount Gemma,Earth,Foil Croaky/Foil Emeribbitt/Foil Gemphibian/Foil Geotoad,3,1,3,5,3,5,"Heal, Barbed, Heal over Time, Antiheal, Block",foil_croaky_back.png
 553,Freezet,Common,Cave,Water,Freezet/Glacipard/Sabearer/Blizzword,3,2,1,3,4,2,"Negate, Bleed",freezet_back.png
 554,Dark Pillblaze,Epic,Cave,Fire,Dark Pillblaze/Dark Roly Glowy/Dark Pyrus/Dark Charrill,3,1,4,3,3,3,"Confuse, Sleep, Damage over Time, Block",dark_pillblaze_back.png
 555,Rudy,Exotic,Miscrit Shop,Earth,Rudy/Rantlers/Reign/Coalrus,3,2,2,3,4,4,"Negate, Confuse Immunity, Barbed",rudy_back.png
-556,Manio,Legendary,Cave,Lightning,Manio/Minursa/Majursa/Starshow,4,2,4,3,4,3,"Negate, Heal over Time, Sleep",manio_back.png
+556,Manio,Legendary,Cave,Lightning,Manio/Minursa/Majursa/Starshow,4,2,4,3,4,3,"Sleep, Negate, Heal over Time",manio_back.png
 557,Mistraxol,Common,Cave,Wind,Mistraxol/Fogamfi/Stomahaze/Olmisteus,2,3,5,2,1,2,"Sleep, Purge",mistraxol_back.png
 558,Orbling,Common,Cave,Earth,Orbling/Tunnelback/Stalachnid/Caverachna,3,1,2,3,3,3,"Sleep, Heal, Barbed",orbling_back.png
 559,Zappup,Common,Cave,Lightning,Zappup/Lycanic/Electheryon/Thunderuff,2,5,4,2,1,1,Confuse,zappup_back.png
@@ -233,40 +233,40 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 562,Frozy,Common,Cave,Water,Frozy/Snorog/Turtower/Citashell,2,2,4,3,1,3,"Block, Negate, Confuse",frozy_back.png
 563,Stalkra,Common,Hidden Forest,Nature,Stalkra/Vineja/Palmda/Leffa,2,2,1,2,5,3,"Bleed, Negate",stalkra_back.png
 564,Mech,Common,Hidden Forest,Water,Mech/Shellzor/Smashins/Destructo,2,2,1,4,4,2,"Damage over Time, Paralyze",mech_back.png
-565,Rexie,Common,Hidden Forest,Fire,Rexie/Snarlins/Rannos/Tyrant,2,3,1,2,5,2,"Sleep, Damage over Time, Paralyze, Negate",rexie_back.png
+565,Rexie,Common,Hidden Forest,Fire,Rexie/Snarlins/Rannos/Tyrant,2,3,1,2,5,2,"Damage over Time, Paralyze, Negate",rexie_back.png
 566,Warrian,Common,Hidden Forest,Fire,Warrian/Derp/Incubor/Moltrusian,2,2,4,4,1,2,"Sleep, Poison, Negate, Block",warrian_back.png
 567,Aebex,Common,Hidden Forest,Nature/Wind,Aebex/Capreeze/Sirene/Inhalate,2,4,4,2,1,2,"Sleep Immunity, Confuse Immunity, Paralyze Immune, Heal, Negate",aebex_back.png
 568,Charix,Rare,Hidden Forest,Nature,Charix/Regro/Bloomstalker/Carnagion,3,2,5,3,1,2,"Sleep, Life Steal, Poison, Confuse",charix_back.png
 569,Alpha,Exotic,Hidden Forest,Nature,Alpha/Rufficus/Direwisp/Sire,4,1,3,3,4,3,"Sleep Immunity, Damage over Time, Negate",alpha_back.png
 570,Charpy,Legendary,Hidden Forest,Fire,Charpy/Skelemon/Burnboon/Chimpferno,3,3,4,3,4,3,"Paralyze, Stat Steal, Negate, Confuse, Heal, Sleep Immunity, Confuse Immunity",charpy_back.png
 571,Lambolt,Rare,Moon,Lightning,Lambolt/Thundram/Werevolta/Lycanimbus,3,1,2,3,4,3,Negate,lambolt_back.png
-572,Gravitron,Exotic,Moon,Earth,Gravitron/Portus/Impasse/Gate Keeper,3,4,1,3,5,2,"SI,CI,Sleep,Negate",gravitron_back.png
-573,Babakku,Epic,Moon,Earth,Babakku/Bakounaga/Selechomp/Lundevour,3,1,4,3,2,4,"Hot,Sleep,Antiheal",babakku_back.png
+572,Gravitron,Exotic,Moon,Earth,Gravitron/Portus/Impasse/Gate Keeper,3,4,1,3,5,2,"Sleep Immunity, Confuse Immunity, Sleep, Negate",gravitron_back.png
+573,Babakku,Epic,Moon,Earth,Babakku/Bakounaga/Selechomp/Lundevour,3,1,4,3,2,4,"Heal over Time, Sleep, Antiheal",babakku_back.png
 574,Smolderfry,Exotic,Moon,Fire,Smolderfry/Blasterbuzz/Pyroclash/Clawsteroid,4,2,2,3,4,3,"Bleed,Paralyze,Negate",smolderfry_back.png
-575,Moondrip,Common,Moon,Water,Moondrip/Viralune/Gloomare/Noxilunar,3,2,1,3,5,1,"Sleep,Poison,Hot,Stat Steal",moondrip_back.png
-576,Shroolet,Rare,Moon,Water,Shroolet/Myble/Fuslash/Funglor,5,1,4,3,1,2,"Hot,Purge,Poison",shroolet_back.png
+575,Moondrip,Common,Moon,Water,Moondrip/Viralune/Gloomare/Noxilunar,3,2,1,3,5,1,"Sleep, Stat Steal, Poison, Heal over Time",moondrip_back.png
+576,Shroolet,Rare,Moon,Water,Shroolet/Myble/Fuslash/Funglor,5,1,4,3,1,2,"Heal over Time, Purge, Poison",shroolet_back.png
 577,Lumite,Common,Moon,Earth,Lumite/Gemant/Crysect/Gemarax,3,1,4,3,1,3,Poison,lumite_back.png
-578,Voidotron,Legendary,Moon,Fire/Wind,Voidotron/Abyssus/Deadlokk/Void Warden,4,5,4,3,1,3,"Force Switch,Hot,Negate,Sleep,Heal,SI,CI",voidotron_back.png
+578,Voidotron,Legendary,Moon,Fire/Wind,Voidotron/Abyssus/Deadlokk/Void Warden,4,5,4,3,1,3,"Heal over Time, Negate, Sleep, Heal, Sleep Immunity, Confuse Immunity",voidotron_back.png
 579,Niboro,Epic,Moon,Wind,Niboro/Luravine/Gelex/Monodra,2,4,4,3,1,3,"Block,Confuse,Negate",niboro_back.png
-580,Pinplar,Exotic,Moon,Water,Pinplar/Grossil/Lobsterro/Bonefish,4,2,2,3,5,2,"Stat Steal,Negate",pinplar_back.png
+580,Pinplar,Exotic,Moon,Water,Pinplar/Grossil/Lobsterro/Bonefish,4,2,1,4,5,2,"Stat Steal, Negate",pinplar_back.png
 581,Lithos,Exotic,Moon,Lightning,Lithos/Aphelos/Nebulus/Progenitus,3,5,5,2,1,2,"Stat Steal,Block,Heal,Negate",lithos_back.png
-582,Brainzer,Common,Moon,Lightning,Brainzer/Woodles/Brillo/Egghead,2,1,4,3,1,4,"Dot,Force Switch",brainzer_back.png
-583,Pyrex,Exotic,Moon,Fire,Pyrex/Fyrial/Salagnite/Novasol,3,5,5,3,1,1,"Dot,Negate",pyrex_back.png
-584,Oozie,Rare,Moon,Water/Lightning,Oozie/Slagad/Moropher/Slimonda,3,1,3,4,2,3,"Heal,Dot,Hot,Poison,Negate",oozie_back.png
+582,Brainzer,Common,Moon,Lightning,Brainzer/Woodles/Brillo/Egghead,2,1,4,3,1,4,"Damage over Time, Force Switch",brainzer_back.png
+583,Pyrex,Exotic,Moon,Fire,Pyrex/Fyrial/Salagnite/Novasol,3,5,5,3,1,1,"Damage over Time, Negate",pyrex_back.png
+584,Oozie,Rare,Moon,Water/Lightning,Oozie/Slagad/Moropher/Slimonda,3,1,3,4,2,3,"Heal, Damage over Time, Heal over Time, Poison, Negate",oozie_back.png
 585,Lunako,Rare,Moon,Fire/Earth,Lunako/Geklyte/Selvash/Mograkoon,3,2,4,3,1,3,"Block,Poison,Negate",lunako_back.png
-586,Rephily,Rare,Moon,Wind,Rephily/Stamuff/Cirrutide/Tyvalune,3,2,1,3,4,3,"Dot,Poison,Negate",rephily_back.png
-587,Eluzar,Common,Moon,Water,Eluzar/Coluna/Fledrion/Tenebu,3,1,1,2,5,3,,eluzar_back.png
+586,Rephily,Rare,Moon,Wind,Rephily/Stamuff/Cirrutide/Tyvalune,3,2,1,3,4,3,"Damage over Time, Poison, Negate",rephily_back.png
+587,Eluzar,Common,Moon,Water,Eluzar/Coluna/Fledrion/Tenebu,3,1,1,2,5,3,None,eluzar_back.png
 588,Furiko,Rare,Moon,Fire,Furiko/Emigno/Luflar/Vulcrysa,2,1,5,3,1,3,"Heal,Cleanser,Negate",furiko_back.png
-589,Bunplop,Epic,Moon,Water/Earth,Bunplop/Dustail/Quaklash/Vornaclast,3,5,4,2,1,2,"Dot,Negate",bunplop_back.png
+589,Bunplop,Epic,Moon,Water/Earth,Bunplop/Dustail/Quaklash/Vornaclast,3,5,4,2,1,2,"Damage over Time, Negate",bunplop_back.png
 590,Drilune,Common,Moon,Nature,Drilune/Ryncor/Tydra/Acarion,2,2,4,3,1,3,Paralyze,drilune_back.png
-591,Flaclay,Common,Moon,Fire/Earth,Flaclay/Pyrune/Lavarol/Magros,2,1,4,4,1,3,"Sleep,Dot,Hot",flaclay_back.png
+591,Flaclay,Common,Moon,Fire/Earth,Flaclay/Pyrune/Lavarol/Magros,2,1,4,4,1,3,"Sleep, Damage over Time, Heal over Time",flaclay_back.png
 592,Enex,Common,Moon,Fire,Enex/Selvyr/Drakomo/Eclipsagon,3,2,5,2,1,2,"Sleep,Life Steal",enex_back.png
 593,Voltombra,Common,Moon,Lightning,Voltombra/Umbryge/Noctazolt/Zevurnox,2,3,4,3,1,2,"Negate,Confuse",voltombra_back.png
-594,Eclipso,Exotic,Moon,Wind,Eclipso/Calig/Cimmerian/Tenebros,4,4,4,3,1,2,"Sleep,Bleed,Antiheal,Dot,Negate",eclipso_back.png
-595,Osmeron,Rare,Moon,Water,Osmeron/Entropious/Turgerus/Mystacle,3,3,4,3,1,2,"Hot,Poison,Heal,Cleanser,Confuse",osmeron_back.png
-596,Mooncrit,Rare,Moon,Water/Earth,Mooncrit/Lunaris/Orbitor/Crateron,3,1,4,4,2,2,"Sleep,Switch Curse",mooncrit_back.png
-597,Beateorite,Legendary,Moon,Earth,Beateorite/Masteroid/Cometkazi/Armageddon,3,2,4,4,4,3,"Heal,Paralyze,Force Switch,Dot,Purge,Life Steal,Confuse",beateorite_back.png
-598,Silkire,Common,Moon,Fire,Silkire/Crawler/Blazeweber/Infernofang,2,1,4,3,2,3,"Dot,Poison,Barbed",silkire_back.png
+594,Eclipso,Exotic,Moon,Wind,Eclipso/Calig/Cimmerian/Tenebros,4,4,4,3,1,2,"Sleep, Bleed, Antiheal, Damage over Time, Negate",eclipso_back.png
+595,Osmeron,Rare,Moon,Water,Osmeron/Entropious/Turgerus/Mystacle,3,3,4,3,1,2,"Heal over Time, Poison, Heal, Cleanser, Confuse",osmeron_back.png
+596,Mooncrit,Rare,Moon,Water/Earth,Mooncrit/Lunaris/Orbitor/Crateron,3,1,4,4,2,2,"Sleep, Switch Curse",mooncrit_back.png
+597,Beateorite,Legendary,Moon,Earth,Beateorite/Masteroid/Cometkazi/Armageddon,3,2,4,4,4,3,"Life Steal, Damage over Time, Purge, Heal, Paralyze, Force Switch, Confuse",beateorite_back.png
+598,Silkire,Common,Moon,Fire,Silkire/Crawler/Blazeweber/Infernofang,2,1,4,3,2,3,"Damage over Time, Poison, Barbed",silkire_back.png
 599,Zephry,Common,Moon,Wind,Zephry/Mirotol/Aluxa/Valydorm,2,2,4,3,1,3,"Sleep,Negate",zephry_back.png
 600,Fungask,Common,Moon,Water,Fungask/Vinedra/Blitespike/Venoplazm,2,3,4,2,1,3,"Stat Steal,Negate",fungask_back.png
 601,Larbunni,Epic,Moon,Wind,Larbunni/Breezalis/Lagomoth/Yutuluna,2,3,4,4,1,3,"Sleep,Negate",larbunni_back.png

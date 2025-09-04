@@ -48,8 +48,8 @@ def find_best_miscrits(df: pd.DataFrame, speed_preference: str = "any", top_n: i
         "Elemental Attack", "Physical Attack", "Speed", "score"
     ]]
 
-#top_miscrits = find_best_miscrits(miscrit_df, speed_preference="high", top_n=5)
-#print(tabulate(top_miscrits, headers='keys', tablefmt='fancy_grid'))
+top_miscrits = find_best_miscrits(miscrit_df, speed_preference="low", top_n=5)
+print(tabulate(top_miscrits, headers='keys', tablefmt='fancy_grid'))
 
 
 
@@ -108,8 +108,8 @@ def filter_miscrits(df, miscrit_type=None, status_effects=None):
 
 
 
-crits = filter_miscrits(miscrit_df, miscrit_type="Water", status_effects=["Heal over Time", "Heal","Life Steal"])
+# crits = filter_miscrits(miscrit_df, miscrit_type="Water", status_effects=["Heal over Time", "Heal","Life Steal"])
 
 
-print(tabulate(crits, headers='keys', tablefmt='fancy_grid'))
+# print(tabulate(crits, headers='keys', tablefmt='fancy_grid'))
 

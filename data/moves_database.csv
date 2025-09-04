@@ -35,30 +35,30 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 34,3,Fortitude Rejuvenation,Utility,0.0,100%,Raises your Defenses by 10 and heals yourself by 12 HP. 2 turns cooldown,+2 to Buff
 35,3,Hydro,Water,25.0,95%,A massively powerful Water attack,+4 Attack Power
 36,3,Clamp,Physical,14.0,90%,An average Physical attack that hits 2 times and raises your Defenses by 6,+10% Accuracy
-37,4,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-38,4,Wisp,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
-39,4,Shove,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-40,4,Body Armor,Utility,0.0,100%,Raises your Physical Defense by 7,+1 to Buff
-41,4,Leaf Blade,Nature,10.0,100%,An average Nature attack,+2 Attack Power
-42,4,Toxic,Utility,0.0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
-43,4,Rejuvenate,Utility,0.0,90%,Regains a significant amount of your health,+10% Accuracy
-44,4,Tickle,Utility,0.0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
-45,4,Lotus,Nature,20.0,90%,A very powerful Nature attack,+10% Accuracy
-46,4,Hard Jab,Physical,20.0,95%,A very powerful Physical attack,+4 Attack Power
-47,4,Merlin's Beard,Utility,0.0,100%,Raises your Elemental Attack by 14,+3 to Buff
-48,4,Dual Dragon,Nature,17.0,90%,A powerful Nature attack that hits 2 times,+10% Accuracy
-49,5,Vines,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
-50,5,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-51,5,Swipe,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-52,5,Anger,Utility,0.0,100%,Raises your Physical Attack by 7,+2 to Buff
-53,5,Gash,Physical,10.0,100%,An average Physical attack,+2 Attack Power
-54,5,Tangle,Nature,10.0,95%,An average Nature attack,+5% Accuracy
-55,5,Merciless,Utility,0.0,100%,Raises your Attacks by 9,+2 to Buff
-56,5,Reap,Nature,15.0,95%,A powerful Nature attack,Replenishes 5 Health
-57,5,Mother Nature,Nature,20.0,95%,A very powerful Nature attack,+4 Attack Power
-58,5,Laser Focus,Utility,0.0,100%,Raises your Accuracy by 20%,Replenishes 15 Health
-59,5,Wicked Willow,Nature,25.0,95%,A massively powerful Nature attack that raises your Physical Attack by 10,+4 Attack Power
-60,5,Ferocity,Physical,30.0,95%,A more than massively powerful Physical attack,+5 Attack Power
+37,4,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+38,4,Wisp,Nature,7,100%,A simple Nature attack,+1 Attack Power
+39,4,Shove,Physical,7,100%,A simple Physical attack,+1 Attack Power
+40,4,Body Armor,Utility,0,100%,Raises your Physical Defense by 7,+1 to Buff
+41,4,Leaf Blade,Nature,10,100%,An average Nature attack,+2 Attack Power
+42,4,Toxic,Utility,0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
+43,4,Rejuvenate,Utility,0,90%,Regains a significant amount of your health,+10% Accuracy
+44,4,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
+45,4,Lotus,Nature,20,90%,A very powerful Nature attack,+10% Accuracy
+46,4,Hard Jab,Physical,20,95%,A very powerful Physical attack,+4 Attack Power
+47,4,Merlin's Beard,Utility,0,100%,Raises your Elemental Attack by 14,+3 to Buff
+48,4,Dual Dragon,Nature,17,90%,A powerful Nature attack that hits 2 times,+10% Accuracy
+49,5,Vines,Nature,7,100%,A simple Nature attack,+1 Attack Power
+50,5,Weaken,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+51,5,Swipe,Physical,7,100%,A simple Physical attack,+1 Attack Power
+52,5,Anger,Utility,0,100%,Raises your Physical Attack by 7,+2 to Buff
+53,5,Gash,Physical,10,100%,An average Physical attack,+2 Attack Power
+54,5,Tangle,Nature,10,95%,An average Nature attack,+5% Accuracy
+55,5,Merciless,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
+56,5,Reap,Nature,15,95%,A powerful Nature attack,Replenishes 5 Health
+57,5,Mother Nature,Nature,20,95%,A very powerful Nature attack,+4 Attack Power
+58,5,Laser Focus,Utility,0,100%,Raises your Accuracy by 20%,Replenishes 15 Health
+59,5,Wicked Willow,Nature,25,95%,A massively powerful Nature attack that raises your Physical Attack by 10,+4 Attack Power
+60,5,Ferocity,Physical,30,95%,A more than massively powerful Physical attack,+5 Attack Power
 61,6,Burn,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
 62,6,Power Up,Utility,0.0,100%,Raises your Attacks by 5,+1 to Buff
 63,6,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
@@ -299,18 +299,18 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 298,25,Fortitude Rejuvenation,Utility,0.0,100%,Raises your Defenses by 10 and heals yourself by 12 HP. 2 turns cooldown,+2 to Buff
 299,25,Hydro,Water,25.0,95%,A massively powerful Water attack,+4 Attack Power
 300,25,Dark Clamp,Physical,16.0,100%,A powerful Physical attack that hits 2 times and raises your Defenses by 12. 2 turns cooldown,+3 Attack Power
-301,26,Cinders,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
-302,26,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-303,26,Poke,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-304,26,Poison,Utility,0.0,95%,"Poisons your foe, causing 5 damage for 3 turns",+1 Attack Power
-305,26,Bombard,Fire,7.0,100%,A simple Fire attack that hits 2 times,+1 Attack Power
-306,26,Tickle,Utility,0.0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
-307,26,Bash,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
-308,26,Confuse,Utility,0.0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
-309,26,Passion,Fire,20.0,95%,A very powerful Fire attack,+5 Attack Power
-310,26,Merlin's Beard,Utility,0.0,100%,Raises your Elemental Attack by 14,+3 to Buff
-311,26,Thump,Physical,20.0,95%,A very powerful Physical attack,Replenishes 5 Health
-312,26,Liquid Magma,Fire,25.0,90%,A massively powerful Fire attack that heals yourself by 10 HP,+10 Attack Power
+301,26,Cinders,Fire,7,100%,A simple Fire attack,+1 Attack Power
+302,26,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+303,26,Poke,Physical,7,100%,A simple Physical attack,+1 Attack Power
+304,26,Poison,Utility,0,95%,"Poisons your foe, causing 5 damage for 3 turns",+1 Attack Power
+305,26,Bombard,Fire,7,100%,A simple Fire attack that hits 2 times,+1 Attack Power
+306,26,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
+307,26,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+308,26,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
+309,26,Passion,Fire,20,95%,A very powerful Fire attack,+5 Attack Power
+310,26,Merlin's Beard,Utility,0,100%,Raises your Elemental Attack by 14,+3 to Buff
+311,26,Thump,Physical,20,95%,A very powerful Physical attack,Replenishes 5 Health
+312,26,Liquid Magma,Fire,25,100%,A massively powerful Fire attack that heals yourself by 10 HP,+8 Attack Power
 313,27,Spray,Water,7.0,100%,A simple Water attack,+1 Attack Power
 314,27,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 315,27,Hit,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
@@ -323,18 +323,18 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 322,27,Barrage,Physical,10.0,95%,An average Physical attack that hits 2 times,+5% Accuracy
 323,27,Stilled,Utility,0.0,100%,Lowers your foe's Elemental Attack by 13,+3 to Debuff
 324,27,Glaciate,Water,7.0,95%,A simple Water attack that hits 4 times with a 40% chance to put foe to Sleep for 1 turn,+5% Accuracy
-325,28,Burn,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
-326,28,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-327,28,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-328,28,Sleep,Utility,0.0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
-329,28,Blazing Tail,Fire,10.0,100%,An average Fire attack,+2 Attack Power
-330,28,Body Shield,Utility,0.0,100%,Raises your Physical Defense by 10,+2 to Buff
-331,28,Claw,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
-332,28,Toxic,Utility,0.0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
-333,28,Brimstone,Fire,20.0,95%,A very powerful Fire attack,+2 Attack Power
-334,28,Overwhelm,Physical,20.0,90%,A very powerful Physical attack,+10% Accuracy
-335,28,Merlin's Beard,Utility,0.0,100%,Raises your Elemental Attack by 14,+3 to Buff
-336,28,Flame Claw,Fire,28.0,100%,A massively powerful Fire attack that grants 10 healing for 2 turns,+4 Attack Power
+325,28,Burn,Fire,7,100%,A simple Fire attack,+1 Attack Power
+326,28,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+327,28,Bite,Physical,7,100%,A simple Physical attack,+1 Attack Power
+328,28,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+329,28,Blazing Tail,Fire,10,100%,An average Fire attack,+2 Attack Power
+330,28,Body Shield,Utility,0,100%,Raises your Physical Defense by 10,+2 to Buff
+331,28,Claw,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+332,28,Toxic,Utility,0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
+333,28,Brimstone,Fire,20,95%,A very powerful Fire attack,+2 Attack Power
+334,28,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
+335,28,Merlin's Beard,Utility,0,100%,Raises your Elemental Attack by 14,+3 to Buff
+336,28,Flame Claw,Fire,28,100%,A massively powerful Fire attack that grants 10 healing for 2 turns,+4 Attack Power
 337,29,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
 338,29,Spark,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
 339,29,Headbutt,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -419,42 +419,42 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 418,35,Merlin's Beard,Utility,0,100%,Raises your Elemental Attack by 14,+3 to Buff
 419,35,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
 420,35,Billowing Bash,Wind,25,100%,A massively powerful Wind attack with a 40% chance to Confuse foe for 1 turn,+4 Attack Power
-421,36,Flash,Lightning,7.0,100%,A simple Lightning attack,+1 Attack Power
-422,36,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-423,36,Shove,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-424,36,Fetal Position,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
-425,36,Jelly Jolt,Lightning,10.0,100%,An average Lightning attack,+2 Attack Power
-426,36,Safeguard,Utility,0.0,100%,Raises your Defenses by 8,+2 to Buff
-427,36,Sock,Physical,10.0,100%,An average Physical attack,+2 Attack Power
-428,36,Electrify,Lightning,15.0,95%,A powerful Lightning attack,+3 Attack Power
-429,36,Sludge,Utility,0.0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-430,36,Voltage,Lightning,20.0,95%,A very powerful Lightning attack,+4 Attack Power
-431,36,Fury,Utility,0.0,100%,Raises your Physical Attack by 14,+3 to Buff
-432,36,Super Sting,Physical,10.0,100%,An average Physical attack that hits 3 times and inflicts 9 AP Physical Dot for 3 turns,+2 Attack Power
-433,37,Crumble,Earth,7.0,100%,A simple Earth attack,+1 Attack Power
-434,37,Power Up,Utility,0.0,100%,Raises your Attacks by 5,+1 to Buff
-435,37,Hit,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-436,37,Fetal Position,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
-437,37,Hoofquake,Earth,10.0,100%,An average Earth attack,+20% chance to Poison for 3 turns
-438,37,Feebler,Utility,0.0,100%,Lowers your foe's Defenses by 8,+2 to Debuff
-439,37,Stalagmite,Earth,15.0,95%,A powerful Earth attack,+3 Attack Power
-440,37,Bash,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
-441,37,Rock Throw,Earth,20.0,90%,A very powerful Earth attack,+10% Accuracy
-442,37,Unbreakable,Utility,0.0,100%,Raises your Defenses by 11,+3 to Buff
-443,37,Destruction,Physical,25.0,90%,A massively powerful Physical attack,+10% Accuracy
-444,37,Gem Smash,Earth,15.0,80%,A powerful Earth attack that hits 3 times and raises your Accuracy by 10%,+5% Accuracy
-445,38,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-446,38,Spark,Lightning,7.0,100%,A simple Lightning attack,+1 Attack Power
-447,38,Poke,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-448,38,Power Up,Utility,0.0,100%,Raises your Attacks by 5,+1 to Buff
-449,38,Hard Jolt,Lightning,10.0,100%,An average Lightning attack,+2 Attack Power
-450,38,Body Shield,Utility,0.0,100%,Raises your Physical Defense by 10,+2 to Buff
-451,38,Bash,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
-452,38,Tickle,Utility,0.0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
-453,38,Thunderstorm,Lightning,3.0,90%,A simple Lightning attack that hits 7 times,+10% Accuracy
-454,38,Thump,Physical,20.0,95%,A very powerful Physical attack,Replenishes 5 Health
-455,38,Sludge,Utility,0.0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-456,38,Slimeshock,Lightning,25.0,95%,A massively powerful Lightning attack that inflicts Anti-heal for 3 turns,+4 Attack Power
+421,36,Flash,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
+422,36,Weaken,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+423,36,Shove,Physical,7,100%,A simple Physical attack,+1 Attack Power
+424,36,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
+425,36,Jelly Jolt,Lightning,10,100%,An average Lightning attack,+2 Attack Power
+426,36,Safeguard,Utility,0,100%,Raises your Defenses by 8,+2 to Buff
+427,36,Sock,Physical,10,100%,An average Physical attack,+2 Attack Power
+428,36,Electrify,Lightning,15,95%,A powerful Lightning attack,+3 Attack Power
+429,36,Sludge,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
+430,36,Voltage,Lightning,20,95%,A very powerful Lightning attack,+4 Attack Power
+431,36,Fury,Utility,0,100%,Raises your Physical Attack by 14,+3 to Buff
+432,36,Super Sting,Physical,10,100%,An average Physical attack that hits 3 times and inflicts 9 AP Physical Dot for 3 turns,+2 Attack Power
+433,37,Crumble,Earth,7,100%,A simple Earth attack,+1 Attack Power
+434,37,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
+435,37,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
+436,37,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
+437,37,Hoofquake,Earth,10,100%,An average Earth attack,+20% chance to Poison for 3 turns
+438,37,Feebler,Utility,0,100%,Lowers your foe's Defenses by 8,+2 to Debuff
+439,37,Stalagmite,Earth,15,95%,A powerful Earth attack,+3 Attack Power
+440,37,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+441,37,Rock Throw,Earth,20,90%,A very powerful Earth attack,+10% Accuracy
+442,37,Unbreakable,Utility,0,100%,Raises your Defenses by 11,+3 to Buff
+443,37,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
+444,37,Gem Smash,Earth,15,80%,A powerful Earth attack that hits 3 times and raises your Accuracy by 10%,+5% Accuracy
+445,38,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+446,38,Spark,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
+447,38,Poke,Physical,7,100%,A simple Physical attack,+1 Attack Power
+448,38,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
+449,38,Hard Jolt,Lightning,10,100%,An average Lightning attack,+2 Attack Power
+450,38,Body Shield,Utility,0,100%,Raises your Physical Defense by 10,+2 to Buff
+451,38,Scorched Earth,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
+452,38,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
+453,38,Voltage,Lightning,20,95%,A very powerful Lightning attack,+4 Attack Power
+454,38,Thump,Physical,20,95%,A very powerful Physical attack,Replenishes 5 Health
+455,38,Sludge,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
+456,38,Slimeshock,Lightning,25,95%,A massively powerful Lightning attack that inflicts Anti-heal for 3 turns,+4 Attack Power
 457,39,Rubble,Earth,7.0,100%,A simple Earth attack,+1 Attack Power
 458,39,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 459,39,Hit,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
@@ -551,18 +551,18 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 550,46,Merlin's Beard,Utility,0.0,100%,Raises your Elemental Attack by 14,+3 to Buff
 551,46,Deep Sleep,Utility,0.0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
 552,46,Zen Zephyr,Wind,28.0,95%,A massively powerful Wind attack that heals yourself by 10 HP,+3 Attack Power
-553,47,Flash,Lightning,7.0,100%,A simple Lightning attack,+1 Attack Power
-554,47,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-555,47,Hit,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-556,47,Power Up,Utility,0.0,100%,Raises your Attacks by 5,+1 to Buff
-557,47,Tail Zap,Lightning,10.0,100%,An average Lightning attack,+30% chance of Stats Chaos
-558,47,Bewitch,Utility,0.0,100%,Lowers your foe's Elemental Attack by 10,+2 to Debuff
-559,47,Strike,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
-560,47,Scorched Earth,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
-561,47,Thunderstorm,Lightning,3.0,90%,A simple Lightning attack that hits 7 times,+10% Accuracy
-562,47,Sludge,Utility,0.0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-563,47,Bright Lights,Utility,0.0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
-564,47,Flying Bolt,Lightning,27.0,100%,A massively powerful Lightning attack that steals 10 HP from foe,+4 Attack Power
+553,47,Flash,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
+554,47,Weaken,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+555,47,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
+556,47,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
+557,47,Tail Zap,Lightning,10,100%,An average Lightning attack,+30% chance of Stats Chaos
+558,47,Bewitch,Utility,0,100%,Lowers your foe's Elemental Attack by 10,+2 to Debuff
+559,47,Strike,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+560,47,Scorched Earth,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
+561,47,Plasma Pulse,Lightning,7,95%,A simple Lightning attack that hits 4 times,+5% Accuracy
+562,47,Sludge,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
+563,47,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
+564,47,Flying Bolt,Lightning,27,100%,A massively powerful Lightning attack that steals 10 HP from foe,+4 Attack Power
 565,48,Crumble,Earth,7.0,100%,A simple Earth attack,+1 Attack Power
 566,48,Fetal Position,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 567,48,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
@@ -575,18 +575,18 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 574,48,Rock Throw,Earth,20.0,90%,A very powerful Earth attack,+10% Accuracy
 575,48,Debilitate,Utility,0.0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
 576,48,Quill Kill,Physical,28.0,100%,A massively powerful Physical attack that inflicts Stats Chaos,+4 Attack Power
-577,49,Shields Up,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
-578,49,Rubble,Earth,7.0,100%,A simple Earth attack,+1 Attack Power
-579,49,Poke,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-580,49,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
-581,49,Amethwack,Earth,10.0,100%,An average Earth attack,+3 Attack Power
-582,49,Bright Lights,Utility,0.0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
-583,49,Stalactite,Earth,15.0,100%,A powerful Earth attack,+3 Attack Power
-584,49,Confuse,Utility,0.0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
-585,49,Landslide,Earth,20.0,95%,A very powerful Earth attack,+4 Attack Power
-586,49,Intimidation,Utility,0.0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
-587,49,Destruction,Physical,25.0,90%,A massively powerful Physical attack,+10% Accuracy
-588,49,Pincer Quake,Earth,28.0,100%,"A massively powerful Earth attack that grants immunity to Confuse, Sleep, Paralyze and Antiheal for 3 turns",+4 Attack Power
+577,49,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
+578,49,Rubble,Earth,7,100%,A simple Earth attack,+1 Attack Power
+579,49,Poke,Physical,7,100%,A simple Physical attack,+1 Attack Power
+580,49,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+581,49,Amethwack,Earth,10,100%,An average Earth attack,+3 Attack Power
+582,49,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
+583,49,Stalactite,Earth,15,100%,A powerful Earth attack,+3 Attack Power
+584,49,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
+585,49,Earthquake,Earth,30,95%,A more than massively powerful Earth attack,+5% Accuracy
+586,49,Intimidation,Utility,0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
+587,49,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
+588,49,Pincer Quake,Earth,29,100%,"A massively powerful Earth attack that grants immunity to Confuse, Sleep, Paralyze and Antiheal for 3 turns",+4 Attack Power
 589,50,Zap,Lightning,7.0,100%,A simple Lightning attack,+1 Attack Power
 590,50,Toughen Up,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
 591,50,Slap,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
@@ -824,7 +824,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 823,70,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 824,70,Reap,Nature,15,95%,A powerful Nature attack,Replenishes 5 Health
 825,70,Intimidation,Utility,0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
-826,70,Dark Trip,Utility,0,70%,Puts your foe to Sleep for 2 turns and Paralyzes the user for 1 turn. 5 turns cooldown,+5% Accuracy
+826,70,Dark Trip,Utility,0,95%,Puts your foe to Sleep for 2 turns and Paralyzes the user for 1 turn. 5 turns cooldown,+5% Accuracy
 827,70,Scythe of Styx,Physical,25,100%,A more than massively powerful Physical attack that lowers your foe's defenses by 8,+2 Attack Power
 828,70,Headless Hollow,Nature,30,95%,A more than massively powerful Nature attack that steals 12 HP from foe,+5% Accuracy
 829,72,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
@@ -1053,8 +1053,8 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1052,94,Spring Shower,Water,15,95%,A powerful Water attack,+3 Attack Power
 1053,94,Thump,Physical,20,95%,A very powerful Physical attack,Replenishes 5 Health
 1054,94,Geyser,Water,20,95%,A very powerful Water attack,+4 Attack Power
-1055,94,Symbiosis,Utility,0,95%,Grants 10 healing for 3 turns to the user and foe,+5% Accuracy
-1056,94,Dark Rip Tide,Water,29,100%,A massively powerful Water attack that inflicts Anti-heal for 3 turns,+6 Attack Power
+1055,94,Symbiosis,Utility,0,95%,Grants 15 healing for 2 turns to the user and foe,+5% Accuracy
+1056,94,Dark Rip Tide,Water,29,100%,A massively powerful Water attack that inflicts Anti-heal for 3 turns and grants immunity to Antiheal for 3 turns,+6 Attack Power
 1057,95,Burn,Fire,7,100%,A simple Fire attack,+1 Attack Power
 1058,95,Weaken,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 1059,95,Headbutt,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1181,11 +1181,11 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1180,121,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 1181,121,Rosy Riot,Nature,10,100%,An average Nature attack,+2 Attack Power
 1182,121,Max Power,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
-1183,121,Claw,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+1183,121,Bloom,Nature,15,95%,A powerful Nature attack,Replenishes 5 Health
 1184,121,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
 1185,121,Bask,Utility,0,100%,Regains a significant amount of your health,+5 Heal
 1186,121,Wallop,Physical,20,95%,A very powerful Physical attack,+4 Attack Power
-1187,121,Heal Miracle,Utility,0,90%,Regains a significant amount of your health. 3 turns cooldown,+10 Heal
+1187,121,Heal Miracle,Utility,0,100%,Regains a significant amount of your health. 3 turns cooldown,+10 Heal
 1188,121,Berry Blast,Nature,28,100%,A massively powerful Nature attack that inflicts Switch Curse,+4 Attack Power
 1189,124,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
 1190,124,Leaves,Nature,7,100%,A simple Nature attack,+1 Attack Power
@@ -1210,7 +1210,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1209,125,Geyser,Water,20,95%,A very powerful Water attack,+4 Attack Power
 1210,125,Unbreakable,Utility,0,100%,Raises your Defenses by 11,+3 to Buff
 1211,125,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
-1212,125,Water Rattle,Water,5,95%,A simple Water attack that hits 6 times and applies Barbed,+5% Accuracy
+1212,125,Water Rattle,Water,26,95%,A massively powerful Water attack that applies Barbed,+5 Attack Power
 1213,133,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 1214,133,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
 1215,133,Slap,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1445,12 +1445,12 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1444,197,Oil Fire,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
 1445,197,Toothy Torch,Fire,10,100%,An average Fire attack,+2 Attack Power
 1446,197,Max Power,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
-1447,197,Claw,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+1447,197,Campfire,Fire,15,95%,A powerful Fire attack,+3 Attack Power
 1448,197,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
-1449,197,Brimstone,Fire,20,95%,A very powerful Fire attack,+2 Attack Power
+1449,197,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
 1450,197,Toxic,Utility,0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
 1451,197,Unbreakable,Utility,0,100%,Raises your Defenses by 11,+3 to Buff
-1452,197,Ruff Rush,Physical,25,100%,A massively powerful Physical attack that inflicts 8 AP Physical Dot for 3 turns,+3 Attack Power
+1452,197,Ruff Rush,Physical,27,100%,A massively powerful Physical attack that inflicts 8 AP Physical Dot for 3 turns,+3 Attack Power
 1453,200,Cinders,Fire,7,100%,A simple Fire attack,+1 Attack Power
 1454,200,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 1455,200,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1564,13 +1564,13 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1563,223,Bite,Physical,7,100%,A simple Physical attack,+1 Attack Power
 1564,223,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
 1565,223,Spooky Strike,Lightning,12,100%,An average Lightning attack,Replenishes 5 Health
-1566,223,Toxic,Utility,0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
+1566,223,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
 1567,223,Cursed Claws,Utility,0,90%,Inflicts Bleed on your foe for 5 turns,+1 Turn
 1568,223,Electrify,Lightning,15,95%,A powerful Lightning attack,+3 Attack Power
 1569,223,Thump,Physical,20,95%,A very powerful Physical attack,Replenishes 5 Health
 1570,223,Hyper Power,Utility,0,100%,Raises your Attacks by 12,+2 to Buff
-1571,223,Monster Knuckle,Physical,30,90%,A more than massively powerful Physical attack that inflicts Stats Chaos. 2 turns cooldown,+10% Accuracy
-1572,223,Brainy Bolts,Lightning,30,100%,A more than massively powerful Lightning attack that steals 8 HP from foe. 2 turns cooldown,+5 Attack Power
+1571,223,Monster Knuckle,Physical,29,90%,A massively powerful Physical attack that inflicts Switch Curse. 2 turns cooldown,+10% Accuracy
+1572,223,Brainy Bolts,Lightning,30,100%,A more than massively powerful Lightning attack that steals 12 HP from foe. 2 turns cooldown,+5 Attack Power
 1573,226,Sprinkle,Water,7,100%,A simple Water attack,+1 Attack Power
 1574,226,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
 1575,226,Smack,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1578,11 +1578,11 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1577,226,Foil Fin Slosh,Water,13,100%,An average Water attack,+3 Attack Power
 1578,226,Whammy,Physical,10,100%,An average Physical attack,+2 Attack Power
 1579,226,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
-1580,226,Spring Shower,Water,15,95%,A powerful Water attack,+3 Attack Power
-1581,226,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+1580,226,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+1581,226,Geyser,Water,20,95%,A very powerful Water attack,+4 Attack Power
 1582,226,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
 1583,226,Debilitate,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-1584,226,Foil Quack Attack,Water,28,95%,A massively powerful Water attack that inflicts 8 AP Water DoT for 2 turns and provides 10 Block,+5% Accuracy
+1584,226,Foil Quack Attack,Water,30,95%,A more than massively powerful Water attack that inflicts 6 AP Water DoT for 2 turns and provides 10 Block,+5% Accuracy
 1585,227,Crumble,Earth,7,100%,A simple Earth attack,+1 Attack Power
 1586,227,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 1587,227,Swipe,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1592,8 +1592,8 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1591,227,Merciless,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
 1592,227,Strike,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 1593,227,Sandstorm,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
-1594,227,Landslide,Earth,20,95%,A very powerful Earth attack,+4 Attack Power
-1595,227,Shield Mutation,Utility,0,--,Raises your Attacks and Defenses by 15. (1 Use),+5 to Buff
+1594,227,Earthquake,Earth,30,95%,A more than massively powerful Earth attack,+5% Accuracy
+1595,227,Shield Mutation,Utility,0,--,"Raises your Attacks, Defenses and Accuracy by 15. (1 Use)",+5 to Buff
 1596,227,Foil Tectonic Shift,Physical,28,100%,A massively powerful Physical attack that heals yourself by 10 HP and provides 10 Block,+3 Attack Power
 1597,230,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
 1598,230,Flash,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
@@ -1639,10 +1639,10 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1638,248,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
 1639,248,Get Pumped,Utility,0,100%,Raises your Attacks by 10,+2 to Buff
 1640,248,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
-1641,248,Majestic,Physical,20,95%,A very powerful Physical attack,+5 Attack Power
+1641,248,Majestic,Lightning,20,95%,A very powerful Lightning attack that heals yourself by 5 HP,+5% Accuracy
 1642,248,Zeroed In,Utility,0,100%,Raises your Physical Defense by 14,+3 to Buff
-1643,248,Pow,Physical,12,100%,Inflicts Physical damage over 3 turns,+1 Attack Power
-1644,248,Yankee Doodle,Lightning,30,100%,A more than massively powerful Lightning attack that increases your Defenses by 7 and heals yourself by 7 HP,+3 Attack Power
+1643,248,Pow,Lightning,11,90%,An average Lightning attack that inflicts 11 AP Lightning DoT for 2 turns. 2 turns cooldown,+10% Accuracy
+1644,248,Yankee Doodle,Lightning,30,100%,A more than massively powerful Lightning attack that raises your Defenses by 7 and heals yourself by 7 HP,+2 Attack Power
 1645,312,Crumble,Earth,7,100%,A simple Earth attack,+1 Attack Power
 1646,312,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 1647,312,Headbutt,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1898,15 +1898,15 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1897,433,Burn,Fire,7,100%,A simple Fire attack,+1 Attack Power
 1898,433,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
 1899,433,Smack,Physical,7,100%,A simple Physical attack,+1 Attack Power
-1900,433,Complete Confusion,Utility,0,40%,Confuses your foe so that they may attack themselves for 3 turns,+20% chance of Stats Chaos
+1900,433,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
 1901,433,Blighted Fire Flight,Fire,13,100%,An average Fire attack,+3 Attack Power
 1902,433,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
 1903,433,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
-1904,433,Campfire,Fire,15,95%,A powerful Fire attack,+3 Attack Power
-1905,433,Debilitate,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-1906,433,Brimstone,Fire,20,95%,A very powerful Fire attack,+2 Attack Power
-1907,433,Blighted Blocker,Utility,0,100%,Raises your Physical Defense by 18,+3 to Buff
-1908,433,Blighted Bash,Physical,12,95%,An average Physical attack that hits 3 times that also inflicts 12 fixed damage and grants immunity to Sleep for 5 turns,+5% Accuracy
+1904,433,Debilitate,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
+1905,433,Brimstone,Fire,20,95%,A very powerful Fire attack,+2 Attack Power
+1906,433,Thump,Physical,20,95%,A very powerful Physical attack,Replenishes 5 Health
+1907,433,Blighted Blocker,Utility,0,95%,Provides 25 Block to user,+5% Accuracy
+1908,433,Blighted Bash,Physical,11,105%,An average Physical attack that hits 3 times that also inflicts 12 fixed damage and grants immunity to Sleep for 5 turns,+1 Attack Power
 1909,438,Spark,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
 1910,438,Leaves,Nature,7,100%,A simple Nature attack,+1 Attack Power
 1911,438,Bite,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -1922,15 +1922,15 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1921,451,Sprinkle,Water,7,100%,A simple Water attack,+1 Attack Power
 1922,451,Zap,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
 1923,451,Shove,Physical,7,100%,A simple Physical attack,+1 Attack Power
-1924,451,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
+1924,451,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 1925,451,Light Aqua Pura,Water,11,100%,An average Water attack,+2 Attack Power
 1926,451,Impact,Physical,10,100%,An average Physical attack,+2 Attack Power
-1927,451,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
+1927,451,Spring Shower,Water,15,95%,A powerful Water attack,+3 Attack Power
 1928,451,Electrify,Lightning,15,95%,A powerful Lightning attack,+3 Attack Power
 1929,451,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
-1930,451,Storm,Water,20,95%,A very powerful Water attack,+4 Attack Power
-1931,451,Fulminating Chomp,Lightning,26,100%,A massively powerful Lightning attack that applies Barbed,+2 Attack Power
-1932,451,Light Beaver Storm,Water,25,100%,"A massively powerful Water attack that grants immunity to Sleep, Paralyze, and Confuse for 3 turns",+5 Attack Power
+1930,451,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
+1931,451,Fulminating Chomp,Lightning,28,100%,"A massively powerful Lightning attack that grants immunity to Sleep, Confuse, and Paralyze for 3 turns",+2 Attack Power
+1932,451,Light Beaver Storm,Water,28,100%,A massively powerful Water attack with a 40% chance to Confuse foe for 1 turn,+5 Attack Power
 1933,456,Spray,Water,7,100%,A simple Water attack,+1 Attack Power
 1934,456,Debaser,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 1935,456,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2170,7 +2170,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2169,511,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
 2170,511,Geyser,Water,20,95%,A very powerful Water attack,+4 Attack Power
 2171,511,Sludge,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-2172,511,Dark Tentacle Tide,Water,9,100%,A simple Water attack that hits 3 times and inflicts 10 AP Poison for 3 turns,+1 Attack Power
+2172,511,Dark Tentacle Tide,Water,9,100%,A simple Water attack that hits 3 times and inflicts 8 AP Poison for 3 turns,+1 Attack Power
 2173,512,Sprinkle,Water,7,100%,A simple Water attack,+1 Attack Power
 2174,512,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
 2175,512,Smack,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2217,8 +2217,8 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2216,515,Feebler,Utility,0,100%,Lowers your foe's Defenses by 8,+2 to Debuff
 2217,515,Cyclone,Wind,20,95%,A very powerful Wind attack,+4 Attack Power
 2218,515,Merlin's Beard,Utility,0,100%,Raises your Elemental Attack by 14,+3 to Buff
-2219,515,Lali-Ho,Physical,30,85%,Deals 30 fixed damage,+10% Accuracy
-2220,515,Dark Billowing Bash,Wind,25,100%,A massively powerful Wind attack with a 40% chance to put foe to Sleep for 1 turn,+4 Attack Power
+2219,515,Lali-Ho,Physical,30,90%,Deals 30 fixed damage,+10% Accuracy
+2220,515,Dark Billowing Bash,Wind,28,100%,A massively powerful Wind attack with a 40% chance to put foe to Sleep for 1 turn,+4 Attack Power
 2221,516,Cinders,Fire,7,100%,A simple Fire attack,+1 Attack Power
 2222,516,Zap,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
 2223,516,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2258,11 +2258,11 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2257,519,Burn,Fire,7,100%,A simple Fire attack,+1 Attack Power
 2258,519,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
 2259,519,Smack,Physical,7,100%,A simple Physical attack,+1 Attack Power
-2260,519,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+2260,519,High Focus,Utility,0,100%,Raises your Accuracy by 10%,Replenishes 5 Health
 2261,519,Light Scorcher,Fire,12,100%,An average Fire attack,+2 Attack Power
 2262,519,Walls,Utility,0,100%,Raises your Physical Defense by 10,+2 to Buff
 2263,519,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
-2264,519,Lockdown,Utility,0,90%,"Paralyzes both the user and foe for 15 turns, and inflicts 5 AP Physical DoT on foe for 15 turns",+10% Accuracy
+2264,519,Lockdown,Utility,0,90%,"Paralyzes both the user and foe for 15 turns, and inflicts Antiheal on foe for 5 turns",+10% Accuracy
 2265,519,Wallop,Physical,20,95%,A very powerful Physical attack,+4 Attack Power
 2266,519,Passion,Fire,20,95%,A very powerful Fire attack,+5 Attack Power
 2267,519,Light Recovery,Utility,0,100%,Regains a significant amount of your health. 2 turns cooldown,+5 Heal
@@ -2311,10 +2311,10 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2310,523,Toxic,Utility,0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
 2311,523,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
 2312,523,Stilled,Utility,0,100%,Lowers your foe's Elemental Attack by 13,+3 to Debuff
-2313,523,Voltage,Lightning,20,95%,A very powerful Lightning attack,+4 Attack Power
+2313,523,Plasma Pulse,Lightning,7,95%,A simple Lightning attack that hits 4 times,+5% Accuracy
 2314,523,Hard Jab,Physical,20,95%,A very powerful Physical attack,+4 Attack Power
 2315,523,Unbreakable,Utility,0,100%,Raises your Defenses by 11,+3 to Buff
-2316,523,Light Sparkler,Lightning,28,100%,"A massively powerful Lightning attack that grants immunity to Sleep, Confuse, Paralyze and Antiheal for 3 turns",+4 Attack Power
+2316,523,Light Sparkler,Lightning,29,100%,"A massively powerful Lightning attack that grants immunity to Sleep, Confuse, Paralyze and Antiheal for 3 turns",+4 Attack Power
 2317,524,Sprinkle,Water,7,100%,A simple Water attack,+1 Attack Power
 2318,524,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
 2319,524,Headbutt,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2630,14 +2630,14 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2629,550,Breeze,Wind,7,100%,A simple Wind attack,+1 Attack Power
 2630,550,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
 2631,550,Poke,Physical,7,100%,A simple Physical attack,+1 Attack Power
-2632,550,Sweet Lullaby,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+2632,550,High Focus,Utility,0,100%,Raises your Accuracy by 10%,Replenishes 5 Health
 2633,550,Dadaism,Wind,13,100%,An average Wind attack,Replenishes 5 Health
 2634,550,Merciless,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
 2635,550,Strike,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 2636,550,Lightning Rod,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
 2637,550,Meditate,Utility,0,95%,Recovers a fair amount of your health and grants immunity to Sleep and Confuse for 5 turns,+5% Accuracy
-2638,550,Fresh Coat,Utility,0,--,A move that heals for 2 turns and Cleanses user,+1 Round
-2639,550,Fresco,Wind,32,95%,A more than massively powerful Wind attack that provides 10 Block,+5% Accuracy
+2638,550,Fresh Coat,Utility,0,100%,A move that heals for 3 turns,+1 Round
+2639,550,Fresco,Wind,32,95%,A more than massively powerful Wind attack that provides 15 Block and Cleanses user,+5% Accuracy
 2640,550,Repaint,Physical,32,95%,A more than massively powerful Physical attack that Purges foe,+5% Accuracy
 2641,551,Sprinkle,Water,7,100%,A simple Water attack,+1 Attack Power
 2642,551,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
@@ -2706,11 +2706,11 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2705,556,Shockz,Lightning,13,100%,An average Lightning attack,+40% chance of Surprise
 2706,556,Slash,Physical,10,100%,An average Physical attack,+2 Attack Power
 2707,556,Feebler,Utility,0,100%,Lowers your foe's Defenses by 8,+2 to Debuff
-2708,556,Thunderstorm,Lightning,3,90%,A simple Lightning attack that hits 7 times,+10% Accuracy
-2709,556,Deep Sleep,Utility,0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
+2708,556,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+2709,556,Voltage,Lightning,20,95%,A very powerful Lightning attack,+4 Attack Power
 2710,556,Juggler's Gains,Utility,0,100%,A move that heals for 3 turns,+1 Round
 2711,556,Endless Trick,Physical,2,--,"A simple Physical attack that attempts to hit up to 8 times, lowering in Accuracy but increasing by 1 AP with each hit!",+1 Repeat
-2712,556,Starshow Finale,Lightning,33,95%,A more than massively powerful Lightning attack that raises your Attacks and Defenses by 7,+5% Accuracy
+2712,556,Starshow Finale,Lightning,34,95%,A more than massively powerful Lightning attack that raises your Attacks and Defenses by 7 and heals yourself by 7 HP,+5% Accuracy
 2713,557,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
 2714,557,Shy Smile,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 2715,557,Headbutt,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2722,7 +2722,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2721,557,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
 2722,557,Cyclone,Wind,20,95%,A very powerful Wind attack,+4 Attack Power
 2723,557,Bright Lights,Utility,0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
-2724,557,Mist Blast,Wind,28,90%,A massively powerful Wind attack that Purges foe,+10% Accuracy
+2724,557,Mist Blast,Wind,32,90%,A more than massively powerful Wind attack that Purges foe,+10% Accuracy
 2725,558,Crumble,Earth,7,100%,A simple Earth attack,+1 Attack Power
 2726,558,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
 2727,558,Headbutt,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2815,8 +2815,8 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2814,565,Fist Pump,Utility,0,100%,Raises your Physical Attack by 10,+2 to Buff
 2815,565,Claw,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 2816,565,Acid Burn,Fire,13,80%,Inflicts Fire damage over 3 turns,+10% Accuracy
-2817,565,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
-2818,565,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
+2817,565,Unbreakable,Utility,0,100%,Raises your Defenses by 11,+3 to Buff
+2818,565,Wallop,Physical,20,95%,A very powerful Physical attack,+4 Attack Power
 2819,565,Balefire,Fire,25,90%,A massively powerful Fire attack,+10% Accuracy
 2820,565,Rawr,Physical,27,100%,A massively powerful Physical attack that Paralyzes foe for 2 turns,+5 Attack Power
 2821,566,Cinders,Fire,7,100%,A simple Fire attack,+1 Attack Power
@@ -2967,12 +2967,12 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2966,578,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
 2967,578,Smack,Physical,7,100%,A simple Physical attack,+1 Attack Power
 2968,578,Lull,Utility,0,100%,Removes your elemental weakness with a 40% chance to put foe to Sleep for 1 turn,Replenishes 5 Health
-2969,578,Wormhole,Wind,13,90%,An average Wind attack with a 40% chance to Force Switch your foe,+10% Accuracy
+2969,578,Wormhole,Wind,13,100%,An average Wind attack,+30% chance of Stats Surge
 2970,578,Ultra Focus,Utility,0,95%,Recovers a fair amount of your health and grants immunity to Sleep and Confuse for 5 turns,+5% Accuracy
 2971,578,Engulf,Fire,15,95%,A powerful Fire attack,+3 Attack Power
 2972,578,Well Rounded,Utility,0,90%,Raises your Attacks and Defenses by 8,+10% Accuracy
 2973,578,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
-2974,578,Auto Accretion,Utility,0,90%,A move that heals for 5 turns,+10% Accuracy
+2974,578,Auto Accretion,Utility,0,90%,A move that heals for 4 turns,+10% Accuracy
 2975,578,Sub-Kelvin Cyclone,Wind,29,100%,"A massively powerful Wind attack that continuously lowers foe's Attacks, Defenses and Speed for 2 turns",+4 Attack Power
 2976,578,Singularity,Fire,29,100%,A massively powerful Fire attack that continuously grants Stats Surge to user for 3 turns,+4 Attack Power
 2977,579,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
@@ -3130,7 +3130,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 3129,591,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 3130,591,Impenetrable,Utility,0,100%,Continuously raises your Defenses by 6 for 3 turns,+1 to Buff
 3131,591,Mudslide,Earth,25,90%,A massively powerful Earth attack,+10% Accuracy
-3132,591,Subsuming Blaze,Fire,25,95%,A massively powerful Fire attack that grants 8 healing for 2 turns,+2 Attack Power
+3132,591,Subsuming Blaze,Fire,25,100%,A massively powerful Fire attack that grants 8 healing for 2 turns,+2 Attack Power
 3133,592,Cinders,Fire,7,100%,A simple Fire attack,+1 Attack Power
 3134,592,Weaken,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 3135,592,Slap,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -3190,7 +3190,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 3189,596,Rock Throw,Earth,20,90%,A very powerful Earth attack,+10% Accuracy
 3190,596,Hyper Power,Utility,0,100%,Raises your Attacks by 12,+2 to Buff
 3191,596,Hydro,Water,25,95%,A massively powerful Water attack,+4 Attack Power
-3192,596,Crater,Earth,29,95%,A massively powerful Earth attack that inflicts Switch Curse,+2 Attack Power
+3192,596,Crater,Earth,29,100%,A massively powerful Earth attack that inflicts Switch Curse,+2 Attack Power
 3193,597,High Focus,Utility,0,100%,Raises your Accuracy by 10%,Replenishes 5 Health
 3194,597,Rubble,Earth,7,100%,A simple Earth attack,+1 Attack Power
 3195,597,Hit,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -3199,9 +3199,9 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 3198,597,Max Power,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
 3199,597,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 3200,597,Stalactite,Earth,15,100%,A powerful Earth attack,+3 Attack Power
-3201,597,Terrain Advantage,Utility,0,--,"Recovers a fair amount of your health, Paralyzes foe for 1 turn and forces you to switch. (1 Use)",+5 Heal
+3201,597,Terrain Advantage,Utility,0,--,"Recovers a fair amount of your health, Paralyzes foe for 1 turn and forces you to switch",+5 Heal
 3202,597,Painful Glare,Physical,16,90%,Inflicts Physical damage over 2 turns and Purges foe,+10% Accuracy
-3203,597,Contained Crush,Earth,30,100%,A more than massively powerful Earth attack that steals 10 HP from foe,+2 Attack Power
+3203,597,Contained Crush,Earth,31,100%,A more than massively powerful Earth attack that steals 10 HP from foe,+2 Attack Power
 3204,597,Meteor Storm,Physical,8,100%,A simple Physical attack that hits 4 times with a 75% chance for an additional 10 AP Physical attack,+1 Attack Power
 3205,598,Burn,Fire,7,100%,A simple Fire attack,+1 Attack Power
 3206,598,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff

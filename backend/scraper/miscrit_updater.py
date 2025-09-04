@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from miscrit_scraper import miscrit_info
+from miscrit_scraper import miscrit_info, convert_status_effects
 from miscrit_move import scrape_moves_info
 
 
@@ -12,8 +12,8 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits =[]
-
+miscrits =['Babakku', 'Bunplop']
+        
 
 def miscrit_id_finder(miscrits: list) -> str:
     crit_ids = []
@@ -32,6 +32,9 @@ def miscrit_updater(crit_ids: list):
         miscrit_data = miscrit_info(i)
         miscrit_id = miscrit_data['Miscrit_ID']
         abilities = miscrit_data['Abilities']  # Used only for scraping moves
+        if 'Status Effects' in miscrit_data:
+            miscrit_data['Status Effects'] = convert_status_effects(miscrit_data['Status Effects'])
+        
         print(f"\n[INFO] Updating Miscrit: {miscrit_data['Name']} (ID: {miscrit_id})")
 
         # Remove 'Abilities' before saving to miscrit_df
@@ -100,5 +103,6 @@ def miscrit_updater(crit_ids: list):
     print("\n[INFO] Miscrit and Moves data saved.")
 
 if __name__ == "__main__":
-    crit_ids = miscrit_id_finder(miscrits)
+    #crit_ids = miscrit_id_finder(miscrits)
+    crit_ids = [5, 29, 37, 115, 200, 587]
     miscrit_updater(crit_ids)

@@ -4,39 +4,43 @@ import numbers
 miscrit_path = r'D:\miscrits_nexus\data\miscrit_database.csv'
 moves_path = r'D:\miscrits_nexus\data\moves_database.csv'
 
-miscrit_df = pd.read_csv(miscrit_path)
-moves_df = pd.read_csv(moves_path)
-
 def database_checker(df: pd.DataFrame, expected_types: dict = None):
-    errors = []
+    issues = []
 
     # Null or Empty Checker
     is_null_or_empty = df.isnull() | (df.astype(str).map(str.strip) == "")
-    null_or_empty_rows = df[is_null_or_empty.any(axis=1)].index
-    if not null_or_empty_rows.empty:
-        errors.append(("Null or Empty Values", null_or_empty_rows.tolist()))
+    for column in df.columns:
+        # Skip Status Effects column for null checks since None is valid
+        if column == 'Status Effects':
+            continue
+        null_rows = df[is_null_or_empty[column]]
+        if not null_rows.empty:
+            issues.append((f"Empty/Null values in '{column}'", null_rows['Miscrit_ID'].tolist()))
 
     # Duplicate Checker
-    duplicate_rows = df[df.duplicated()].index
+    duplicate_rows = df[df.duplicated()]
     if not duplicate_rows.empty:
-        errors.append(("Duplicate Rows", duplicate_rows.tolist()))
+        issues.append(("Duplicate Entries", duplicate_rows['Miscrit_ID'].tolist()))
 
     # Data Type Checker
     if expected_types:
-        wrong_type_rows = pd.Series([False] * len(df), index=df.index)
         for col, expected_type in expected_types.items():
             if col in df.columns:
-                if expected_type == int:
+                if col == 'Status Effects':
+                    # Special handling for Status Effects to allow None values
+                    wrong_type_mask = ~df[col].apply(lambda x: isinstance(x, str) or pd.isna(x))
+                elif expected_type == int:
                     wrong_type_mask = ~df[col].apply(lambda x: pd.api.types.is_integer(x) or (isinstance(x, numbers.Number) and float(x).is_integer()))
                 elif expected_type == float:
                     wrong_type_mask = ~df[col].apply(lambda x: isinstance(x, numbers.Number))
                 else:
                     wrong_type_mask = ~df[col].apply(lambda x: isinstance(x, expected_type))
-                wrong_type_rows |= wrong_type_mask
-        if wrong_type_rows.any():
-            errors.append(("Wrong Data Types", df[wrong_type_rows].index.tolist()))
+                
+                wrong_type_rows = df[wrong_type_mask]
+                if not wrong_type_rows.empty:
+                    issues.append((f"Wrong type in '{col}' (expected {expected_type.__name__})", wrong_type_rows['Miscrit_ID'].tolist()))
 
-    return errors
+    return issues
 
 def check_miscrit_move_count(moves_df: pd.DataFrame, expected_count: int = 12):
     """
@@ -75,7 +79,7 @@ expected_types_miscrit = {
     "Elemental Defense": int,
     "Physical Attack": int,
     "Physical Defense": int,
-    "Status Effects": str,
+    "Status Effects": str,  # Changed from str or None to just str since we handle None separately
     "Image_Name": str
 }
 
@@ -90,12 +94,69 @@ expected_types_moves = {
     "Enchant": str
 }
 
-check_miscrit_move_count(moves_df,12)
+def check_status_effect_abbreviations(df: pd.DataFrame) -> list:
+    """
+    Checks for abbreviated status effects in the Status Effects column
+    Returns a list of rows with abbreviated forms
+    """
+    abbreviations = {
+        "Hot": "Heal over Time",
+        "Dot": "Damage over Time",
+        "SI": "Sleep Immunity",
+        "CI": "Confuse Immunity",
+        "PI": "Paralyze Immunity",
+        "AI": "Antiheal Immunity",
+        "A I": "Antiheal Immunity"
+    }
+    
+    issues = []
+    valid_status_rows = df[~df['Status Effects'].isna() & (df['Status Effects'] != '')]
+    
+    for _, row in valid_status_rows.iterrows():
+        effects = [effect.strip() for effect in str(row['Status Effects']).split(',')]
+        for effect in effects:
+            if effect and effect in abbreviations:
+                issues.append({
+                    'miscrit_id': row['Miscrit_ID'],
+                    'name': row['Name'],
+                    'found': effect,
+                    'should_be': abbreviations[effect]
+                })
+    
+    return issues
 
-issues = database_checker(moves_df, expected_types_moves)
+def main():
+    # Load DataFrames
+    miscrit_df = pd.read_csv(miscrit_path)
+    moves_df = pd.read_csv(moves_path)
 
-if not issues:
-    print("✅ No issues found in the Miscrit database.")
-else:
-    for issue_type, rows in issues:
-        print(f"❌ {issue_type} found in rows: {rows}")
+    print("\n=== Checking Miscrit Move Count ===")
+    check_miscrit_move_count(moves_df, 12)
+
+    print("\n=== Checking Moves Database ===")
+    moves_issues = database_checker(moves_df, expected_types_moves)
+    if not moves_issues:
+        print("✅ No issues found in the Moves database.")
+    else:
+        for issue_type, rows in moves_issues:
+            print(f"❌ {issue_type} found in ids: {rows}")
+
+    print("\n=== Checking Miscrit Database ===")
+    miscrit_issues = database_checker(miscrit_df, expected_types_miscrit)
+    if not miscrit_issues:
+        print("✅ No issues found in the Miscrit database.")
+    else:
+        for issue_type, rows in miscrit_issues:
+            print(f"❌ {issue_type} found in ids: {rows}")
+
+    print("\n=== Checking for Status Effect Abbreviations ===")
+    abbreviated_effects = check_status_effect_abbreviations(miscrit_df)
+    if abbreviated_effects:
+        print("❌ Found abbreviated status effects:")
+        for issue in abbreviated_effects:
+            print(f"   Miscrit ID {issue['miscrit_id']}: {issue['name']} - '{issue['found']}' should be '{issue['should_be']}'")
+    else:
+        print("✅ No abbreviated status effects found.")
+
+if __name__ == "__main__":
+    main()
