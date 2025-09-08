@@ -26,9 +26,12 @@ def print_rich_table(df, title, max_rows=10):
 
 
 # Read 'miscrits' table
-miscrit_df = pd.read_sql("SELECT * FROM miscrits", engine)
+miscrit_df = pd.read_sql("SELECT * FROM miscrits LIMIT 5", engine)
 print_rich_table(miscrit_df, "Miscrit Database")
 
 # Read 'moves' table
-moves_df = pd.read_sql("SELECT * FROM moves", engine)
+moves_df = pd.read_sql("SELECT * FROM moves LIMIT 5", engine)
 print_rich_table(moves_df, "Moves Database")
+
+relics_df = pd.read_sql("SELECT * FROM relics LIMIT 5", engine)
+print_rich_table(relics_df, "Relics Database")
