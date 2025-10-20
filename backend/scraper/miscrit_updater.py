@@ -12,7 +12,12 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits =['Babakku', 'Bunplop']
+miscrits =['Fiender', 'Blighted Fiender', 'Light Tectonyx', 'Flurrious', 'Bubbles', 'Mun Kee', 'Ursiwave'] 
+        #    'Pillblaze', 'Dark Pillblaze', 'Lumera', 'Babakku', 'Pollifog', 'Lavazard', 'Dark Shellbee', 'Light Grubbean', 
+        #    'Narlope', 'Eclipso', 'Skelepup', 'Slithero', 'Flowerpiller', 'Snortus', 'Waddles', 'Frostmite', 'Kiloray', 
+        #    'Equestrion', 'Aria', 'Jack', 'Snorkels', 'Dark Croaky', 'Dark Snortus', 'Boltzee', 'Dark Breezychecks', 
+        #    'Nibbles', 'Shurikoon', 'Raldio', 'Nanaslug', 'Light Nibbles', 'Dark Aria', 'Zappup', 'Sparkitten', 'Owlie', 
+        #    'Humbug', 'Dark Squibee', 'Drilldent', 'Beateorite', 'Light Zaptor', 'Dark Flue', 'Fennie', 'Mooncrit', 'Dark Nessy', 'Hippoke']
         
 
 def miscrit_id_finder(miscrits: list) -> str:
@@ -103,6 +108,5 @@ def miscrit_updater(crit_ids: list):
     print("\n[INFO] Miscrit and Moves data saved.")
 
 if __name__ == "__main__":
-    #crit_ids = miscrit_id_finder(miscrits)
-    crit_ids = [5, 29, 37, 115, 200, 587]
+    crit_ids = miscrit_id_finder(miscrits)
     miscrit_updater(crit_ids)
