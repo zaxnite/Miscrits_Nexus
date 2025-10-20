@@ -12,10 +12,8 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits =['Narlope', 'Eclipso', 'Skelepup', 'Slithero', 'Flowerpiller', 'Snortus', 'Waddles', 'Frostmite', 'Kiloray'] 
-        #    'Equestrion', 'Aria', 'Jack', 'Snorkels', 'Dark Croaky', 'Dark Snortus', 'Boltzee', 'Dark Breezychecks', 
-        #    'Nibbles', 'Shurikoon', 'Raldio', 'Nanaslug', 'Light Nibbles', 'Dark Aria', 'Zappup', 'Sparkitten', 'Owlie', 
-        #    'Humbug', 'Dark Squibee', 'Drilldent', 'Beateorite', 'Light Zaptor', 'Dark Flue', 'Fennie', 'Mooncrit', 'Dark Nessy', 'Hippoke']
+miscrits =['Humbug', 'Dark Squibee', 'Drilldent', 'Beateorite', 'Light Zaptor', 'Dark Flue', 'Fennie', 'Mooncrit', 'Dark Nessy', 'Hippoke'] 
+
         
 
 def miscrit_id_finder(miscrits: list) -> str:
