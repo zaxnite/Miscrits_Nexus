@@ -119,18 +119,18 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 118,10,Passion,Fire,20.0,95%,A very powerful Fire attack,+5 Attack Power
 119,10,Bright Lights,Utility,0.0,95%,Lowers your foe's Accuracy by 10%,+5% Accuracy
 120,10,Wicked Flames,Fire,17.0,95%,A powerful Fire attack that hits two times,+5% Accuracy
-121,11,Cinders,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
-122,11,Shields Up,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
-123,11,Poison,Utility,0.0,95%,"Poisons your foe, causing 5 damage for 3 turns",+1 Attack Power
-124,11,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-125,11,Flame Tail,Fire,10.0,100%,An average Fire attack,+2 Attack Power
-126,11,Max Power,Utility,0.0,100%,Raises your Attacks by 9,+2 to Buff
-127,11,Claw,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
-128,11,Unbreakable,Utility,0.0,100%,Raises your Defenses by 11,+3 to Buff
-129,11,Brimstone,Fire,20.0,95%,A very powerful Fire attack,+2 Attack Power
-130,11,Thump,Physical,20.0,95%,A very powerful Physical attack,Replenishes 5 Health
-131,11,Deep Sleep,Utility,0.0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
-132,11,Growlferno,Fire,40.0,90%,An inmensely powerful Fire attack. 2 turns cooldown,+10% Accuracy
+121,11,Cinders,Fire,7,100%,A simple Fire attack,+1 Attack Power
+122,11,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
+123,11,Poison,Utility,0,95%,"Poisons your foe, causing 5 damage for 3 turns",+1 Attack Power
+124,11,Bite,Physical,7,100%,A simple Physical attack,+1 Attack Power
+125,11,Flame Tail,Fire,10,100%,An average Fire attack,+2 Attack Power
+126,11,Max Power,Utility,0,100%,Raises your Attacks by 9,+2 to Buff
+127,11,Claw,Physical,15,95%,A powerful Physical attack,+3 Attack Power
+128,11,Unbreakable,Utility,0,100%,Raises your Defenses by 11,+3 to Buff
+129,11,Brimstone,Fire,20,95%,A very powerful Fire attack,+2 Attack Power
+130,11,Thump,Physical,20,95%,A very powerful Physical attack,Replenishes 5 Health
+131,11,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+132,11,Growlferno,Fire,42,90%,An inmensely powerful Fire attack. 2 turns cooldown,+10% Accuracy
 133,12,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 134,12,Leaves,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
 135,12,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
@@ -1324,12 +1324,12 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1323,155,Slap,Physical,7,100%,A simple Physical attack,+1 Attack Power
 1324,155,Power Up,Utility,0,100%,Raises your Attacks by 5,+1 to Buff
 1325,155,Fishy Flurry,Wind,10,100%,An average Wind attack,+2 Attack Power
-1326,155,Sleep Immune,Utility,0,100%,Makes the user immune to Sleep for 5 turns that heals yourself by 5 HP,+1 Turn
+1326,155,Lightning Rod,Utility,0,100%,Removes your elemental weakness,Replenishes 5 Health
 1327,155,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
 1328,155,Strike,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 1329,155,Hyper Power,Utility,0,100%,Raises your Attacks by 12,+2 to Buff
 1330,155,Cyclone,Wind,20,95%,A very powerful Wind attack,+4 Attack Power
-1331,155,Deep Sleep,Utility,0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
+1331,155,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 1332,155,Dragon Gust,Wind,34,95%,A more than massively powerful Wind attack,+5% Accuracy
 1333,156,Flash,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
 1334,156,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
@@ -1545,7 +1545,7 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1544,212,Sprint,Physical,--,95%,Raises your Speed by 25 and heals yourself by 5 HP,+5% Accuracy
 1545,212,Hard Jab,Physical,20,95%,A very powerful Physical attack,+4 Attack Power
 1546,212,Brimstone,Fire,20,95%,A very powerful Fire attack,+2 Attack Power
-1547,212,Deep Sleep,Utility,0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
+1547,212,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 1548,212,Facemelter,Physical,28,100%,A massively powerful Physical attack that grants 10 healing for 2 turns,+5 Attack Power
 1549,214,Breeze,Wind,7,100%,A simple Wind attack,+1 Attack Power
 1550,214,Burn,Fire,7,100%,A simple Fire attack,+1 Attack Power
@@ -1723,9 +1723,9 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 1722,356,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
 1723,356,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
 1724,356,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
-1725,356,Hyper Power,Utility,0,100%,Raises your Attacks by 12,+2 to Buff
-1726,356,Unroll,Physical,9,95%,Inflicts Physical damage over 5 turns,+1 Attack Power
-1727,356,Deep Sleep,Utility,0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
+1725,356,Bonfire,Fire,20,95%,A very powerful Fire attack,+5% Accuracy
+1726,356,Unroll,Physical,11,95%,Inflicts Physical damage over 5 turns,+1 Attack Power
+1727,356,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 1728,356,Bugferno,Fire,30,100%,A more than massively powerful Fire attack that heals yourself by 11 HP,+2 Attack Power
 1729,367,Shields Up,Utility,0,100%,Raises your Defenses by 5,+1 to Buff
 1730,367,Zap,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
@@ -2060,9 +2060,9 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2059,502,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
 2060,502,Spring Shower,Water,15,95%,A powerful Water attack,+3 Attack Power
 2061,502,Debilitate,Utility,0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
-2062,502,Overwhelm,Physical,20,90%,A very powerful Physical attack,+10% Accuracy
-2063,502,Deep Sleep,Utility,0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
-2064,502,Dark Wave Slap,Water,28,100%,"A massively powerful Water attack that grants immunity to Sleep, Confuse, Paralyze and Antiheal for 3 turns",+4 Attack Power
+2062,502,Geyser,Water,20,95%,A very powerful Water attack,+4 Attack Power
+2063,502,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+2064,502,Dark Wave Slap,Water,29,100%,A massively powerful Water attack that grants Paralyze Immunity for 3 turns,+4 Attack Power
 2065,503,Flash,Lightning,7,100%,A simple Lightning attack,+1 Attack Power
 2066,503,Weaken,Utility,0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 2067,503,Bite,Physical,7,100%,A simple Physical attack,+1 Attack Power
@@ -2282,11 +2282,11 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2281,521,Blow,Wind,7,100%,A simple Wind attack,+1 Attack Power
 2282,521,Leaves,Nature,7,100%,A simple Nature attack,+1 Attack Power
 2283,521,Bite,Physical,7,100%,A simple Physical attack,+1 Attack Power
-2284,521,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
+2284,521,Confuse Immune,Utility,0,100%,Makes the user immune to Confuse for 5 turns and heals yourself by 5 HP,+1 Turn
 2285,521,Light Tap Dance,Nature,12,100%,An average Nature attack,+2 Attack Power
 2286,521,Toxic,Utility,0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
 2287,521,Mush,Physical,15,95%,A powerful Physical attack,+3 Attack Power
-2288,521,Confuse Immune,Utility,0,100%,Makes the user immune to Confuse for 5 turns and heals yourself by 5 HP,+1 Turn
+2288,521,Lotus,Nature,20,90%,A very powerful Nature attack,+10% Accuracy
 2289,521,Hurricane,Wind,7,95%,A simple Wind attack that hits 4 times,+5% Accuracy
 2290,521,Intimidation,Utility,0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
 2291,521,Destruction,Physical,25,90%,A massively powerful Physical attack,+10% Accuracy
@@ -2683,9 +2683,9 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 2682,554,Confuse,Utility,0,40%,Confuses your foe so that they may attack themselves for 2 turns,Replenishes 5 Health
 2683,554,Tickle,Utility,0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
 2684,554,Bash,Physical,15,95%,A powerful Physical attack,+3 Attack Power
-2685,554,Hyper Power,Utility,0,100%,Raises your Attacks by 12,+2 to Buff
-2686,554,Unroll,Physical,9,95%,Inflicts Physical damage over 5 turns,+1 Attack Power
-2687,554,Deep Sleep,Utility,0,40%,"Puts your foe to Sleep for 3 turns, or until you attack them",+20% chance of Stats Chaos
+2685,554,Passion,Fire,20,95%,A very powerful Fire attack,+5 Attack Power
+2686,554,Unroll,Physical,11,95%,Inflicts Physical damage over 5 turns,+1 Attack Power
+2687,554,Sleep,Utility,0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
 2688,554,Dark Bugferno,Fire,31,100%,A more than massively powerful Fire attack that provides 15 Block,+2 Attack Power
 2689,555,Rubble,Earth,7,100%,A simple Earth attack,+1 Attack Power
 2690,555,Fetal Position,Utility,0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
