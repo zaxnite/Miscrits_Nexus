@@ -68,6 +68,10 @@ def miscrit_info(miscrit_page: int) -> dict:
             soup_whole = BeautifulSoup(full_page_html, 'lxml')
             soup = soup_whole.find('div', class_="absolute inset-0 flex flex-col md:flex-row px-3 md:px-16 lg:px-24 pt-20")
             
+            if not soup:
+                print(f"    Page structure not found for {target_url}")
+                return None
+            
             # Basic Information
             miscrit_name = soup.find('h2', class_="text-2xl md:text-3xl lg:text-4xl font-boris text-miscrits-brown").get_text()
             miscrit_rarity = soup.find('p', class_="text-lg font-bold").get_text()
@@ -129,9 +133,11 @@ def miscrit_info(miscrit_page: int) -> dict:
 
         except Exception as inner_e:
             print(f"    Error processing {target_url}: {inner_e}")
+            return None
             
     except Exception as outer_e:
         print(f"An unexpected error occurred during WebDriver initialization or loop: {outer_e}")
+        return None
         
     finally:
         if driver:

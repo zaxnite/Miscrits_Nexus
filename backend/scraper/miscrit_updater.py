@@ -12,7 +12,7 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits =['Humbug', 'Dark Squibee', 'Drilldent', 'Beateorite', 'Light Zaptor', 'Dark Flue', 'Fennie', 'Mooncrit', 'Dark Nessy', 'Hippoke'] 
+miscrits = ['Nero', 'Dark Spinnerette', 'Defilio', 'Dreamger', 'Pennon', 'Thundercracker'] 
 
         
 
@@ -31,6 +31,11 @@ def miscrit_updater(crit_ids: list):
     for i in crit_ids:
         # Get updated Miscrit data
         miscrit_data = miscrit_info(i)
+        
+        if miscrit_data is None:
+            print(f"[ERROR] Failed to scrape data for Miscrit ID {i}, skipping...")
+            continue
+            
         miscrit_id = miscrit_data['Miscrit_ID']
         abilities = miscrit_data['Abilities']  # Used only for scraping moves
         if 'Status Effects' in miscrit_data:
@@ -105,4 +110,7 @@ def miscrit_updater(crit_ids: list):
 
 if __name__ == "__main__":
     crit_ids = miscrit_id_finder(miscrits)
+    # crit_ids = []
+    # for i in range(603,624):
+    #     crit_ids.append(i)
     miscrit_updater(crit_ids)

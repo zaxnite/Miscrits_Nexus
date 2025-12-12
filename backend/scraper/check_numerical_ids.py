@@ -1,10 +1,21 @@
 import time
+import json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-from text_to_file import append_list_to_file
+
+
+def save_working_ids(working_ids: list, filename: str = "working_miscrit_ids.json"):
+    """Save working IDs to a JSON file"""
+    filepath = f"d:/miscrits_nexus/data/{filename}"
+    try:
+        with open(filepath, 'w') as f:
+            json.dump(working_ids, f, indent=2)
+        print(f"✅ Working IDs saved to: {filepath}")
+    except Exception as e:
+        print(f"❌ Error saving file: {e}")
 
 
 def find_working_miscripedia_indices(start_id: int, end_id: int) -> list[int]:
@@ -68,16 +79,18 @@ def find_working_miscripedia_indices(start_id: int, end_id: int) -> list[int]:
 
 if __name__ == "__main__":
     start_time = time.time()
-    scan_start = 1
-    scan_end = 570
+    scan_start = 603
+    scan_end = 627
 
     found_miscrit_ids = find_working_miscripedia_indices(scan_start, scan_end)
 
     if found_miscrit_ids:
         print(f"\n--- Scan Complete ---")
         print(f"Found {len(found_miscrit_ids)} working Miscripedia IDs:")
-        append_list_to_file(found_miscrit_ids,"miscrit_id.txt","data")
-
+        print(found_miscrit_ids)
+        
+        # Save to file
+        save_working_ids(found_miscrit_ids)
     else:
         print("\nNo working Miscripedia IDs found in the specified range.")
 
