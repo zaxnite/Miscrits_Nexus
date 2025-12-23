@@ -58,7 +58,7 @@ def database_adder(index: int):
         print(f" Error at Miscrit ID {index}: {e}")
 
 if __name__ == "__main__":
-    working_index = [591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602]
+    working_index = [621,622,623,624,625,626,627,628,629]
     start = time.perf_counter()
     for i in working_index:  
         print(f" Scraping Miscrit ID: {i}")
