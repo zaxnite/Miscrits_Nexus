@@ -18,7 +18,20 @@ def parse_moves(lines: list[str]) -> dict:
                 info["Enchant"] = lines[i+6]
         else:
             info["Element"] = lines[i]
-            info["AP"] = lines[i+2]
+            # Parse AP value - handle numeric conversion and special cases
+            ap_raw = lines[i+2].strip()
+            if ap_raw == "--":
+                info["AP"] = 0  # Treat "--" as 0 AP (like Sprint moves)
+            else:
+                try:
+                    info["AP"] = int(ap_raw)
+                except ValueError:
+                    # If it contains "AP: X", extract the number
+                    if "AP:" in ap_raw:
+                        ap_match = ap_raw.split("AP:")[-1].strip()
+                        info["AP"] = int(ap_match) if ap_match.isdigit() else 0
+                    else:
+                        info["AP"] = 0  # Default to 0 if can't parse
             info["Accuracy"] = lines[i+4]
             info["Description"] = lines[i+5]
             if len(lines) > i+7:

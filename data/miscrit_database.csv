@@ -293,7 +293,35 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 622,Phoboros,Epic,Shack,Fire,Phoboros/Senola/Zubcut/Stravatach,3,2,4,4,1,3,"Life Steal, Paralyze, Negate",phoboros_back.png
 623,Lagoony,Exotic,Shack,Water,Lagoony/Kreecha/Depthar/Blackfin,2,5,5,2,1,3,"Paralyze, Confuse Immunity, Block, Poison",lagoony_back.png
 624,Poppet,Common,Shack,Fire,Poppet/Pyrewicke/Kratscorch/Breocharn,4,2,4,2,1,2,"Heal, Poison",poppet_back.png
+625,Nubyll,Rare,Shack,Lightning,Nubyll/Rasson/Nocharius/Mrakovlad,2,4,5,2,1,2,"Sleep, Poison, Sleep Immunity",nubyll_back.png
 626,Elphin,Epic,Shack,Water,Elphin/Makarion/Gajama/Makras,3,1,4,3,1,5,"Sleep, Antiheal, Block, Confuse Immunity",elphin_back.png
 627,Luvcraft,Exotic,Shack,Fire,Luvcraft/Hastobus/Shogallure/Cthulith,3,4,4,3,1,3,"Poison, Bleed, Purge, Antiheal, Ethereal, Heal, Negate",luvcraft_back.png
 628,Damse,Exotic,Shack,Lightning,Damse/Layetta/Arcotore/Beruette,3,2,2,4,4,3,"Negate, Stat Steal, Barbed, Sleep Immunity",damse_back.png
 629,Beldame,Legendary,Shack,Lightning,Beldame/Nighthog/Gerdrude/Bakuyaga,3,4,4,4,1,4,"Poison, Negate, Sleep, Paralyze, Force Switch, Block",beldame_back.png
+630,Viperd,Common,Miscrian Jungle,Nature,Viperd/Serplant/Folaviage/Toucanaconda,2,2,4,4,1,2,"Sleep, Block, Poison",viperd_back.png
+631,Blowpuffle,Common,Miscrian Jungle,Water,Blowpuffle/Puffu/Puffamari/Octopuff,2,1,3,3,2,4,"Barbed, Negate",blowpuffle_back.png
+632,Squawcat,Rare,Miscrian Jungle,Fire,Squawcat/Tabbeak/Flinx/Gryndle,3,2,1,3,4,3,"Sleep, Damage over Time, Negate",squawcat_back.png
+633,Dark Weevern,Rare,Miscrian Jungle,Nature,Dark Weevern/Dark Beeblebud/Dark Balaurise/Dark Serpasoar,2,5,4,2,1,2,"Poison, Heal",dark_weevern_back.png
+634,Pangoleaf,Epic,Miscrian Jungle,Nature,Pangoleaf/Priodontes/Cactolin/Spikrus,3,1,2,3,5,3,"Sleep, Barbed, Poison, Negate",pangoleaf_back.png
+635,Foil Pamboo,Exotic,Miscrian Jungle,Nature,Foil Pamboo/Foil Ponya/Foil Pan-Damme/Foil Pixiuma,4,1,4,4,1,4,"Antiheal, Negate, Confuse",foil_pamboo_back.png
+636,Gippo,Common,Miscrian Jungle,Water,Gippo/Kuda/Mammus/Sharkranha,2,3,1,2,5,2,Paralyze,gippo_back.png
+637,Hoghedge,Common,Miscrian Jungle,Nature,Hoghedge/Timboar/Boarax/Stumperback,2,1,1,3,4,4,"Sleep, Damage over Time, Barbed",hoghedge_back.png
+638,Shroomer,Common,Miscrian Jungle,Nature,Shroomer/Shrungoo/Fungloid/Sporott,2,2,5,2,1,3,"Poison, Damage over Time, Stat Steal",shroomer_back.png
+639,Daloo,Common,Miscrian Jungle,Water,Daloo/Rothee/Dallma/Vaporo,2,2,4,4,1,2,"Sleep, Force Switch",daloo_back.png
+640,Dark Whik,Rare,Miscrian Jungle,Fire,Dark Whik/Dark Talown/Dark Terrorcotta/Dark Vesuvion,3,3,4,3,1,2,"Poison, Negate, Life Steal, Confuse",dark_whik_back.png
+641,Bloombat,Rare,Miscrian Jungle,Nature,Bloombat/Petalrat/Fluttermaus/Vampvine,3,2,4,3,1,3,"Poison, Heal over Time, Negate, Heal",bloombat_back.png
+642,Nyma,Epic,Miscrian Jungle,Water,Nyma/Saggo/Rylo/Mirindo,2,4,4,3,1,3,"Negate, Poison, Antiheal",nyma_back.png
+643,Kitpole,Exotic,Miscrian Jungle,Fire,Kitpole/Kerokon/Kroukai/Kyubigama,5,2,4,4,1,2,"Bleed, Confuse, Ethereal, Paralyze, Cleanser, Heal, Sleep Immunity, Confuse Immunity",kitpole_back.png
+644,Magpole,Common,Miscrian Jungle,Fire,Magpole/Pyrog/Plasmanura/Helioxic,2,4,4,2,1,2,Negate,magpole_back.png
+645,Beetor,Common,Miscrian Jungle,Fire,Beetor/Bugglow/Tennix/Dungaroll,3,2,4,3,1,2,"Poison, Confuse",beetor_back.png
+646,Liquifien,Rare,Miscrian Jungle,Water,Liquifien/Basilien/Velocitas/Invatorres,3,2,4,3,1,3,"Negate, Confuse, Paralyze",liquifien_back.png
+647,Glary,Epic,Miscrian Jungle,Water,Glary/Panbo/Vydro/Blowstoll,4,1,4,3,2,3,"Sleep, Negate, Damage over Time, Block, Stat Steal",glary_back.png
+648,Foil Liquifien,Exotic,Miscrian Jungle,Water,Foil Liquifien/Foil Basilien/Foil Velocitas/Foil Invatorres,4,2,5,3,1,3,"Negate, Confuse, Paralyze, Ethereal",foil_liquifien_back.png
+649,Pachydo,Common,Miscrian Jungle,Water,Pachydo/Tortadon/Tuskertoise/Behemammoth,2,1,1,2,4,5,Damage over Time,pachydo_back.png
+650,Gurgleplops,Common,Miscrian Jungle,Water,Gurgleplops/Slugra/Trigoo/Blargles,1,1,2,4,3,4,Poison,gurgleplops_back.png
+651,Budillo,Common,Miscrian Jungle,Nature,Budillo/Florrow/Bloomivark/Perenniax,4,1,4,3,1,2,Heal,budillo_back.png
+652,Pithapillar,Common,Miscrian Jungle,Nature,Pithapillar/Pitvine/Dravineth/Pitheyaur,2,1,2,3,4,3,"Poison, Negate, Damage over Time",pithapillar_back.png
+653,Dark Bubbles,Rare,Miscrian Jungle,Water,Dark Bubbles/Dark Otterpop/Dark Caterpuff/Dark Popiller,4,1,5,4,1,1,"Sleep, Block",dark_bubbles_back.png
+654,Pyras,Epic,Miscrian Jungle,Fire,Pyras/Ardora/Ignivar/Baloognio,3,4,5,2,1,2,"Sleep, Negate, Stat Steal, Paralyze, Antiheal",pyras_back.png
+655,Foil Rockodile,Exotic,Miscrian Jungle,Water,Foil Rockodile/Foil Barbarious/Foil Crocorawr/Foil Growliath,3,1,4,5,2,3,"Sleep, Bleed, Barbed, Antiheal",foil_rockodile_back.png
+656,Bunaken,Legendary,Miscrian Jungle,Water,Bunaken/Celebes/Adinda/Mermafox,3,5,5,3,1,3,"Negate, Heal, Sleep",bunaken_back.png
