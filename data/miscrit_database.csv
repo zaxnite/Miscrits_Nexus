@@ -325,3 +325,12 @@ Miscrit_ID,Name,Rarity,Location,Type,Evolutions,Health,Speed,Elemental Attack,El
 654,Pyras,Epic,Miscrian Jungle,Fire,Pyras/Ardora/Ignivar/Baloognio,3,4,5,2,1,2,"Sleep, Negate, Stat Steal, Paralyze, Antiheal",pyras_back.png
 655,Foil Rockodile,Exotic,Miscrian Jungle,Water,Foil Rockodile/Foil Barbarious/Foil Crocorawr/Foil Growliath,3,1,4,5,2,3,"Sleep, Bleed, Barbed, Antiheal",foil_rockodile_back.png
 656,Bunaken,Legendary,Miscrian Jungle,Water,Bunaken/Celebes/Adinda/Mermafox,3,5,5,3,1,3,"Negate, Heal, Sleep",bunaken_back.png
+657,Lheon,Common,Miscrian Jungle,Fire,Lheon/Cuburne/Flameron/Obsideron,2,1,2,3,4,3,"Heal, Stat Steal, Negate",lheon_back.png
+658,Dark Hoghedge,Rare,Miscrian Jungle,Nature,Dark Hoghedge/Dark Timboar/Dark Boarax/Dark Stumperback,2,2,1,3,4,4,"Sleep, Damage over Time, Ethereal, Block, Negate",dark_hoghedge_back.png
+659,Dark Beetor,Rare,Miscrian Jungle,Fire,Dark Beetor/Dark Bugglow/Dark Tennix/Dark Dungaroll,3,1,4,3,1,4,"Poison, Force Switch",dark_beetor_back.png
+660,Zhakor,Epic,Miscrian Jungle,Fire,Zhakor/Anjog/Yilkasom/Muskesilik,2,2,4,3,3,3,"Antiheal, Negate, Bleed",zhakor_back.png
+661,Foil Pangoleaf,Exotic,Miscrian Jungle,Nature,Foil Pangoleaf/Foil Priodontes/Foil Cactolin/Foil Spikrus,3,1,2,3,4,5,"Sleep, Barbed, Negate, Poison",foil_pangoleaf_back.png
+662,Blug,Common,Miscrian Jungle,Fire,Blug/Motodo/Blyket/Flyetir,3,2,1,3,4,2,"Damage over Time, Ethereal",blug_back.png
+663,Dark Humbug,Rare,Miscrian Jungle,Nature,Dark Humbug/Dark Flittero/Dark Buzzaillia/Dark Aviona,2,4,5,2,1,2,"Bleed, Poison, Confuse, Heal",dark_humbug_back.png
+664,Kawanko,Epic,Miscrian Jungle,Water,Kawanko/Urufumi/Inunagi/Ningyokami,2,1,4,3,4,3,"Damage over Time, Stat Steal, Negate",kawanko_back.png
+665,Casanova,Exotic,Miscrian Jungle,Fire,Casanova/Heartstrings/Rosy/Quiver,4,2,4,3,1,4,"Poison, Sleep, Heal, Antiheal, Sleep Immunity, Confuse Immunity, Negate",casanova_back.png

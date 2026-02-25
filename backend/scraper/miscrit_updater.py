@@ -12,7 +12,10 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits = ['Flurrious', 'Damse', 'Lavazard','Hotdog', 'Nubyll', 'Mooncrit', 'Avarus']
+miscrits = ['Bunaken', 'Beldame', 'Aquarion', 'Dark Slithero', 'Blighted Cubsprout', 
+            'Light Twiggum', 'Mama', 'Papa', 'Foil Pamboo', 'Light Snorkels', 
+            'Light Flue', 'Fangly', 'Slithero', 'Geneseed', 'Eclipso', 'Skelepup', 
+            'Flurrious', 'Winnebeargo', 'Hotdog', 'Liothning', 'Dreamger', 'Narlope']
 
 
 

@@ -3911,3 +3911,111 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 3898,656,Storm,Water,20.0,95%,A very powerful Water attack,+4 Attack Power
 3899,656,Intimidation,Utility,0.0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
 3900,656,Nusantara Whirlpool,Water,30.0,100%,A more than massively powerful Water attack with a 40% chance to put foe to Sleep for 1 turn,+3 Attack Power
+3913,657,Burn,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
+3914,657,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+3915,657,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3916,657,Anger,Utility,0.0,100%,Raises your Physical Attack by 7,+2 to Buff
+3917,657,Lie In,Utility,0.0,100%,Recovers a fair amount of your health,+5 Heal
+3918,657,Bewitch,Utility,0.0,100%,Lowers your foe's Elemental Attack by 10,+2 to Debuff
+3919,657,Debilitate,Utility,0.0,100%,Lowers your foe's Defenses by 11,+3 to Debuff
+3920,657,Overwhelm,Physical,20.0,90%,A very powerful Physical attack,+10% Accuracy
+3921,657,Brimstone,Fire,20.0,95%,A very powerful Fire attack,+2 Attack Power
+3922,657,Firewater,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
+3923,657,Intimidation,Utility,0.0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
+3924,657,Prideful Trounce,Physical,25.0,100%,A massively powerful Physical attack that steals 8 Physical Attack from foe,+4 Attack Power
+3925,658,Shy Smile,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
+3926,658,Leaves,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
+3927,658,Headbutt,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3928,658,Gilly Weed,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
+3929,658,Dark Root Rash,Physical,7.0,100%,Inflicts Physical damage over 3 turns,+1 Attack Power
+3930,658,Fortify,Utility,0.0,90%,Provides 10 Block and lowers the user's Speed by 50,+10% Accuracy
+3931,658,Bash,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
+3932,658,Sleep,Utility,0.0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+3933,658,Thrash,Physical,20.0,95%,A very powerful Physical attack,+2 Attack Power
+3934,658,Mother Nature,Nature,20.0,95%,A very powerful Nature attack,+4 Attack Power
+3935,658,Unbreakable,Utility,0.0,100%,Raises your Defenses by 11,+3 to Buff
+3936,658,Dark Trunk Tusks,Physical,25.0,100%,A massively powerful Physical attack that grants Ethereal for 1 turn and provides 10 Block,+5 Attack Power
+3937,659,Burn,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
+3938,659,Fetal Position,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
+3939,659,Poke,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3940,659,Weaken,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+3941,659,Dark Fuse Fire,Fire,11.0,100%,An average Fire attack,+2 Attack Power
+3942,659,Toxic,Utility,0.0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
+3943,659,Campfire,Fire,15.0,95%,A powerful Fire attack,+3 Attack Power
+3944,659,Claw,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
+3945,659,Brimstone,Fire,20.0,95%,A very powerful Fire attack,+2 Attack Power
+3946,659,Unbreakable,Utility,0.0,100%,Raises your Defenses by 11,+3 to Buff
+3947,659,Implosion,Utility,0.0,--,"Inflicts Disease over 1 turn, inflicts 1000 AP Disease on user for 1 turn and forces you to switch. (1 Use)",+5 Attack Power
+3948,659,Dark Explosion,Fire,37.0,90%,An extremely powerful Fire attack that lowers your foe's Accuracy by 10% (Max uses: 3),+10% Accuracy
+3949,660,Burn,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
+3950,660,Shields Up,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
+3951,660,Swipe,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3952,660,Firewater,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
+3953,660,Breakburn,Fire,10.0,100%,An average Fire attack that inflicts Anti-heal for 1 turn,+1 Attack Power
+3954,660,High Focus,Utility,0.0,100%,Raises your Accuracy by 10%,Replenishes 5 Health
+3955,660,Strike,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
+3956,660,Merciless,Utility,0.0,100%,Raises your Attacks by 9,+2 to Buff
+3957,660,Balefire,Fire,25.0,90%,A massively powerful Fire attack,+10% Accuracy
+3958,660,Supersonic Sprint,Physical,0.0,100%,Raises your Speed by 100 and heals yourself by 25 HP,+10% Accuracy
+3959,660,Slice & Dice,Physical,15.0,100%,A powerful Physical attack that hits 2 times and inflicts Bleed for 4 turns,+2 Attack Power
+3960,660,Guard Breaker,Fire,30.0,100%,A more than massively powerful Fire attack that lowers your foe's Defenses by 12,+3 Attack Power
+3961,661,Eraser,Utility,0.0,100%,Lowers your foe's Elemental Attack by 7,+2 to Debuff
+3962,661,Vines,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
+3963,661,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3964,661,Sustain,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
+3965,661,Foil Tail Spikes,Physical,12.0,100%,An average Physical attack,+2 Attack Power
+3966,661,Spikes,Utility,0.0,90%,Applies 3 stacks of Barbed to the user,+10% Accuracy
+3967,661,Photosynth,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
+3968,661,Sleep,Utility,0.0,40%,"Puts your foe to Sleep for 2 turns, or until you attack them",Replenishes 5 Health
+3969,661,Overwhelm,Physical,20.0,90%,A very powerful Physical attack,+10% Accuracy
+3970,661,Hyper Power,Utility,0.0,100%,Raises your Attacks by 12,+2 to Buff
+3971,661,Overgrowth,Nature,25.0,100%,A massively powerful Nature attack,+5 Attack Power
+3972,661,Foil Cactus Crash,Physical,29.0,100%,A massively powerful Physical attack that inflicts 8 AP Poison for 2 turns and 7 AP Disease for 3 turns,+3 Attack Power
+3973,662,Cinders,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
+3974,662,Shy Smile,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
+3975,662,Shove,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3976,662,Glare,Utility,0.0,95%,Lowers your foe's Speed by 25 and heals yourself by 5 HP,+5% Accuracy
+3977,662,Wrap Up,Physical,5.0,100%,Inflicts Physical damage over 3 turns,+1 Round
+3978,662,Double Edged,Utility,0.0,100%,Raises your Physical Attack by 15 but lowers your Defenses by 5,+2 to Buff
+3979,662,Bash,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
+3980,662,Engulf,Fire,15.0,95%,A powerful Fire attack,+3 Attack Power
+3981,662,Unbreakable,Utility,0.0,100%,Raises your Defenses by 11,+3 to Buff
+3982,662,Destruction,Physical,25.0,90%,A massively powerful Physical attack,+10% Accuracy
+3983,662,Fire Storm,Fire,5.0,100%,A simple Fire attack that hits 5 times,+1 Repeat
+3984,662,Sharp Scales,Physical,25.0,100%,A massively powerful Physical attack that grants Ethereal for 3 turns,+3 Attack Power
+3985,663,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+3986,663,Wisp,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
+3987,663,Poke,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+3988,663,Power Up,Utility,0.0,100%,Raises your Attacks by 5,+1 to Buff
+3989,663,Dark Beak Buds,Nature,11.0,100%,An average Nature attack,+2 Attack Power
+3990,663,Renew,Utility,0.0,100%,Recovers a fair amount of your health,+5 Heal
+3991,663,Safeguard,Utility,0.0,100%,Raises your Defenses by 8,+2 to Buff
+3992,663,Claw,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
+3993,663,Lotus,Nature,20.0,90%,A very powerful Nature attack,+10% Accuracy
+3994,663,Intimidation,Utility,0.0,100%,Lowers your foe's Attacks by 11,+3 to Debuff
+3995,663,Noxious Fog,Utility,0.0,95%,"Poisons your foe, causing 12 damage for 3 turns with a 30% chance to Confuse your foe for 1 turn. 3 turns cooldown",+5% Accuracy
+3996,663,Dark Floral Fury,Nature,10.0,100%,An average Nature attack that hits 3 times and inflicts Bleed for 5 turns,+1 Attack Power
+3997,664,Sprinkle,Water,7.0,100%,A simple Water attack,+1 Attack Power
+3998,664,Shy Smile,Utility,0.0,100%,Lowers your foe's Attacks by 5,+1 to Debuff
+3999,664,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+4000,664,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+4001,664,Kuma Wavecrash,Physical,5.0,100%,A simple Physical attack that inflicts 5 AP Water DoT for 2 turns,+1 Attack Power
+4002,664,Whammy,Physical,10.0,100%,An average Physical attack,+2 Attack Power
+4003,664,OverWater,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
+4004,664,H2O,Water,15.0,90%,A powerful Water attack,+10% Accuracy
+4005,664,Hyper Power,Utility,0.0,100%,Raises your Attacks by 12,+2 to Buff
+4006,664,Wrath of Inunagi,Water,8.0,100%,Inflicts 8 AP Water DoT and 8 AP Physical DoT for 2 turns,+10% Accuracy
+4007,664,Splendid Storm,Water,27.0,100%,A massively powerful Water attack that heals yourself by 10 HP,+3 Attack Power
+4008,664,Ounabara Whirlpool,Physical,30.0,100%,A more than massively powerful Physical attack that steals 7 Defenses from foe,+3 Attack Power
+4009,665,Cinders,Fire,7.0,100%,A simple Fire attack,+1 Attack Power
+4010,665,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
+4011,665,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
+4012,665,Poison,Utility,0.0,95%,"Poisons your foe, causing 5 damage for 3 turns",+1 Attack Power
+4013,665,Flaming Hearts,Fire,12.0,100%,An average Fire attack,+2 Attack Power
+4014,665,Firewater,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
+4015,665,Tickle,Utility,0.0,100%,Lowers your foe's Attacks by 8,+2 to Debuff
+4016,665,Bash,Physical,15.0,95%,A powerful Physical attack,+3 Attack Power
+4017,665,Love Song,Utility,0.0,100%,Regains a significant amount of your health. 2 turns cooldown,+5 Heal
+4018,665,Heart Stopper,Fire,20.0,95%,A very powerful Fire attack that inflicts 5 AP Disease for 2 turns,+5% Accuracy
+4019,665,Lover's Lullaby,Utility,0.0,100%,Continuously raises your Elemental Attack by 6 for 3 turns with a 40% chance to put foe to Sleep for 1 turn. 3 turns cooldown.,+1 to Buff
+4020,665,Love Hurts,Fire,6.0,110%,"A simple Fire attack that hits 5 times, inflicts Anti-heal for 3 turns and grants immunity to Sleep and Confuse for 3 turns",+1 Repeat
