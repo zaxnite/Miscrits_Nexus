@@ -25,13 +25,13 @@ def print_rich_table(df, title, max_rows=10):
     console.print(table)
 
 
-# Read 'miscrits' table
-miscrit_df = pd.read_sql("SELECT * FROM miscrits LIMIT 5", engine)
+# Read 'miscrits' table (last 5 rows)
+miscrit_df = pd.read_sql("SELECT * FROM miscrits ORDER BY rowid DESC LIMIT 5", engine)
 print_rich_table(miscrit_df, "Miscrit Database")
 
-# Read 'moves' table
-moves_df = pd.read_sql("SELECT * FROM moves LIMIT 5", engine)
+# Read 'moves' table (last 5 rows)
+moves_df = pd.read_sql("SELECT * FROM moves ORDER BY rowid DESC LIMIT 5", engine)
 print_rich_table(moves_df, "Moves Database")
 
-relics_df = pd.read_sql("SELECT * FROM relics LIMIT 5", engine)
+relics_df = pd.read_sql("SELECT * FROM relics ORDER BY rowid DESC LIMIT 5", engine)
 print_rich_table(relics_df, "Relics Database")

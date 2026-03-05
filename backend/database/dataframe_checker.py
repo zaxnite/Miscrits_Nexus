@@ -88,7 +88,7 @@ expected_types_moves = {
     "Miscrit_ID": int,
     "Move_Name": str,
     "Element": str,
-    "AP": str,  
+    "AP": float,  
     "Accuracy": str,
     "Description": str,
     "Enchant": str

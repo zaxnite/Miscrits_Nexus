@@ -12,7 +12,7 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits = ['Flurrious', 'Winnebeargo', 'Hotdog', 'Liothning', 'Dreamger', 'Narlope']
+miscrits = ['Bloombat']
 
 
 

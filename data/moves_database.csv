@@ -3722,15 +3722,15 @@ Move_ID,Miscrit_ID,Move_Name,Element,AP,Accuracy,Description,Enchant
 3709,641,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 3710,641,Leaves,Nature,7.0,100%,A simple Nature attack,+1 Attack Power
 3711,641,Bite,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
-3712,641,,,,,,
+3712,641,Shields Up,Utility,0.0,100%,Raises your Defenses by 5,+1 to Buff
 3713,641,Sickly Sweet,Nature,11.0,100%,An average Nature attack,+2 Attack Power
-3714,641,Renew,Nature,11.0,100%,An average Nature attack,+2 Attack Power
-3715,641,Toxic,Utility,0.0,100%,Recovers a fair amount of your health,+5 Heal
-3716,641,Photosynth,Utility,0.0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
+3714,641,Renew,Utility,0.0,100%,Recovers a fair amount of your health,+5 Heal
+3715,641,Toxic,Utility,0.0,90%,"Poisons your foe, causing 10 damage for 3 turns",+5% Accuracy
+3716,641,Photosynth,Utility,0.0,100%,Removes your elemental weakness,Replenishes 5 Health
 3717,641,Mother Nature,Nature,20.0,95%,A very powerful Nature attack,+4 Attack Power
 3718,641,Hyper Power,Utility,0.0,100%,Raises your Attacks by 12,+2 to Buff
-3719,641,Destruction,Utility,0.0,100%,Raises your Attacks by 12,+2 to Buff
-3720,641,Feed,Physical,25.0,90%,A massively powerful Physical attack,+10% Accuracy
+3719,641,Destruction,Physical,25.0,90%,A massively powerful Physical attack,+10% Accuracy
+3720,641,Feed,Nature,27.0,100%,A massively powerful Nature attack that inflicts 6 AP Poison for 2 turns and grants 6 healing for 2 turns,+4 Attack Power
 3721,642,Sprinkle,Water,7.0,100%,A simple Water attack,+1 Attack Power
 3722,642,Debaser,Utility,0.0,100%,Lowers your foe's Defenses by 5,+1 to Debuff
 3723,642,Swipe,Physical,7.0,100%,A simple Physical attack,+1 Attack Power
