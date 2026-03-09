@@ -12,10 +12,9 @@ miscrit_df = pd.read_csv(miscrit_path)
 moves_df = pd.read_csv(moves_path)
 
 
-miscrits = ['Bloombat']
-
-
-
+miscrits = [
+    'Winnebeargo'
+]
 
 def miscrit_id_finder(miscrits: list) -> str:
     crit_ids = []
